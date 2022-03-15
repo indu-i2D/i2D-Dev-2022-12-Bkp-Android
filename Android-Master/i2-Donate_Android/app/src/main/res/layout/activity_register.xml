@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        tools:context=".Activity.RegisterActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/commonMenuActivityToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:actionBarSize"
+            android:contentInsetStart="0dp"
+            android:contentInsetLeft="0dp"
+            android:contentInsetEnd="0dp"
+            android:contentInsetRight="0dp"
+            android:elevation="5dp"
+            app:contentInsetEnd="0dp"
+            app:contentInsetStart="0dp">
+            <ImageView
+                android:id="@+id/back_icon_img"
+                android:layout_width="45dp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="start|left"
+                android:padding="8dp"
+                android:src="@drawable/back_icon" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:src="@drawable/toplogo"
+                android:layout_centerVertical="true"
+                />
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/commonMenuActivityToolbar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="@string/register_text"
+                        android:textSize="@dimen/_20sdp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/title_color"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/register_individual"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+                        <RadioGroup
+                            android:id="@+id/business_radioGroup1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:id="@+id/radio_btn_yes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/register_no"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+                            <RadioButton
+                                android:id="@+id/radio_btn_no"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:text="@string/register_yes"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/business_name_input_layout"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:visibility="gone"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/business_reg_name_et"
+                            android:hint="@string/register_business_name"
+                            android:backgroundTint="@color/edittextline_color"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/name_input_layout"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/reg_name_et"
+                            android:hint="@string/register_name"
+                            android:backgroundTint="@color/edittextline_color"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/email_input_layout"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/reg_email_et"
+                            android:hint="@string/register_email"
+                            android:backgroundTint="@color/edittextline_color"
+                            android:inputType="textEmailAddress"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mobile_input_layout"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/reg_mobile_et"
+                            android:hint="@string/register_mobile"
+                            android:maxLength="15"
+                            android:backgroundTint="@color/edittextline_color"
+                            android:inputType="number"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/password_input_layout"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        app:passwordToggleEnabled="true"
+                        app:passwordToggleTint="@color/colorPrimaryDark">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/reg_password_et"
+                            android:hint="@string/register_password"
+                            android:inputType="textPassword"
+                            android:backgroundTint="@color/edittextline_color"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="@string/register_password_hint"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/confirm_input_layout"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        app:passwordToggleEnabled="true"
+                        android:visibility="gone"
+                        app:passwordToggleTint="@color/colorPrimaryDark">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/reg_confirm_password_et"
+                            android:hint="@string/register_confirm_password"
+                            android:inputType="textPassword"
+                            android:maxLength="6"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/register_gender_layout"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/register_gender"
+                            android:textSize="@dimen/_12sdp"/>
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/radio_btn_male"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/register_male"
+                              android:textSize="@dimen/_12sdp" />
+
+
+                            <RadioButton
+                                android:id="@+id/radio_btn_female"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:text="@string/register_female"
+                                android:textSize="@dimen/_12sdp" />
+
+                            <RadioButton
+                                android:id="@+id/radio_btn_orthers"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:text="@string/register_orthers"
+                                android:textSize="@dimen/_12sdp" />
+
+
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:weightSum="10">
+
+                        <com.i2donate.Commonmethod.SearchableSpinner
+                            android:id="@+id/spin_country"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_weight="1.5"
+                            android:imeOptions="actionDone"
+                            android:textSize="@dimen/_12sdp"
+                            android:textColor="@android:color/black"
+                            android:background="@android:color/transparent"
+                            android:spinnerMode="dropdown" />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_drop_down"
+                            android:layout_marginLeft="-40dp"/>
+                        <!-- <ImageView
+                             android:background=""
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_centerVertical="true"
+                             android:layout_gravity="center"
+                             android:layout_weight="8.5"
+                             android:scaleType="fitXY" />-->
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/bottom_text_color" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/terms_layout"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:id="@+id/checkbox_btn"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/iagree_tv"
+                            android:text="@string/register_agree"
+                           android:textSize="@dimen/_14sdp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/register_terms"
+                           android:textSize="@dimen/_12sdp"
+                            android:textColor="@color/terms_color"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/register_btn"
+                        android:layout_marginLeft="@dimen/_60sdp"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:layout_marginRight="@dimen/_60sdp"
+                        android:background="@drawable/login_botton_border"
+                        android:text="@string/register_text"
+                        android:textColor="@color/title_color" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="@dimen/_10sdp">
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:background="@color/bottom_text_color"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/login_or_connect"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:gravity="center_horizontal"
+                            android:layout_marginRight="@dimen/_2sdp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            android:layout_weight="1.4"
+                            android:textSize="@dimen/_12sdp"
+                            />
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:background="@color/bottom_text_color"
+                            android:layout_weight="1"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:layout_marginRight="@dimen/_40sdp"
+                        android:layout_marginTop="@dimen/_10sdp">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:id="@+id/google_sign_btn"
+                            android:layout_height="@dimen/_45sdp"
+                            android:src="@drawable/google_icon"
+                            android:layout_weight=".1"/>
+                        <com.facebook.login.widget.LoginButton
+                            android:layout_width="0dp"
+                            android:id="@+id/facebook_login_btn"
+                            android:layout_height="@dimen/_45sdp"
+                            android:src="@drawable/facebook_icon"
+                            android:visibility="gone"
+                            android:layout_weight=".1"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:id="@+id/facebook_login"
+                            android:layout_height="@dimen/_45sdp"
+                            android:src="@drawable/facebook_icon"
+                            android:layout_weight=".1"/>
+                        <com.twitter.sdk.android.core.identity.TwitterLoginButton
+                            android:layout_width="0dp"
+                            android:id="@+id/twitter_login_btn"
+                            android:layout_height="@dimen/_45sdp"
+                            android:src="@drawable/facebook_icon"
+                            android:visibility="gone"
+                            android:layout_weight=".1"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_45sdp"
+                            android:src="@drawable/twitter"
+                            android:id="@+id/twitter_login"
+                            android:layout_weight=".1"/>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/register_already"
+                                android:textSize="@dimen/_12sdp"/>
+
+                            <TextView
+                                android:id="@+id/login_btn_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_3sdp"
+                                android:text="@string/register_login"
+                               android:textSize="@dimen/_12sdp"
+                                android:textColor="@color/bottom_text_color"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
