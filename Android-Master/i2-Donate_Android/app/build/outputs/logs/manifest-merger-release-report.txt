@@ -1,0 +1,1257 @@
+-- Merging decision tree log ---
+data
+INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:67:17-69
+	android:scheme
+		INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:67:23-66
+manifest
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-225:12
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bff817b87a259d1c6531c9d149e5b35\AndroidManifest.xml:17:1-32:12
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:2:1-32:12
+MERGED from [com.braintreepayments:card-form:3.5.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\1bf50d189326bf6f1ef482b875c29cae\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3835bc66e3f5fe2dfb7ad6e33a9b48fd\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:2:1-26:12
+MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\17aad11ecc28bbdf3fc7e6a8953c9415\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6eb902005c769eab95da6ae4dc739ef8\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\de0d865e2ebffccbaf2d24803859f981\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:21:1-52:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\25e005edb95f7106f06719c1090dcfd8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\1604555f5ffb77f9957073aaf86bea03\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\c5a325523a519154e10fc41ab000e232\AndroidManifest.xml:2:1-11:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f8dd1113abffb9433ebaf8564240ff41\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\71f1d9fb13e7ee69b5382d2474b93bb9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2c9c67c3323a0f1f4c54ef701dac5c24\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:17:1-39:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721df597378bb7957894c372c2deba86\AndroidManifest.xml:17:1-22:12
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:18:1-37:12
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e66f8ed9d1a481d73036d94d0543eb9c\AndroidManifest.xml:18:1-35:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\1c49a05665dc6b48fda5450623457a52\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-analytics:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\401d4b94bbcfb9404433671f7d787e8d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3f998aaebdbfc9920445d0e248b79cdd\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ebfd3c4ef38fa710cd4d29008d1dac83\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2dd8e3807550ffa2ba1e0ed6d41b2859\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ccc87f29592f49277b2522f1085417ec\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0aed5abffeee5257af3fa631a424b73a\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6a81d47457ab53e810d9997109b32949\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d8abb3b6c933377ed0bdf051fc0b31a8\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8aa5a20cd6d2ddcb68b96e583f2948b9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3cc9bbd24cbc5490b810ff1b751ffc29\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\baed050a10d59ee0d9cd533e77c13c80\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9773bc8f44e8cee7c533e4311dff28ee\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6a815860c1d849a5336526e0f65fb976\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a85c9f4d297e6d8812fb2036d19ff581\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\03508049c5900364de78b4d23c1c5520\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d60118b57fbf3486270dafba4454c929\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b2336537e7b43476898c8331bdd4a95b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cbd80760fc388447bdd57748b14e5456\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f8c1467231c3705a0b5df938a02f71f2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7960927e765b6577d3650f97132c1545\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7c30d53bffe86d30e66cf7b66387744d\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2c3074b419fe298ae3466e2f5ce02078\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cfb7badfb3aec9493cd83f03dd10f1e2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8ff5acf2ee9a0303dfb624c658a3138c\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\c6f8626a30bc670fce2d5dcde4e5773a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\09e306a518e09d7a5f08483dad5816e1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0892e23794c075a2f85444800626db43\AndroidManifest.xml:17:1-22:12
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:2:1-26:12
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\60a6e22993d5de1d782fdaacf2b2113d\AndroidManifest.xml:2:1-13:12
+MERGED from [com.braintreepayments.api:core:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5f9cb190a124c056989a55a6139dfd0d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.braintreepayments:browser-switch:0.1.7] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\46c2f349b305b4f04b7b113c32d11238\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2a349b177ad61e4269a9aa620e70aa19\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\bbbe09ff53a17eb47b8cd82910e46e88\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\eed6be6a2309e6ed103ca889af56cf22\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e003800feafff8c6258adcd9458681fa\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3580abc8fde6507ccd630bc39142c04c\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:21:1-53:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a58ccdb90e8447f1abd1791e50f403b2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d191f370eb28f1f7428c8e85241fca88\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6d0a6ef36000a8d87ee8e25640ad1195\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4e66661e04d14a36c46289c2396dc40e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6e2cbe589af0651246a3a931023a7d42\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7edf2cef28352427beea3b5035730a3d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cc42f034ada0b5a64477ed5c4715235a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cc1248ca638589228f61208bb9efc001\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f8721ca39da6cb5b9ed77a700e032b0d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4d6043e1cfdb211f0e30ed9be0bba0dc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\46b28423af599ccf2ba3fb1687583c69\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6dbfae303d2bd1c0df8ed87e0fd2b971\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f92fc52ea7d4e9a9edfc6de4a828f58f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\09637fda6d972951c1396b34f9b24465\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\100755327cbae74d1d4ced6f871ce202\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0b3ec1664805a90fd5b55d52216a73eb\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d7d86d1e117e49490b6b71bff0ea765e\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6baaa5d4cd8d4d659d1bd656123cec4e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\360c9757fc011e271b08f0ef05f584a6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\86eeabcd6ff70d86491eee9afe615ff5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\65e69c9b1f9f0c8f36b5b5630d4b7f41\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5efd5eda0b22cb490c9290495e87bddf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\c40355a42dd907d7743c0fddc7222364\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.3.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e4f7ae8ac234a4514666272be1cc888e\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\773dad039d040b4dc2731bf12f32d8cb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\405d2c780c77d2826ef5d59b22a030e8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f4d1c1ddeee8a295e38e52b2f0765a29\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5e5e6ab1baab22ae465ef80736a138b0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\40016a88bd704f3115343736088e7462\AndroidManifest.xml:15:1-22:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7191542d30e49034db89d8533612244f\AndroidManifest.xml:2:1-13:12
+MERGED from [com.braintreepayments.api:visa-checkout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d828b180bf1faab844430965ddd27ac2\AndroidManifest.xml:2:1-12:12
+MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9568d713d82ff4fe6c9de3587b2d10da\AndroidManifest.xml:2:1-13:12
+INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-225:12
+	package
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:4:5-27
+		INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-225:12
+		INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-225:12
+		INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:6:5-11:40
+	android:largeScreens
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:8:9-36
+	android:smallScreens
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:10:9-36
+	android:normalScreens
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:9:9-37
+	android:xlargeScreens
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:11:9-37
+	android:anyDensity
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:7:9-34
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:13:5-82
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:13:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:14:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7c30d53bffe86d30e66cf7b66387744d\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7c30d53bffe86d30e66cf7b66387744d\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:14:22-65
+permission#com.kuliza.taxi.permission.MAPS_RECEIVE
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:16:5-18:47
+	android:protectionLevel
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:18:9-44
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:17:9-63
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:20:22-72
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:21:5-98
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:21:22-95
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:24:5-67
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:13:5-67
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:13:5-67
+MERGED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:11:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e66f8ed9d1a481d73036d94d0543eb9c\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e66f8ed9d1a481d73036d94d0543eb9c\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7c30d53bffe86d30e66cf7b66387744d\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7c30d53bffe86d30e66cf7b66387744d\AndroidManifest.xml:23:5-67
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:12:5-67
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:12:5-67
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\60a6e22993d5de1d782fdaacf2b2113d\AndroidManifest.xml:11:5-67
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\60a6e22993d5de1d782fdaacf2b2113d\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:26:5-67
+MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9568d713d82ff4fe6c9de3587b2d10da\AndroidManifest.xml:11:5-67
+MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9568d713d82ff4fe6c9de3587b2d10da\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:24:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:25:5-79
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:12:5-79
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7c30d53bffe86d30e66cf7b66387744d\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7c30d53bffe86d30e66cf7b66387744d\AndroidManifest.xml:24:5-79
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:11:5-79
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.RECORD_VIDEO
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:26:5-71
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:26:22-68
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:27:5-71
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:27:22-68
+uses-permission#android.permission.CAMERA
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:28:5-65
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:28:22-62
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:29:5-69
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:29:22-66
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:30:5-80
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:30:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:31:22-78
+uses-feature#android.hardware.camera.any
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:34:5-36:35
+	android:required
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:36:9-32
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:35:9-51
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:37:5-39:36
+	android:required
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:39:9-33
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:38:9-57
+application
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:41:5-223:19
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bff817b87a259d1c6531c9d149e5b35\AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bff817b87a259d1c6531c9d149e5b35\AndroidManifest.xml:26:5-30:19
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:15:5-30:19
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:15:5-30:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3835bc66e3f5fe2dfb7ad6e33a9b48fd\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3835bc66e3f5fe2dfb7ad6e33a9b48fd\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:13:5-24:19
+MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\17aad11ecc28bbdf3fc7e6a8953c9415\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\17aad11ecc28bbdf3fc7e6a8953c9415\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6eb902005c769eab95da6ae4dc739ef8\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6eb902005c769eab95da6ae4dc739ef8\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\de0d865e2ebffccbaf2d24803859f981\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\de0d865e2ebffccbaf2d24803859f981\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:29:5-50:19
+MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:29:5-50:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\1604555f5ffb77f9957073aaf86bea03\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\1604555f5ffb77f9957073aaf86bea03\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\c5a325523a519154e10fc41ab000e232\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\c5a325523a519154e10fc41ab000e232\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2c9c67c3323a0f1f4c54ef701dac5c24\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2c9c67c3323a0f1f4c54ef701dac5c24\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:22:5-37:19
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e66f8ed9d1a481d73036d94d0543eb9c\AndroidManifest.xml:27:5-33:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e66f8ed9d1a481d73036d94d0543eb9c\AndroidManifest.xml:27:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\401d4b94bbcfb9404433671f7d787e8d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\401d4b94bbcfb9404433671f7d787e8d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3f998aaebdbfc9920445d0e248b79cdd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3f998aaebdbfc9920445d0e248b79cdd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ebfd3c4ef38fa710cd4d29008d1dac83\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ebfd3c4ef38fa710cd4d29008d1dac83\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2dd8e3807550ffa2ba1e0ed6d41b2859\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2dd8e3807550ffa2ba1e0ed6d41b2859\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d8abb3b6c933377ed0bdf051fc0b31a8\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d8abb3b6c933377ed0bdf051fc0b31a8\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8aa5a20cd6d2ddcb68b96e583f2948b9\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8aa5a20cd6d2ddcb68b96e583f2948b9\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3cc9bbd24cbc5490b810ff1b751ffc29\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3cc9bbd24cbc5490b810ff1b751ffc29\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\baed050a10d59ee0d9cd533e77c13c80\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\baed050a10d59ee0d9cd533e77c13c80\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6a815860c1d849a5336526e0f65fb976\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6a815860c1d849a5336526e0f65fb976\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a85c9f4d297e6d8812fb2036d19ff581\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a85c9f4d297e6d8812fb2036d19ff581\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d60118b57fbf3486270dafba4454c929\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d60118b57fbf3486270dafba4454c929\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b2336537e7b43476898c8331bdd4a95b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b2336537e7b43476898c8331bdd4a95b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cbd80760fc388447bdd57748b14e5456\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cbd80760fc388447bdd57748b14e5456\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f8c1467231c3705a0b5df938a02f71f2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f8c1467231c3705a0b5df938a02f71f2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7960927e765b6577d3650f97132c1545\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7960927e765b6577d3650f97132c1545\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2c3074b419fe298ae3466e2f5ce02078\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2c3074b419fe298ae3466e2f5ce02078\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cfb7badfb3aec9493cd83f03dd10f1e2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cfb7badfb3aec9493cd83f03dd10f1e2\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8ff5acf2ee9a0303dfb624c658a3138c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8ff5acf2ee9a0303dfb624c658a3138c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:14:5-24:19
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:14:5-24:19
+MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\eed6be6a2309e6ed103ca889af56cf22\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\eed6be6a2309e6ed103ca889af56cf22\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e003800feafff8c6258adcd9458681fa\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e003800feafff8c6258adcd9458681fa\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3580abc8fde6507ccd630bc39142c04c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3580abc8fde6507ccd630bc39142c04c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:28:5-51:19
+MERGED from [androidx.core:core:1.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f92fc52ea7d4e9a9edfc6de4a828f58f\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f92fc52ea7d4e9a9edfc6de4a828f58f\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\09637fda6d972951c1396b34f9b24465\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\09637fda6d972951c1396b34f9b24465\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:25:5-39:19
+MERGED from [com.github.bumptech.glide:glide:4.3.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e4f7ae8ac234a4514666272be1cc888e\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.3.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e4f7ae8ac234a4514666272be1cc888e\AndroidManifest.xml:10:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5e5e6ab1baab22ae465ef80736a138b0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5e5e6ab1baab22ae465ef80736a138b0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7191542d30e49034db89d8533612244f\AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7191542d30e49034db89d8533612244f\AndroidManifest.xml:11:5-20
+	android:grantUriPermissions
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:46:9-43
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:55:9-69
+	android:exported
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:44:9-33
+	tools:ignore
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:17:9-39
+	android:roundIcon
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:51:9-48
+	android:largeHeap
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:50:9-33
+	android:icon
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:48:9-43
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f92fc52ea7d4e9a9edfc6de4a828f58f\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:52:9-35
+	android:label
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:49:9-41
+	android:hardwareAccelerated
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:47:9-44
+	android:fullBackupContent
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:45:9-42
+	android:allowBackup
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:43:9-35
+	android:theme
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:53:9-46
+	tools:replace
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:56:9-71
+	android:usesCleartextTraffic
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:54:9-44
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:42:9-48
+activity#com.i2donate.Activity.PrivactPolicyActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:57:9-77
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:57:19-65
+activity#com.braintreepayments.api.BraintreeBrowserSwitchActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:58:9-69:20
+	android:launchMode
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:60:13-44
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:59:13-84
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.i2donate.braintree
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:61:13-68:29
+action#android.intent.action.VIEW
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:62:17-69
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:62:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:64:17-76
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:64:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:17-78
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:27-75
+activity#com.i2donate.Activity.BrainTreePaymentActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:70:9-71
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:70:19-68
+activity#com.i2donate.Activity.PrivacyPolicyActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:71:9-68
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:71:19-65
+activity#com.i2donate.Activity.TermsAndConditionActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:72:9-72
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:72:19-69
+activity#com.i2donate.Activity.NewtypesActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:73:9-63
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:73:19-60
+meta-data#firebase_crashlytics_collection_enabled
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:75:9-77:37
+	android:value
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:77:13-34
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:76:13-67
+service#com.i2donate.Notification.fcm.MyFirebaseMessagingService
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:79:9-85:19
+	android:exported
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:81:13-37
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:80:13-72
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:82:13-84:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:83:17-78
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:83:25-75
+receiver#com.i2donate.Notification.fcm.OnBootBroadcastReceiver
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:87:9-91:20
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:87:19-75
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:88:13-90:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:89:17-79
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:89:25-76
+activity#com.i2donate.Activity.ConfirmationActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:93:9-67
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:93:19-64
+activity#com.i2donate.Activity.AnnualRevenueActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:94:9-68
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:94:19-65
+activity#com.i2donate.Activity.TitleSubTitleActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:95:9-68
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:95:19-65
+activity#com.i2donate.Activity.SubCategoryActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:96:9-66
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:96:19-63
+activity#com.i2donate.Activity.AdvanceCompletedActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:97:9-71
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:97:19-68
+activity#com.i2donate.Activity.PaymentSuccessActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:98:9-69
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:98:19-66
+activity#com.i2donate.Activity.SelectPaymentActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:99:9-68
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:99:19-65
+activity#com.i2donate.Activity.ChangePasswordActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:100:9-69
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:100:19-66
+activity#com.i2donate.Activity.OtpActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:101:9-103:76
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:103:13-73
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:102:13-49
+activity#com.i2donate.Activity.ForgotActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:104:9-61
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:104:19-58
+activity#com.i2donate.Activity.AdvanceSearchActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:105:9-68
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:105:19-65
+activity#com.i2donate.Activity.AdavanceSearchUIDesign
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:106:9-108:53
+	android:theme
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:108:13-50
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:107:13-60
+activity#com.i2donate.Activity.AdavanceSearch_new
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:109:9-65
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:109:19-62
+activity#com.i2donate.Activity.HelpSupportActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:110:9-66
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:110:19-63
+activity#com.i2donate.Activity.AboutActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:111:9-60
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:111:19-57
+activity#com.i2donate.Activity.InternationalCharitiesActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:112:9-77
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:112:19-74
+activity#com.i2donate.Activity.PlaceSearchActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:113:9-66
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:113:19-63
+activity#com.i2donate.Activity.AutosearchActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:114:9-65
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:114:19-62
+activity#com.i2donate.Activity.UpdateActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:128:9-61
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:128:19-58
+activity#com.i2donate.Activity.AdvanceSearch1Activity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:129:9-69
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:129:19-66
+activity#com.i2donate.Activity.WelcomeActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:130:9-132:58
+	android:theme
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:132:13-55
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:131:13-53
+activity#com.i2donate.Activity.UnitedStateDetailsActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:133:9-135:76
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:135:13-73
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:134:13-64
+activity#com.i2donate.Activity.SettingActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:136:9-138:48
+	android:theme
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:138:13-45
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:137:13-53
+activity#com.i2donate.Activity.NotificationActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:139:9-67
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:139:19-64
+activity#com.i2donate.Activity.FollowingActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:140:9-64
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:140:19-61
+activity#com.i2donate.Activity.TypesActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:141:9-60
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:141:19-57
+activity#com.i2donate.Activity.NameSearchActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:142:9-145:76
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:145:13-73
+	android:theme
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:144:13-50
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:143:13-56
+activity#com.i2donate.Activity.UnitedStateActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:146:9-148:67
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:148:13-64
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:147:13-57
+activity#com.i2donate.CommonActivity.CommonBackActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:149:9-152:76
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:152:13-73
+	android:theme
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:151:13-50
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:150:13-62
+activity#com.i2donate.Activity.RegisterActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:153:9-63
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:153:19-60
+activity#com.facebook.FacebookActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:154:9-157:48
+MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:30:9-33:66
+MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:30:9-33:66
+	android:label
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:157:13-45
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:156:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:33:13-63
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:155:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:158:9-169:20
+MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:35:9-49:20
+MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:35:9-49:20
+	tools:node
+		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:38:13-31
+	android:exported
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:160:13-36
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:159:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:161:13-168:29
+activity#com.i2donate.Activity.LoginActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:170:9-173:76
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:173:13-73
+	android:theme
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:172:13-50
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:171:13-51
+activity#com.i2donate.Activity.SplashScreenActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:174:9-182:20
+	android:theme
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:176:13-55
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:175:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:177:13-181:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:178:17-69
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:178:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:180:17-77
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:180:27-74
+activity#com.i2donate.Activity.MyspaceActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:183:9-62
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:183:19-59
+activity#com.i2donate.CommonActivity.CommonMenuActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:184:9-71
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:184:19-68
+activity#com.i2donate.Activity.BrowseActivity
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:185:9-187:58
+	android:windowSoftInputMode
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:187:13-55
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:186:13-52
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:189:9-191:71
+	android:value
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:191:13-68
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:190:13-58
+meta-data#com.google.android.gms.version
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:192:9-194:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8ff5acf2ee9a0303dfb624c658a3138c\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8ff5acf2ee9a0303dfb624c658a3138c\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:194:13-66
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:193:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:195:9-197:55
+	android:value
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:197:13-52
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:196:13-58
+receiver#com.i2donate.Interwork.ConnectivityReceiver
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:199:9-205:20
+	android:enabled
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:201:13-35
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:200:13-59
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:202:13-204:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:203:17-79
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:203:25-76
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:207:9-209:57
+	android:resource
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:209:13-54
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:208:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:214:9-216:53
+	android:resource
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:216:13-50
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:215:13-84
+meta-data#firebase_messaging_auto_init_enabled
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:217:9-219:37
+	android:value
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:219:13-34
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:218:13-64
+meta-data#firebase_analytics_collection_enabled
+ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:220:9-222:37
+	android:value
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:222:13-34
+	android:name
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:221:13-65
+uses-sdk
+INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bff817b87a259d1c6531c9d149e5b35\AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:5.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bff817b87a259d1c6531c9d149e5b35\AndroidManifest.xml:22:5-24:41
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:8:5-10:41
+MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:8:5-10:41
+MERGED from [com.braintreepayments:card-form:3.5.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\1bf50d189326bf6f1ef482b875c29cae\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments:card-form:3.5.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\1bf50d189326bf6f1ef482b875c29cae\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3835bc66e3f5fe2dfb7ad6e33a9b48fd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3835bc66e3f5fe2dfb7ad6e33a9b48fd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:7:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\17aad11ecc28bbdf3fc7e6a8953c9415\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\17aad11ecc28bbdf3fc7e6a8953c9415\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6eb902005c769eab95da6ae4dc739ef8\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6eb902005c769eab95da6ae4dc739ef8\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\de0d865e2ebffccbaf2d24803859f981\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\de0d865e2ebffccbaf2d24803859f981\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:25:5-27:41
+MERGED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:25:5-27:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\25e005edb95f7106f06719c1090dcfd8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\25e005edb95f7106f06719c1090dcfd8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\1604555f5ffb77f9957073aaf86bea03\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\1604555f5ffb77f9957073aaf86bea03\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\c5a325523a519154e10fc41ab000e232\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\c5a325523a519154e10fc41ab000e232\AndroidManifest.xml:5:5-7:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f8dd1113abffb9433ebaf8564240ff41\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f8dd1113abffb9433ebaf8564240ff41\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\71f1d9fb13e7ee69b5382d2474b93bb9\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\71f1d9fb13e7ee69b5382d2474b93bb9\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2c9c67c3323a0f1f4c54ef701dac5c24\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2c9c67c3323a0f1f4c54ef701dac5c24\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721df597378bb7957894c372c2deba86\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721df597378bb7957894c372c2deba86\AndroidManifest.xml:20:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e66f8ed9d1a481d73036d94d0543eb9c\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e66f8ed9d1a481d73036d94d0543eb9c\AndroidManifest.xml:23:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\1c49a05665dc6b48fda5450623457a52\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\1c49a05665dc6b48fda5450623457a52\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-analytics:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\401d4b94bbcfb9404433671f7d787e8d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\401d4b94bbcfb9404433671f7d787e8d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3f998aaebdbfc9920445d0e248b79cdd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3f998aaebdbfc9920445d0e248b79cdd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ebfd3c4ef38fa710cd4d29008d1dac83\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ebfd3c4ef38fa710cd4d29008d1dac83\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2dd8e3807550ffa2ba1e0ed6d41b2859\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2dd8e3807550ffa2ba1e0ed6d41b2859\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ccc87f29592f49277b2522f1085417ec\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ccc87f29592f49277b2522f1085417ec\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0aed5abffeee5257af3fa631a424b73a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0aed5abffeee5257af3fa631a424b73a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6a81d47457ab53e810d9997109b32949\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6a81d47457ab53e810d9997109b32949\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d8abb3b6c933377ed0bdf051fc0b31a8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d8abb3b6c933377ed0bdf051fc0b31a8\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8aa5a20cd6d2ddcb68b96e583f2948b9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8aa5a20cd6d2ddcb68b96e583f2948b9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3cc9bbd24cbc5490b810ff1b751ffc29\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3cc9bbd24cbc5490b810ff1b751ffc29\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\baed050a10d59ee0d9cd533e77c13c80\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\baed050a10d59ee0d9cd533e77c13c80\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9773bc8f44e8cee7c533e4311dff28ee\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9773bc8f44e8cee7c533e4311dff28ee\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6a815860c1d849a5336526e0f65fb976\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6a815860c1d849a5336526e0f65fb976\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a85c9f4d297e6d8812fb2036d19ff581\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a85c9f4d297e6d8812fb2036d19ff581\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\03508049c5900364de78b4d23c1c5520\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\03508049c5900364de78b4d23c1c5520\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d60118b57fbf3486270dafba4454c929\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d60118b57fbf3486270dafba4454c929\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b2336537e7b43476898c8331bdd4a95b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b2336537e7b43476898c8331bdd4a95b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cbd80760fc388447bdd57748b14e5456\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cbd80760fc388447bdd57748b14e5456\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f8c1467231c3705a0b5df938a02f71f2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f8c1467231c3705a0b5df938a02f71f2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7960927e765b6577d3650f97132c1545\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7960927e765b6577d3650f97132c1545\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7c30d53bffe86d30e66cf7b66387744d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7c30d53bffe86d30e66cf7b66387744d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2c3074b419fe298ae3466e2f5ce02078\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2c3074b419fe298ae3466e2f5ce02078\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cfb7badfb3aec9493cd83f03dd10f1e2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cfb7badfb3aec9493cd83f03dd10f1e2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8ff5acf2ee9a0303dfb624c658a3138c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8ff5acf2ee9a0303dfb624c658a3138c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\c6f8626a30bc670fce2d5dcde4e5773a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\c6f8626a30bc670fce2d5dcde4e5773a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\09e306a518e09d7a5f08483dad5816e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\09e306a518e09d7a5f08483dad5816e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0892e23794c075a2f85444800626db43\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0892e23794c075a2f85444800626db43\AndroidManifest.xml:20:5-44
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\60a6e22993d5de1d782fdaacf2b2113d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.paypal.android.sdk:paypal-one-touch:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\60a6e22993d5de1d782fdaacf2b2113d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:core:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5f9cb190a124c056989a55a6139dfd0d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:core:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5f9cb190a124c056989a55a6139dfd0d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments:browser-switch:0.1.7] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\46c2f349b305b4f04b7b113c32d11238\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments:browser-switch:0.1.7] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\46c2f349b305b4f04b7b113c32d11238\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2a349b177ad61e4269a9aa620e70aa19\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2a349b177ad61e4269a9aa620e70aa19\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\bbbe09ff53a17eb47b8cd82910e46e88\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\bbbe09ff53a17eb47b8cd82910e46e88\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\eed6be6a2309e6ed103ca889af56cf22\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\eed6be6a2309e6ed103ca889af56cf22\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e003800feafff8c6258adcd9458681fa\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e003800feafff8c6258adcd9458681fa\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3580abc8fde6507ccd630bc39142c04c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3580abc8fde6507ccd630bc39142c04c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a58ccdb90e8447f1abd1791e50f403b2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a58ccdb90e8447f1abd1791e50f403b2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d191f370eb28f1f7428c8e85241fca88\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d191f370eb28f1f7428c8e85241fca88\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6d0a6ef36000a8d87ee8e25640ad1195\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6d0a6ef36000a8d87ee8e25640ad1195\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4e66661e04d14a36c46289c2396dc40e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4e66661e04d14a36c46289c2396dc40e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6e2cbe589af0651246a3a931023a7d42\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6e2cbe589af0651246a3a931023a7d42\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7edf2cef28352427beea3b5035730a3d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7edf2cef28352427beea3b5035730a3d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cc42f034ada0b5a64477ed5c4715235a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cc42f034ada0b5a64477ed5c4715235a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cc1248ca638589228f61208bb9efc001\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\cc1248ca638589228f61208bb9efc001\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f8721ca39da6cb5b9ed77a700e032b0d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f8721ca39da6cb5b9ed77a700e032b0d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4d6043e1cfdb211f0e30ed9be0bba0dc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4d6043e1cfdb211f0e30ed9be0bba0dc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\46b28423af599ccf2ba3fb1687583c69\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\46b28423af599ccf2ba3fb1687583c69\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6dbfae303d2bd1c0df8ed87e0fd2b971\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6dbfae303d2bd1c0df8ed87e0fd2b971\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f92fc52ea7d4e9a9edfc6de4a828f58f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f92fc52ea7d4e9a9edfc6de4a828f58f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\09637fda6d972951c1396b34f9b24465\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\09637fda6d972951c1396b34f9b24465\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\100755327cbae74d1d4ced6f871ce202\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\100755327cbae74d1d4ced6f871ce202\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0b3ec1664805a90fd5b55d52216a73eb\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0b3ec1664805a90fd5b55d52216a73eb\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d7d86d1e117e49490b6b71bff0ea765e\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d7d86d1e117e49490b6b71bff0ea765e\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6baaa5d4cd8d4d659d1bd656123cec4e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6baaa5d4cd8d4d659d1bd656123cec4e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\360c9757fc011e271b08f0ef05f584a6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\360c9757fc011e271b08f0ef05f584a6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\86eeabcd6ff70d86491eee9afe615ff5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\86eeabcd6ff70d86491eee9afe615ff5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\65e69c9b1f9f0c8f36b5b5630d4b7f41\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\65e69c9b1f9f0c8f36b5b5630d4b7f41\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5efd5eda0b22cb490c9290495e87bddf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5efd5eda0b22cb490c9290495e87bddf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\c40355a42dd907d7743c0fddc7222364\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\c40355a42dd907d7743c0fddc7222364\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.3.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e4f7ae8ac234a4514666272be1cc888e\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.3.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e4f7ae8ac234a4514666272be1cc888e\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\773dad039d040b4dc2731bf12f32d8cb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\773dad039d040b4dc2731bf12f32d8cb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\405d2c780c77d2826ef5d59b22a030e8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\405d2c780c77d2826ef5d59b22a030e8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f4d1c1ddeee8a295e38e52b2f0765a29\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f4d1c1ddeee8a295e38e52b2f0765a29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5e5e6ab1baab22ae465ef80736a138b0\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5e5e6ab1baab22ae465ef80736a138b0\AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\40016a88bd704f3115343736088e7462\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\40016a88bd704f3115343736088e7462\AndroidManifest.xml:18:5-20:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7191542d30e49034db89d8533612244f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7191542d30e49034db89d8533612244f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.braintreepayments.api:visa-checkout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d828b180bf1faab844430965ddd27ac2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.braintreepayments.api:visa-checkout:1.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d828b180bf1faab844430965ddd27ac2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9568d713d82ff4fe6c9de3587b2d10da\AndroidManifest.xml:7:5-9:41
+MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9568d713d82ff4fe6c9de3587b2d10da\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:5.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bff817b87a259d1c6531c9d149e5b35\AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:5.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bff817b87a259d1c6531c9d149e5b35\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:5.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bff817b87a259d1c6531c9d149e5b35\AndroidManifest.xml:28:13-60
+activity#com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity
+ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:18:9-20:62
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:21:9-103
+MERGED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:21:9-103
+	android:theme
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:20:13-59
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:19:13-94
+activity#com.braintreepayments.api.dropin.DropInActivity
+ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:21:9-23:64
+	android:theme
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:23:13-61
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:22:13-75
+activity#com.braintreepayments.api.dropin.AddCardActivity
+ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:24:9-26:65
+	android:theme
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:26:13-62
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:25:13-76
+activity#com.braintreepayments.api.dropin.VaultManagerActivity
+ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:27:9-29:70
+	android:theme
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:29:13-67
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e48d97b405b11b600376b3a1cbee1651\AndroidManifest.xml:28:13-81
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:10:22-73
+activity#com.google.android.libraries.places.widget.AutocompleteActivity
+ADDED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:16:9-23:20
+	android:label
+		ADDED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:20:13-62
+	android:hardwareAccelerated
+		ADDED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:19:13-47
+	android:windowSoftInputMode
+		ADDED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:22:13-71
+	android:exported
+		ADDED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:18:13-37
+	android:theme
+		ADDED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:21:13-66
+	android:name
+		ADDED from [com.google.android.libraries.places:places:1.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\6f50752f155b21eb4be4bd54a7cc2df5\AndroidManifest.xml:17:13-91
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:34:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:34:19-68
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:39:13-48:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.i2donate+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0ecff331902bb4f99072919e1109fbea\AndroidManifest.xml:39:13-48:29
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\98de396f6f3a61386db2a508b9835be9\AndroidManifest.xml:34:13-89
+activity#com.twitter.sdk.android.tweetui.PlayerActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:28:9-31:49
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:30:13-74
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:31:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:29:13-74
+activity#com.twitter.sdk.android.tweetui.GalleryActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:32:9-34:49
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:34:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2664f90589413e952967a2de696016d7\AndroidManifest.xml:33:13-75
+activity#com.twitter.sdk.android.core.identity.OAuthActivity
+ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e66f8ed9d1a481d73036d94d0543eb9c\AndroidManifest.xml:28:9-32:40
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e66f8ed9d1a481d73036d94d0543eb9c\AndroidManifest.xml:31:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e66f8ed9d1a481d73036d94d0543eb9c\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e66f8ed9d1a481d73036d94d0543eb9c\AndroidManifest.xml:30:13-59
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\e66f8ed9d1a481d73036d94d0543eb9c\AndroidManifest.xml:29:13-79
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:29:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\baed050a10d59ee0d9cd533e77c13c80\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\baed050a10d59ee0d9cd533e77c13c80\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:37:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:36:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:38:13-40:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a20c20f06f2230851281390e4e2677a3\AndroidManifest.xml:39:17-119
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\a998ee72fde5b095d655bd81a85d623b\AndroidManifest.xml:34:13-50
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\37e68d94101742b31578aadf5e484859\AndroidManifest.xml:26:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7191542d30e49034db89d8533612244f\AndroidManifest.xml:9:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7191542d30e49034db89d8533612244f\AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0adc134cea279c52666cf8130df5d5ec\AndroidManifest.xml:40:13-87
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.4.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4a9be8da1f0b382d5a35a90de684cfbc\AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\baed050a10d59ee0d9cd533e77c13c80\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\baed050a10d59ee0d9cd533e77c13c80\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\baed050a10d59ee0d9cd533e77c13c80\AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3fc72c95ed363a63f76707862725b92e\AndroidManifest.xml:42:25-78
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7dd8b59c75dcab1a37e2dafb5964150e\AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ef30815e6842d1e0a17e7c478aa6cb63\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d60118b57fbf3486270dafba4454c929\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d60118b57fbf3486270dafba4454c929\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d60118b57fbf3486270dafba4454c929\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d60118b57fbf3486270dafba4454c929\AndroidManifest.xml:24:13-79
+activity#com.braintreepayments.api.AndroidPayActivity
+ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:15:9-17:62
+	android:theme
+		ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:17:13-59
+	android:name
+		ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:16:13-72
+activity#com.braintreepayments.api.GooglePaymentActivity
+ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:18:9-20:62
+	android:theme
+		ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:20:13-59
+	android:name
+		ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:19:13-75
+service#com.braintreepayments.api.internal.AnalyticsIntentService
+ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:23:9-93
+	android:name
+		ADDED from [com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7bcaec5e771e6a245478bc7ec926160b\AndroidManifest.xml:23:18-90
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.15.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\0026d5d22d68935896750950976120a4\AndroidManifest.xml:48:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\9a163eb5d3189cce7d717afc8b48d6d8\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7461af5f13f120f3984e95883d7da17c\AndroidManifest.xml:33:13-132

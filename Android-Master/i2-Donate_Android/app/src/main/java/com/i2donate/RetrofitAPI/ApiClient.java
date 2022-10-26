@@ -12,6 +12,7 @@ public class ApiClient {
 
     //public static final String BASE_URL = "http://project975.website/i2-donate/api/";
     public static final String BASE_URL = "https://check.i2-donate.com/webservice/";
+//    public static final String BASE_URL = "https://imaginetventures.org/i2donate/webservice/";
     // public static final String BASE_URL = "https://admin.i2-donate.com/webservice/";
     //public static final String BASE_URL ="http://project975.website/i2donate/webservice/";
     private static Retrofit retrofit = null;

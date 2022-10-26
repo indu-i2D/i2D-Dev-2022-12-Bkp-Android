@@ -66,19 +66,17 @@ import com.i2donate.RetrofitAPI.ApiInterface;
 import com.i2donate.Session.IDonateSharedPreference;
 import com.i2donate.Session.SessionManager;
 import com.i2donate.Validation.Validation;
-import com.twitter.sdk.android.core.DefaultLogger;
+import com.twitter.sdk.android.core.Callback;
 import com.twitter.sdk.android.core.Result;
 import com.twitter.sdk.android.core.Twitter;
 import com.twitter.sdk.android.core.TwitterApiClient;
-import com.twitter.sdk.android.core.TwitterAuthConfig;
-import com.twitter.sdk.android.core.TwitterConfig;
+import com.twitter.sdk.android.core.TwitterAuthToken;
 import com.twitter.sdk.android.core.TwitterCore;
 import com.twitter.sdk.android.core.TwitterException;
 import com.twitter.sdk.android.core.TwitterSession;
 import com.twitter.sdk.android.core.identity.TwitterAuthClient;
 import com.twitter.sdk.android.core.identity.TwitterLoginButton;
 import com.twitter.sdk.android.core.models.User;
-import com.twitter.sdk.android.core.Callback;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -118,20 +116,23 @@ public class LoginActivity extends AppCompatActivity implements
     private int STORAGE_PERMISSION_CODE = 1;
     /*private final String host = "api.linkedin.com";
     private final String topCardUrl = "https://" + host + "/v1/people/~:(email-address,formatted-name,phone-numbers,public-profile-url,picture-url,picture-urls::(original))";
-*/
+    */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        TwitterConfig config = new TwitterConfig.Builder(this)
-                .logger(new DefaultLogger(Log.DEBUG))//enable logging when app is in debug mode
-                .twitterAuthConfig(new TwitterAuthConfig(getResources().getString(R.string.twitter_API_key), getResources().getString(R.string.twitter_secret_key)))//pass the created app Consumer KEY and Secret also called API Key and Secret
-                .debug(true)//enable debug mode
-                .build();
+//        Log.e("126", getResources().getString(R.string.twitter_API_key));
+//        TwitterConfig config = new TwitterConfig.Builder(this)
+//                .logger(new DefaultLogger(Log.DEBUG))//enable logging when app is in debug mode
+//                .twitterAuthConfig(new TwitterAuthConfig(getResources().getString(R.string.twitter_API_key), getResources().getString(R.string.twitter_secret_key)))//pass the created app Consumer KEY and Secret also called API Key and Secret
+//                .debug(true)//enable debug mode
+//                .build();
         //finally initialize twitter with created configs
-        Twitter.initialize(config);
+        Twitter.initialize(this);
         setContentView(R.layout.activity_login);
         //  getWindow().setBackgroundDrawableResource(R.drawable.dashbord_background);
+
+//        Log.e("a-136","" + config);
         getWindow().setSoftInputMode(
                 WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         sessionManager = new SessionManager(getApplicationContext());
@@ -224,7 +225,8 @@ public class LoginActivity extends AppCompatActivity implements
     }
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        if (requestCode == STORAGE_PERMISSION_CODE)  {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == STORAGE_PERMISSION_CODE) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 Toast.makeText(this, "Permission GRANTED", Toast.LENGTH_SHORT).show();
             } else {
@@ -506,7 +508,7 @@ public class LoginActivity extends AppCompatActivity implements
 
                 if (isOnline()) {
                     defaultLoginTwitter();
-                    Log.e("click", "click243");
+                    Log.e("click-511", "click243");
 
                 } else {
                     //Toast.makeText(LoginActivity.this, "Please check internet connection", Toast.LENGTH_SHORT).show();
@@ -521,8 +523,9 @@ public class LoginActivity extends AppCompatActivity implements
 
     private void defaultLoginTwitter() {
         //check if user is already authenticated or not
-        if (getTwitterSession() == null) {
 
+        Log.e("527", "51111111" );
+//        if (getTwitterSession() == null) {
             Log.e(TAG, "getTwitterSession is null");
 
             //if user is not authenticated start authenticating
@@ -534,11 +537,23 @@ public class LoginActivity extends AppCompatActivity implements
 
                     // Do something with result, which provides a TwitterSession for making API calls
                     TwitterSession twitterSession = result.data;
+                    TwitterSession session = TwitterCore.getInstance().getSessionManager().getActiveSession();
+                    TwitterAuthToken authToken = session.getAuthToken();
 
-                    Log.e(TAG, "Success : "+result.data);
+                    Log.e("543", "Success : "+result.data);
+                    Log.e("543", "Success : "+session);
+                    Log.e("543", "Success : "+session.getUserName());
+                    Log.e("543", "Success : "+authToken);
+
+//                    User user = session.get();
+//                    String imageProfileUrl = user.profileImageUrl;
+//                    Log.e(TAG, "Data : " + imageProfileUrl);
+//                    if(user.email == null){
+                        gmailfacebookloginAPI(session.getUserName(), "", "twitter", "");
+//                    } else gmailfacebookloginAPI(user.name, user.email, "twitter", user.profileImageUrl);
 
                     //call fetch email only when permission is granted
-                    fetchTwitterEmail(twitterSession);
+//                    fetchTwitterEmail(twitterSession);
 
                 }
 
@@ -549,12 +564,12 @@ public class LoginActivity extends AppCompatActivity implements
                 }
             });
             twitter_login_btn.performClick();
-        } else {
+//        } else {
 
             //if user is already authenticated direct call fetch twitter email api
 //            Toast.makeText(this, "User already authenticated", Toast.LENGTH_SHORT).show();
-            fetchTwitterEmail(getTwitterSession());
-        }
+//            fetchTwitterEmail(getTwitterSession());
+//        }
 
     }
     /*public void customLoginTwitter(View view) {
@@ -604,6 +619,7 @@ public class LoginActivity extends AppCompatActivity implements
 
             @Override
             public void failure(TwitterException exception) {
+                Log.e("609", "" + exception.getMessage());
                 Toast.makeText(LoginActivity.this, "Failed to authenticate. Please try again.", Toast.LENGTH_SHORT).show();
             }
         });
@@ -670,10 +686,10 @@ public class LoginActivity extends AppCompatActivity implements
     private TwitterSession getTwitterSession() {
         TwitterSession session = TwitterCore.getInstance().getSessionManager().getActiveSession();
         //NOTE : if you want to get token and secret too use uncomment the below code
-        /*TwitterAuthToken authToken = session.getAuthToken();
+        /* TwitterAuthToken authToken = session.getAuthToken();
         String token = authToken.token;
-        String secret = authToken.secret;*/
-
+        String secret = authToken.secret; */
+        Log.e("679", "" + session);
         return session;
     }
 
@@ -765,7 +781,7 @@ public class LoginActivity extends AppCompatActivity implements
                 @Override
                 public void onFailure(Call<JsonObject> call, Throwable t) {
                     progressDialog.dismiss();
-                    Log.e(TAG, t.toString());
+                    Log.e("error ", t.toString());
                 }
             });
         } catch (Exception e) {
@@ -808,7 +824,7 @@ public class LoginActivity extends AppCompatActivity implements
     }
 
     private void handleSignInResult(GoogleSignInResult result) {
-        Log.e(TAG, "handleSignInResult:" + result.isSuccess());
+        Log.e("827", "handleSignInResult:" + result.isSuccess());
         if (result.isSuccess()) {
             // Signed in successfully, show authenticated UI.
             GoogleSignInAccount acct = result.getSignInAccount();
@@ -987,7 +1003,7 @@ public class LoginActivity extends AppCompatActivity implements
 
                         }
                     } catch (JSONException e) {
-
+                        Log.e("990", "error" + e.getMessage());
 
                     }
 
@@ -996,7 +1012,7 @@ public class LoginActivity extends AppCompatActivity implements
                 @Override
                 public void onFailure(Call<JsonObject> call, Throwable t) {
                     progressDialog.dismiss();
-                    Log.e(TAG, "error" + t.toString());
+                    Log.e("999", "error" + t.toString());
                     if (iDonateSharedPreference.getsocialMedia(getApplicationContext()).equalsIgnoreCase("email")) {
                         Log.e("data232email", "" + "email");
                         signOut();
@@ -1036,6 +1052,7 @@ public class LoginActivity extends AppCompatActivity implements
         if (requestCode == RC_SIGN_IN) {
             GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
             handleSignInResult(result);
+            Log.e("1055", "" + result);
             Log.e(TAG, "Got cached sign-in1");
         }
 
@@ -1083,7 +1100,11 @@ public class LoginActivity extends AppCompatActivity implements
                         try {
                             String personName = object.getString("first_name");
                             String last_name = object.getString("last_name");
-                            String email = object.getString("email");
+                            String email = "";
+//                            if(object.getString("email") != "") {
+//                                email = object.getString("email");
+//                            }
+
                             String id = object.getString("id");
                             String image_url = "https://graph.facebook.com/" + id + "/picture?type=normal";
                             Log.e("image_url", "" + image_url);

@@ -9,13 +9,42 @@
     <!--  <string name="facebook_app_id">815575865578946</string>
     <string name="fb_login_protocol_scheme">fb815575865578946</string>-->
     <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
-    <string name="facebook_app_id">815575865578946</string>
-    <string name="fb_login_protocol_scheme">fb815575865578946</string>
-    <!--Twitter Login-->
-    <string name="twitter_API_key">EnzTp5DQICdn3DzJ3rBNAioXL</string>
-    <string name="twitter_secret_key">ICASrwkV7PaBNmXHkgLXFBtVH4uGYfbOkFlv9JKGTvw0lyD3Bl</string>
+<!--    <string name="facebook_app_id">458781686289561</string>-->
+<!--    <string name="fb_login_protocol_scheme">0ec39795f3b778911f32b9006bb811fc</string>-->
 
-    <!--PayPal Integration-->
+
+<!--    <string name="facebook_app_id">628278148990676</string>-->
+<!--    <string name="fb_login_protocol_scheme">8272532da973238f5b7427bde61d53d7</string>-->
+<!--    <string name="facebook_client_token">f92318a1a1942cddb60e74d8016937bb</string>-->
+
+
+    <string name="facebook_app_id">458781686289561</string>
+    <string name="fb_login_protocol_scheme">0ec39795f3b778911f32b9006bb811fc</string>
+    <string name="facebook_client_token">fc74a85d45c1ad37ca9b5b9825731ef6</string>
+
+
+<!--    <string name="facebook_app_id">805806270472115</string>-->
+<!--    <string name="fb_login_protocol_scheme">4a897f9bd90e3cd56b4a00734ee723ca</string>-->
+<!--    <string name="facebook_client_token">c349d626f9b535c6212be7df0df2357b</string>-->
+    <!--Twitter Login-->
+<!--    <string name="twitter_API_key">EnzTp5DQICdn3DzJ3rBNAioXL</string>-->
+<!--    <string name="twitter_secret_key">ICASrwkV7PaBNmXHkgLXFBtVH4uGYfbOkFlv9JKGTvw0lyD3Bl</string>-->
+
+<!--    <string name="twitter_API_key">QW5wSS1kRTlHQUFUQ01tS0VHUUU6MTpjaQ</string>-->
+<!--    <string name="twitter_secret_key">_cuHNDKMTMeic1Ypy2OwZ9ujr3b57vWOpIie46XtTMILGZHqLQ</string>-->
+
+
+<!--    <string name="com.twitter.sdk.android.CONSUMER_KEY">HAZHZZLxfjeiBDO39i5eVLoYf</string>-->
+<!--    <string name="com.twitter.sdk.android.CONSUMER_SECRET">KNDrKRh41daco82mykMMTzrpaIW3LoHFW59AItzSswBewTfl7W</string>-->
+
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">pBjkBJoBpsMl1QHWsE1UjbAo2</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">RqkDXS2E84loXIursJlHeI8kh9fnVufaWLo4a8fN3XkrZiGl2D</string>
+
+<!--    <string name="twitter_API_key">QW5wSS1kRTlHQUFUQ01tS0VHUUU6MTpjaQ</string>-->
+<!--    <string name="twitter_secret_key">Eg2D705h71QKpLIV3mG2dzs_OAzYUOUHqD4EXEFUTd8MTPDN3B</string>-->
+
+        <!--PayPal Integration-->
     <string name="ClientId">Ae7-40mniICmqZQEPOxH_ThAXlxE9CzqVapa6pdGWp9HbrELuSeYStvZZJYg3Y95qlxR3DLAtoy-Zbop</string>
     <string name="SecretId">ENiu5b5wLpnLrEWs7YvNZBMrPRQCSSsXp1FeuiID-0yF86aOuEIeayaPzXglCFeN-VxF72mvpJ8YaTxJ</string>
 

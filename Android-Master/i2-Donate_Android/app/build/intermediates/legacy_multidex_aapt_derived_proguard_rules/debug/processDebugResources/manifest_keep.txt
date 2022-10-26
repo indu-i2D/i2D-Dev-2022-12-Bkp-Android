@@ -1,0 +1,4 @@
+# Referenced at D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:54
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:54
+-keep class com.i2donate.Interwork.MyApplication { <init>(); }

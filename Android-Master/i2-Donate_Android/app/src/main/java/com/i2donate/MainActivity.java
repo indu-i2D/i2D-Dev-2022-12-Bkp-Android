@@ -25,7 +25,8 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
 
-    private static final String PATH_TO_SERVER = "https://admin.i2-donate.com/webservice/braintree_client_token";
+//    private static final String PATH_TO_SERVER = "https://admin.i2-donate.com/webservice/braintree_client_token";
+    private static final String PATH_TO_SERVER = "https://imaginetventures.org/i2donate/webservice/braintree_client_token";
     static ApiInterface apiService;
     private String clientToken;
     private static final int BRAINTREE_REQUEST_CODE = 4949;

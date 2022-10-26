@@ -390,30 +390,32 @@ public class MyspaceActivity extends CommonMenuActivity {
             public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
                 DonatedCharityList1.clear();
                 Log.e("transaction_listAPI", "" + response.body());
-                try {
-                    JSONObject jsonObject = new JSONObject(response.body().toString());
-                    String message = jsonObject.getString("message");
-                    String dotatedList = jsonObject.getString("data");
+                if(response.body() != null) {
+                    try {
+                        JSONObject jsonObject = new JSONObject(response.body().toString());
+                        String message = jsonObject.getString("message");
+                        String dotatedList = jsonObject.getString("data");
 
-                    JSONArray jsonArray = new JSONArray(dotatedList);
+                        JSONArray jsonArray = new JSONArray(dotatedList);
 
-                    Log.e("jsonArray", "" + jsonArray);
-                    for (int i = 0; i < jsonArray.length(); i++) {
+                        Log.e("jsonArray", "" + jsonArray);
+                        for (int i = 0; i < jsonArray.length(); i++) {
 
-                        DonatedCharityList DonatedCharityList11 = new DonatedCharityList();
-                        JSONObject object = jsonArray.getJSONObject(i);
+                            DonatedCharityList DonatedCharityList11 = new DonatedCharityList();
+                            JSONObject object = jsonArray.getJSONObject(i);
 
-                        DonatedCharityList11.setDate(object.getString("date"));
-                        DonatedCharityList11.setAmount(object.getString("amount"));
-                        DonatedCharityList11.setPayment_type(object.getString("payment_type"));
-                        DonatedCharityList11.setCharity_name(object.getString("charity_name"));
-                        DonatedCharityList1.add(DonatedCharityList11);
+                            DonatedCharityList11.setDate(object.getString("date"));
+                            DonatedCharityList11.setAmount(object.getString("amount"));
+                            DonatedCharityList11.setPayment_type(object.getString("payment_type"));
+                            DonatedCharityList11.setCharity_name(object.getString("charity_name"));
+                            DonatedCharityList1.add(DonatedCharityList11);
+                        }
+                        Log.e("DonatedList1_size", "" + DonatedCharityList1.size());
+
+                    } catch (JSONException e) {
+                        Log.e("ER", "error1");
+                        e.printStackTrace();
                     }
-                    Log.e("DonatedList1_size",""+DonatedCharityList1.size());
-
-                }  catch (JSONException e) {
-                    Log.e("ER","error1");
-                    e.printStackTrace();
                 }
 
 

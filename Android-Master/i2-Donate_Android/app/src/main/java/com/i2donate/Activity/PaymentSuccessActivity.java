@@ -106,7 +106,8 @@ public class PaymentSuccessActivity extends AppCompatActivity {
 
         jsonObject1.addProperty("status" , payStatus.getText().toString());
 
-        Double payment_amt_total= Double.parseDouble(amount_tv.getText().toString());
+//        Double payment_amt_total= Double.parseDouble(amount_tv.getText().toString());
+        Double payment_amt_total= Double.parseDouble("1");
         Double payment_amt_total1= (payment_amt_total - 0.30);
         Double payment_amt_total2= (payment_amt_total1 / ((100.0f + 2.9 ) / 100));
         Double merchant_charges= payment_amt_total1 - payment_amt_total2;
@@ -142,6 +143,7 @@ public class PaymentSuccessActivity extends AppCompatActivity {
                     }
                 } catch (Exception e) {
                     e.getMessage();
+                    Log.e("145", e.getMessage());
                 }
             }
 
