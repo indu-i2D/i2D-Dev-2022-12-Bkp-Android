@@ -1,0 +1,4 @@
+[25-Jun-2019 10:34:55 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice_model::categories() in /home/projetsu/public_html/i2donate/application/models/Webservice_model.php on line 269
+[25-Jun-2019 10:35:02 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice_model::categories() in /home/projetsu/public_html/i2donate/application/models/Webservice_model.php on line 269
+[25-Jun-2019 10:35:05 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice_model::categories() in /home/projetsu/public_html/i2donate/application/models/Webservice_model.php on line 269
+[25-Jun-2019 10:35:18 Etc/GMT] PHP Fatal error:  Cannot redeclare Webservice_model::categories() in /home/projetsu/public_html/i2donate/application/models/Webservice_model.php on line 269
