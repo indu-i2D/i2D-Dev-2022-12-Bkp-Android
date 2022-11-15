@@ -50,3 +50,6 @@ let titleTextColor = hexStringToUIColor(hex: "#532B05")
 let fontBlackColor = hexStringToUIColor(hex: "#4A4A4A")
 let termsFontColor = hexStringToUIColor(hex: "#424ef5")
 let ivoryColor = hexStringToUIColor(hex: "#FCFCEF")
+
+//MARK: - Config
+let googleClientId = "333392640937-6hc3d64f2m73jb9k8s8koktmglqpk129.apps.googleusercontent.com"

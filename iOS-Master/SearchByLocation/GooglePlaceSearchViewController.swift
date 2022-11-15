@@ -8,7 +8,7 @@
 
 import UIKit
 import GooglePlaces
-import GoogleMapsBase
+//import GoogleMapsBase
 
 class GooglePlaceSearchViewController: BaseViewController, UISearchBarDelegate {
     
@@ -56,7 +56,8 @@ class GooglePlaceSearchViewController: BaseViewController, UISearchBarDelegate {
         let token: GMSAutocompleteSessionToken = GMSAutocompleteSessionToken.init()
         
         // Create the fetcher.
-        fetcher = GMSAutocompleteFetcher(bounds: nil, filter: filter)
+        fetcher = GMSAutocompleteFetcher(filter: filter)
+//        fetcher = GMSAutocompleteFetcher(bounds: nil, filter: filter)
         fetcher?.delegate = self
         fetcher?.provide(token)
         

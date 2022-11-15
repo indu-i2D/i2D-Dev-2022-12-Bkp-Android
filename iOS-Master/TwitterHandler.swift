@@ -47,7 +47,7 @@ struct RequestAccessTokenResponse {
 enum Action {
     case isLogin
     case postUpdate(String)
-}
+} 
 
 struct EmailIdVerification {
     let requestToken: String // = RequestOAuthTokenResponse.oauthToken
@@ -62,8 +62,8 @@ public typealias Credentials = (key: String, secret: String)
 class TwitterHandler: NSObject {
     static let shared = TwitterHandler()
     
-    let TWITTER_CONSUMER_KEY:String = "EnzTp5DQICdn3DzJ3rBNAioXL"
-    let TWITTER_CONSUMER_SECRET:String = "ICASrwkV7PaBNmXHkgLXFBtVH4uGYfbOkFlv9JKGTvw0lyD3Bl"
+    let TWITTER_CONSUMER_KEY:String = "pBjkBJoBpsMl1QHWsE1UjbAo2"//"EnzTp5DQICdn3DzJ3rBNAioXL"
+    let TWITTER_CONSUMER_SECRET:String = "RqkDXS2E84loXIursJlHeI8kh9fnVufaWLo4a8fN3XkrZiGl2D"//"ICASrwkV7PaBNmXHkgLXFBtVH4uGYfbOkFlv9JKGTvw0lyD3Bl"
     let TWITTER_URL_SCHEME:String =  "twittersdk://"
     
     var TwitterOAuthToken = ""

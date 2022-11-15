@@ -13,7 +13,7 @@ import Alamofire
 import GoogleSignIn
 import FBSDKLoginKit
 
-class RegisterVC: BaseViewController,GIDSignInDelegate {
+class RegisterVC: BaseViewController {
     @IBOutlet var maleBtn: UIButton!
     @IBOutlet var femaleBtn: UIButton!
     @IBOutlet var businessBtn: UIButton!
@@ -360,8 +360,6 @@ class RegisterVC: BaseViewController,GIDSignInDelegate {
             let object = UserDefaults.standard.value(forKey: "selectedname") as! String
             countryBtn.setTitle(object, for: .normal)
         }
-        
-        GIDSignIn.sharedInstance().delegate = self
 
     }
     
@@ -380,10 +378,32 @@ class RegisterVC: BaseViewController,GIDSignInDelegate {
     
     
     @IBAction func googleSignIN(_ sender: UIButton) {
-        GIDSignIn.sharedInstance()?.presentingViewController = self
-        GIDSignIn.sharedInstance()?.shouldFetchBasicProfile = true
-        GIDSignIn.sharedInstance()?.signIn()
-        
+        let config = GIDConfiguration(clientID: googleClientId)
+        GIDSignIn.sharedInstance.signIn(with: config, presenting: self, hint: nil, additionalScopes: nil) {[weak self] user, error in
+            guard let self = self else{return}
+            if let error = error {
+                self.view .endEditing(true)
+                print("\(error.localizedDescription)")
+                let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "RegisterVC") as? RegisterVC
+                self.navigationController?.pushViewController(vc!, animated: false)
+            } else {
+                
+                print(user?.userID)
+                print(user?.profile?.name )
+                
+                var pictures :URL?
+                if (GIDSignIn.sharedInstance.currentUser?.profile?.hasImage ?? false) {
+                    let dimension = round(100 * UIScreen.main.scale);
+                    pictures = user?.profile?.imageURL(withDimension: UInt(dimension))
+                }
+                
+                self.userName = user?.profile?.name ?? ""
+                self.email = user?.profile?.email ?? ""
+                self.profileUrl = pictures?.absoluteString ?? ""
+                self.socialLogin(socialType: "Gmail")
+                
+            }
+        }
     }
     
     @IBAction func facebookLogin(_ sender:UIButton) {
@@ -408,7 +428,7 @@ class RegisterVC: BaseViewController,GIDSignInDelegate {
                 if fbloginresult.grantedPermissions != nil {
                     if(fbloginresult.grantedPermissions.contains("email")) {
                         if((AccessToken.current) != nil){
-                            GraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, picture.type(large), email"]).start(completionHandler: { (connection, result, error) -> Void in
+                            GraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, picture.type(large), email"]).start { connecton, result, error in
                                 print(result!)
                                 
                                 if (error == nil){
@@ -422,12 +442,12 @@ class RegisterVC: BaseViewController,GIDSignInDelegate {
                                     
                                     self.userName = self.faceBookDict["name"] as! String
                                     self.email = self.faceBookDict["email"] as! String
-                                    self.profileUrl = facebookProfile 
+                                    self.profileUrl = facebookProfile
                                     
                                     self.socialLogin(socialType: "Facebook")
                                     //print(self.dict)
                                 }
-                            })
+                            }
                         }
                     }
                 }
@@ -455,33 +475,6 @@ class RegisterVC: BaseViewController,GIDSignInDelegate {
     
     }
     
-    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!,
-              withError error: Error!) {
-       
-        if let error = error {
-            self.view .endEditing(true)
-            print("\(error.localizedDescription)")
-            let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "RegisterVC") as? RegisterVC
-            self.navigationController?.pushViewController(vc!, animated: false)
-        } else {
-            
-            print(user.userID )
-            print(user.profile.name )
-            
-            var pictures :URL?
-            if (GIDSignIn .sharedInstance().currentUser.profile.hasImage) {
-                let dimension = round(100 * UIScreen.main.scale);
-                pictures = user.profile.imageURL(withDimension: UInt(dimension))
-            }
-            
-            userName = user.profile.name
-            email = user.profile.email
-            profileUrl = pictures?.absoluteString ?? ""
-            socialLogin(socialType: "Gmail")
-                        
-        }
-        
-    }
     
     func socialLogin(socialType:String) {
         let postDict: Parameters = ["name": userName,"email":email ,"login_type":socialType,"photo":profileUrl]

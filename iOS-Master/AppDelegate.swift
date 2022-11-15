@@ -42,7 +42,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self.window?.makeKeyAndVisible()
         }
         
-        GIDSignIn.sharedInstance().clientID = "333392640937-6hc3d64f2m73jb9k8s8koktmglqpk129.apps.googleusercontent.com"
     
 //        PayPalMobile.initializeWithClientIds(forEnvironments:
 //            [PayPalEnvironmentProduction: "AWs4124obWk3JoyH35_e5LUId1GB3gHpecIO__mppzT8-MkFmZeNt-9DcFDLHzN6dxfLpYYLGnKu0Vgw",
@@ -81,7 +80,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return BTAppSwitch.handleOpen(url, options: options)
         }
                 
-        return GIDSignIn.sharedInstance().handle(url)
+        return GIDSignIn.sharedInstance.handle(url)
         
     }
 

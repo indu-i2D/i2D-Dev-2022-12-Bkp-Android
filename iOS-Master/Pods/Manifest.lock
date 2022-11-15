@@ -1,72 +1,65 @@
 PODS:
-  - Alamofire (5.2.2)
-  - AlamofireImage (4.1.0):
-    - Alamofire (~> 5.1)
+  - Alamofire (5.6.2)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
   - AlamofireNetworkActivityIndicator (3.1.0):
     - Alamofire (~> 5.1)
-  - AppAuth (1.4.0):
-    - AppAuth/Core (= 1.4.0)
-    - AppAuth/ExternalUserAgent (= 1.4.0)
-  - AppAuth/Core (1.4.0)
-  - AppAuth/ExternalUserAgent (1.4.0)
-  - Braintree/Card (4.35.0):
+  - AppAuth (1.6.0):
+    - AppAuth/Core (= 1.6.0)
+    - AppAuth/ExternalUserAgent (= 1.6.0)
+  - AppAuth/Core (1.6.0)
+  - AppAuth/ExternalUserAgent (1.6.0):
+    - AppAuth/Core
+  - Braintree/Card (4.38.0):
     - Braintree/Core
-  - Braintree/Core (4.35.0)
-  - Braintree/PaymentFlow (4.35.0):
+  - Braintree/Core (4.38.0)
+  - Braintree/PaymentFlow (4.38.0):
     - Braintree/Card
     - Braintree/Core
     - Braintree/PayPalOneTouch
-  - Braintree/PayPal (4.35.0):
+  - Braintree/PayPal (4.38.0):
     - Braintree/Core
     - Braintree/PayPalOneTouch
-  - Braintree/PayPalDataCollector (4.35.0):
+  - Braintree/PayPalDataCollector (4.38.0):
     - Braintree/Core
     - Braintree/PayPalUtils
-  - Braintree/PayPalOneTouch (4.35.0):
+  - Braintree/PayPalOneTouch (4.38.0):
     - Braintree/Core
     - Braintree/PayPalDataCollector
     - Braintree/PayPalUtils
-  - Braintree/PayPalUtils (4.35.0)
-  - Braintree/UnionPay (4.35.0):
+  - Braintree/PayPalUtils (4.38.0)
+  - Braintree/UnionPay (4.38.0):
     - Braintree/Card
     - Braintree/Core
-  - BraintreeDropIn (8.1.1):
-    - BraintreeDropIn/DropIn (= 8.1.1)
-  - BraintreeDropIn/DropIn (8.1.1):
+  - BraintreeDropIn (8.2.0):
+    - BraintreeDropIn/DropIn (= 8.2.0)
+  - BraintreeDropIn/DropIn (8.2.0):
     - Braintree/Card (~> 4.32)
     - Braintree/Core (~> 4.32)
     - Braintree/PaymentFlow (~> 4.32)
     - Braintree/PayPal (~> 4.32)
     - Braintree/UnionPay (~> 4.32)
     - BraintreeDropIn/UIKit
-  - BraintreeDropIn/UIKit (8.1.1)
-  - FBSDKCoreKit (7.1.1):
-    - FBSDKCoreKit/Basics (= 7.1.1)
-    - FBSDKCoreKit/Core (= 7.1.1)
-  - FBSDKCoreKit/Basics (7.1.1)
-  - FBSDKCoreKit/Core (7.1.1):
-    - FBSDKCoreKit/Basics
-  - FBSDKLoginKit (7.1.1):
-    - FBSDKLoginKit/Login (= 7.1.1)
-  - FBSDKLoginKit/Login (7.1.1):
-    - FBSDKCoreKit (~> 7.1.1)
-  - GoogleMaps/Base (3.10.0)
-  - GooglePlaces (3.10.0):
-    - GoogleMaps/Base (= 3.10.0)
-  - GoogleSignIn (5.0.2):
-    - AppAuth (~> 1.2)
-    - GTMAppAuth (~> 1.0)
-    - GTMSessionFetcher/Core (~> 1.1)
-  - GTMAppAuth (1.0.0):
-    - AppAuth/Core (~> 1.0)
-    - GTMSessionFetcher (~> 1.1)
-  - GTMSessionFetcher (1.4.0):
-    - GTMSessionFetcher/Full (= 1.4.0)
-  - GTMSessionFetcher/Core (1.4.0)
-  - GTMSessionFetcher/Full (1.4.0):
-    - GTMSessionFetcher/Core (= 1.4.0)
+  - BraintreeDropIn/UIKit (8.2.0)
+  - FBAEMKit (14.1.0):
+    - FBSDKCoreKit_Basics (= 14.1.0)
+  - FBSDKCoreKit (14.1.0):
+    - FBAEMKit (= 14.1.0)
+    - FBSDKCoreKit_Basics (= 14.1.0)
+  - FBSDKCoreKit_Basics (14.1.0)
+  - FBSDKLoginKit (14.1.0):
+    - FBSDKCoreKit (= 14.1.0)
+  - GooglePlaces (5.1.0)
+  - GoogleSignIn (6.2.4):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (~> 1.3)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.1)
+  - GTMAppAuth (1.3.1):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 3.0, >= 1.5)
+  - GTMSessionFetcher/Core (2.1.0)
   - MBProgressHUD (1.2.0)
-  - SideMenu (6.4.9)
+  - SideMenu (6.5.0)
   - TKFormTextField (0.3.1)
 
 DEPENDENCIES:
@@ -91,9 +84,10 @@ SPEC REPOS:
     - AppAuth
     - Braintree
     - BraintreeDropIn
+    - FBAEMKit
     - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
     - FBSDKLoginKit
-    - GoogleMaps
     - GooglePlaces
     - GoogleSignIn
     - GTMAppAuth
@@ -103,23 +97,24 @@ SPEC REPOS:
     - TKFormTextField
 
 SPEC CHECKSUMS:
-  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
-  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   AlamofireNetworkActivityIndicator: 6564782bd7b9e6c430ae67d9277af01907b01ca4
-  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
-  Braintree: 7ff6755ba50506e403dc03779ae68c5ccf6b9808
-  BraintreeDropIn: 2cf07a9041df45ff671586042dbaf7b5d2767347
-  FBSDKCoreKit: b46507dc8b8cefed31d644e74d7cc30e2a715ef8
-  FBSDKLoginKit: 1a61d79e2b25e2fc0d03dccab1e34b38bbdf2546
-  GoogleMaps: 8c080862ff2748ece9929471b30feb56a6c5079d
-  GooglePlaces: 9a6f5f3a0c88da2aa1bf7426a65d3e004f5e69a1
-  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
-  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
-  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  AppAuth: 8fca6b5563a5baef2c04bee27538025e4ceb2add
+  Braintree: 78a33deb6f6ec617c2c4891fbe352854358b3a8d
+  BraintreeDropIn: b57b653d130981aad7ad9bc97a69d3d7ef86f7a1
+  FBAEMKit: a899515e45476027f73aef377b5cffadcd56ca3a
+  FBSDKCoreKit: 24f8bc8d3b5b2a8c5c656a1329492a12e8efa792
+  FBSDKCoreKit_Basics: 6e578c9bdc7aa1365dbbbde633c9ebb536bcaa98
+  FBSDKLoginKit: 787de205d524c3a4b17d527916f1d066e4361660
+  GooglePlaces: c57cd5aa7e91d10fa5106c792de74f3bd6436260
+  GoogleSignIn: 5651ce3a61e56ca864160e79b484cd9ed3f49b7a
+  GTMAppAuth: 0ff230db599948a9ad7470ca667337803b3fc4dd
+  GTMSessionFetcher: ffbb25ec00ebcb5201adab0a56d808f6f1902d9f
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  SideMenu: 8ef57a3cfc024a2d3fc1c036c7fe98537baec9e0
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
   TKFormTextField: def6294d3d3bd944d864ee48d5cc6e36863d6ade
 
-PODFILE CHECKSUM: 8c4abd53807d9ec0e842453ac973cf767878924b
+PODFILE CHECKSUM: 70cf5ceba32e46ef3514dcbb77f82b92ed4cb077
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.11.3

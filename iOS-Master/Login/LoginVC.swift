@@ -13,7 +13,7 @@ import Alamofire
 import MBProgressHUD
 import TKFormTextField
 
-class LoginVC: BaseViewController,GIDSignInDelegate {
+class LoginVC: BaseViewController {
     
     var loginArray : loginModelArray?
     var loginModelResponse :  loginModel?
@@ -130,7 +130,6 @@ class LoginVC: BaseViewController,GIDSignInDelegate {
     override func viewWillAppear(_ animated: Bool) {
         NotificationCenter.default.addObserver(self, selector: #selector(LoginVC.keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(LoginVC.keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
-        GIDSignIn.sharedInstance().delegate = self
         //        GIDSignIn.sharedInstance().uiDelegate = self
     }
     
@@ -157,7 +156,7 @@ class LoginVC: BaseViewController,GIDSignInDelegate {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        GIDSignIn.sharedInstance()?.signOut()
+        GIDSignIn.sharedInstance.signOut()
         NotificationCenter.default.removeObserver(self)
         
     }
@@ -175,9 +174,31 @@ class LoginVC: BaseViewController,GIDSignInDelegate {
     }
     
     @IBAction func googleSignIN(_ sender: UIButton) {
-        GIDSignIn.sharedInstance()?.presentingViewController = self
-        GIDSignIn.sharedInstance()?.shouldFetchBasicProfile = true
-        GIDSignIn.sharedInstance()?.signIn()
+        let config = GIDConfiguration(clientID: googleClientId)
+        GIDSignIn.sharedInstance.signIn(with: config, presenting: self, hint: nil, additionalScopes: nil) {[weak self] user, error in
+            guard let self = self else{return}
+            if let error = error {
+                self.view .endEditing(true)
+                print("\(error.localizedDescription)")
+                let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "RegisterVC") as? RegisterVC
+                self.navigationController?.pushViewController(vc!, animated: false)
+            } else {
+                
+                print(user?.userID )
+                print(user?.profile?.name )
+                
+                var pictures :URL?
+                if (GIDSignIn.sharedInstance.currentUser?.profile?.hasImage ?? false) {
+                    let dimension = round(100 * UIScreen.main.scale);
+                    pictures = user?.profile?.imageURL(withDimension: UInt(dimension))
+                }
+                self.userName = user?.profile?.name ?? ""
+                self.email = user?.profile?.email ?? ""
+                self.profileUrl = pictures?.absoluteString ?? ""
+                self.soacialLogin(socialType: "Gmail")
+                        
+            }
+        }
     }
     
     @IBAction func loginAction(_ sender:UIButton) {
@@ -293,9 +314,7 @@ class LoginVC: BaseViewController,GIDSignInDelegate {
                 if fbloginresult.grantedPermissions != nil {
                     if(fbloginresult.grantedPermissions.contains("email")) {
                         if((AccessToken.current) != nil){
-                            GraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, picture.type(large), email"]).start(completionHandler: { (connection, result, error) -> Void in
-                                print(result!)
-                                
+                            GraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, picture.type(large), email"]).start { connection, result, error in
                                 if (error == nil){
                                     self.faceBookDict = result as! [String : AnyObject]
                                     print( self.faceBookDict["email"] as Any)
@@ -312,7 +331,8 @@ class LoginVC: BaseViewController,GIDSignInDelegate {
                                     self.soacialLogin(socialType: "Facebook")
                                     //print(self.dict)
                                 }
-                            })
+                            }
+                            
                         }
                     }
                 }
@@ -345,35 +365,6 @@ class LoginVC: BaseViewController,GIDSignInDelegate {
     
     }
 
-    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!,
-              withError error: Error!) {
-
-        if let error = error {
-            self.view .endEditing(true)
-            print("\(error.localizedDescription)")
-            let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "RegisterVC") as? RegisterVC
-            self.navigationController?.pushViewController(vc!, animated: false)
-        } else {
-            
-            
-            print(user.userID )
-            print(user.profile.name )
-            
-            var pictures :URL?
-            if (GIDSignIn .sharedInstance().currentUser.profile.hasImage) {
-                let dimension = round(100 * UIScreen.main.scale);
-                pictures = user.profile.imageURL(withDimension: UInt(dimension))
-            }
-            
-            userName = user.profile.name
-            email = user.profile.email
-            profileUrl = pictures?.absoluteString ?? ""
-            soacialLogin(socialType: "Gmail")
-                    
-        }
-        
-    }
-    
     func soacialLogin(socialType:String) {
         
         let postDict = ["name": userName,"email":email ,"login_type":socialType,"photo":profileUrl] as [String : Any]
