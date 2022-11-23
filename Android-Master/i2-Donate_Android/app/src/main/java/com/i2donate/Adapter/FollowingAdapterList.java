@@ -145,14 +145,19 @@ public class FollowingAdapterList extends RecyclerView.Adapter<FollowingAdapterL
                     Log.e("blike", "" + like);
                     String token_id = userDetails.get(SessionManager.KEY_token);
                     followAPI(charitylist1.get(position).getId(), like, user_id, token_id, holder);
+                    charitylist1.remove(position);
+                    notifyDataSetChanged();
+                    if(charitylist1.size()==0){
+                        mContext.finish();
+                    }
                 } else {
                     ChangeActivity.changeActivity(mContext, LoginActivity.class);
                     mContext.finish();
                 }
-                holder.follow_linear_layout.setVisibility(View.GONE);
-                holder.unfollow_linear_layout.setVisibility(View.VISIBLE);
-                holder.follow_count_tv.setText("Follow");
-                holder.unfollow_count_tv.setText("Follow");
+//                holder.follow_linear_layout.setVisibility(View.GONE);
+//                holder.unfollow_linear_layout.setVisibility(View.VISIBLE);
+//                holder.follow_count_tv.setText("Follow");
+//                holder.unfollow_count_tv.setText("Follow");
 
             }
         });
@@ -166,14 +171,15 @@ public class FollowingAdapterList extends RecyclerView.Adapter<FollowingAdapterL
                     Log.e("blike", "" + like);
                     String token_id = userDetails.get(SessionManager.KEY_token);
                     followAPI(charitylist1.get(position).getId(), like, user_id, token_id, holder);
+
                 } else {
                     ChangeActivity.changeActivity(mContext, LoginActivity.class);
                     mContext.finish();
                 }
-                holder.follow_linear_layout.setVisibility(View.VISIBLE);
-                holder.unfollow_linear_layout.setVisibility(View.GONE);
-                holder.follow_count_tv.setText("Following");
-                holder.unfollow_count_tv.setText("Following");
+//                holder.follow_linear_layout.setVisibility(View.VISIBLE);
+//                holder.unfollow_linear_layout.setVisibility(View.GONE);
+//                holder.follow_count_tv.setText("Following");
+//                holder.unfollow_count_tv.setText("Following");
             }
         });
         holder.like_linear_layout.setOnClickListener(new View.OnClickListener() {
@@ -203,6 +209,11 @@ public class FollowingAdapterList extends RecyclerView.Adapter<FollowingAdapterL
                     Log.e("disblike", "" + like);
                     String token_id = userDetails.get(SessionManager.KEY_token);
                     likeAPI(charitylist1.get(position).getId(), like, user_id, token_id, holder);
+                    charitylist1.remove(position);
+                    notifyDataSetChanged();
+                    if(charitylist1.size()==0){
+                        mContext.finish();
+                    }
                 } else {
                     ChangeActivity.changeActivity(mContext, LoginActivity.class);
                     mContext.finish();
@@ -696,17 +707,17 @@ public class FollowingAdapterList extends RecyclerView.Adapter<FollowingAdapterL
                         String data = jsonObject.getString("data");
                         JSONObject jsonObject2 = new JSONObject(data);
                         Log.e("like_count", "" + jsonObject2.getString("like_count"));
-                        holder.like_count_tv.setText(jsonObject2.getString("like_count") + " " + "Likes");
-                        holder.unlike_count_tv.setText(jsonObject2.getString("like_count") + " " + "Likes");
-                        if (like.equalsIgnoreCase("1")) {
-                            Log.e("like", "" + like);
-                            holder.unlike_linear_layout.setVisibility(View.VISIBLE);
-                            holder.like_linear_layout.setVisibility(View.GONE);
-                        } else {
-                            Log.e("dislike", "" + like);
-                            holder.unlike_linear_layout.setVisibility(View.GONE);
-                            holder.like_linear_layout.setVisibility(View.VISIBLE);
-                        }
+//                        holder.like_count_tv.setText(jsonObject2.getString("like_count") + " " + "Likes");
+//                        holder.unlike_count_tv.setText(jsonObject2.getString("like_count") + " " + "Likes");
+//                        if (like.equalsIgnoreCase("1")) {
+//                            Log.e("like", "" + like);
+//                            holder.unlike_linear_layout.setVisibility(View.VISIBLE);
+//                            holder.like_linear_layout.setVisibility(View.GONE);
+//                        } else {
+//                            Log.e("dislike", "" + like);
+//                            holder.unlike_linear_layout.setVisibility(View.GONE);
+//                            holder.like_linear_layout.setVisibility(View.VISIBLE);
+//                        }
 
 
                     }

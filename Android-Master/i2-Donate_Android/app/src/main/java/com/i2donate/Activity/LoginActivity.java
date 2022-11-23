@@ -129,6 +129,7 @@ public class LoginActivity extends AppCompatActivity implements
 //                .build();
         //finally initialize twitter with created configs
         Twitter.initialize(this);
+        FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_login);
         //  getWindow().setBackgroundDrawableResource(R.drawable.dashbord_background);
 
@@ -161,6 +162,8 @@ public class LoginActivity extends AppCompatActivity implements
         } catch (Exception e) {
             e.printStackTrace();
         }*/
+
+
     }
 
     private void requestStoragePermission() {
@@ -243,6 +246,7 @@ public class LoginActivity extends AppCompatActivity implements
         login_username = (EditText) findViewById(R.id.login_username);
         login_password = (EditText) findViewById(R.id.login_password);
         facebook_login = (ImageView) findViewById(R.id.facebook_login);
+
         facebook_login_btn = (LoginButton) findViewById(R.id.facebook_login_btn);
         email_layout_input = (TextInputLayout) findViewById(R.id.email_layout_input);
         twitter_login = (ImageView) findViewById(R.id.twitter_login);
@@ -322,8 +326,32 @@ public class LoginActivity extends AppCompatActivity implements
 
             @Override
             public void onError(FacebookException exception) {
-                Log.e("click", "click");
+                Log.e("click", "click"+exception);
                 // App code
+            }
+        });
+
+
+        facebook_login_btn.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+            @Override
+            public void onSuccess(LoginResult loginResult) {
+                Log.e(TAG, "onSuccess: "+"Login Success \n" +
+                        "User ID: " + loginResult.getAccessToken().getUserId() + "\n" +
+                        "Access Token: " + loginResult.getAccessToken().getToken() );
+//                tvStatus.setText("Login Success \n" +
+//                        "User ID: " + loginResult.getAccessToken().getUserId() + "\n" +
+//                        "Access Token: " + loginResult.getAccessToken().getToken());
+            }
+
+            @Override
+            public void onCancel() {
+                Log.e(TAG, "onCancel: " );
+//                tvStatus.setText("Login cancelled");
+            }
+
+            @Override
+            public void onError(FacebookException e) {
+                Log.e(TAG, "onError: "+e );
             }
         });
 
@@ -367,6 +395,7 @@ public class LoginActivity extends AppCompatActivity implements
 
             }
         });
+
         login_password.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {

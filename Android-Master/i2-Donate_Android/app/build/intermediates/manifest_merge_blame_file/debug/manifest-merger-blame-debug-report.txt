@@ -6,874 +6,883 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
-8-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="27" />
-9-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+8-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
 10
 11    <supports-screens
-11-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:6:5-11:40
+11-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:6:5-11:40
 12        android:anyDensity="true"
-12-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:7:9-34
+12-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:7:9-34
 13        android:largeScreens="true"
-13-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:8:9-36
+13-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:8:9-36
 14        android:normalScreens="true"
-14-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:9:9-37
+14-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:9:9-37
 15        android:smallScreens="true"
-15-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:10:9-36
+15-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:10:9-36
 16        android:xlargeScreens="true" />
-16-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:11:9-37
+16-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:11:9-37
 17
 18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-18-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:13:5-82
-18-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:13:22-79
+18-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:13:5-82
+18-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:13:22-79
 19    <uses-permission android:name="android.permission.WAKE_LOCK" />
-19-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:14:5-68
-19-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:14:22-65
+19-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:14:5-68
+19-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:14:22-65
 20
 21    <permission
-21-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:16:5-18:47
+21-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:16:5-18:47
 22        android:name="com.kuliza.taxi.permission.MAPS_RECEIVE"
-22-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:17:9-63
+22-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:17:9-63
 23        android:protectionLevel="signature" />
-23-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:18:9-44
+23-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:18:9-44
 24
 25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-25-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:20:5-75
-25-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:20:22-72
+25-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:20:5-75
+25-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:20:22-72
 26    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-26-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:21:5-98
-26-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:21:22-95
+26-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:21:5-98
+26-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:21:22-95
 27    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-27-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:22:5-81
-27-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:22:22-78
+27-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:22:5-81
+27-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:22:22-78
 28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-28-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:23:5-79
-28-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:23:22-76
+28-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:23:5-79
+28-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:23:22-76
 29    <uses-permission android:name="android.permission.INTERNET" />
-29-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:24:5-67
-29-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:24:22-64
+29-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:24:5-67
+29-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:24:22-64
 30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-30-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:25:5-79
-30-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:25:22-76
+30-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:25:5-79
+30-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:25:22-76
 31    <uses-permission android:name="android.permission.RECORD_VIDEO" />
-31-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:26:5-71
-31-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:26:22-68
+31-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:26:5-71
+31-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:26:22-68
 32    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-32-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:27:5-71
-32-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:27:22-68
+32-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:27:5-71
+32-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:27:22-68
 33    <uses-permission android:name="android.permission.CAMERA" />
-33-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:28:5-65
-33-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:28:22-62
+33-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:28:5-65
+33-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:28:22-62
 34    <uses-permission android:name="android.permission.CALL_PHONE" />
-34-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:29:5-69
-34-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:29:22-66
+34-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:29:5-69
+34-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:29:22-66
 35    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-35-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:30:5-80
-35-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:30:22-77
+35-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:30:5-80
+35-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:30:22-77
 36    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-36-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:31:5-81
-36-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:31:22-78
+36-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:31:5-81
+36-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:31:22-78
 37    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-37-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:20:5-75
-37-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:20:22-72
+37-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:20:5-75
+37-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:20:22-72
 38
 39    <uses-feature
-39-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:34:5-36:35
+39-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:34:5-36:35
 40        android:name="android.hardware.camera.any"
-40-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:35:9-51
+40-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:35:9-51
 41        android:required="true" />
-41-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:36:9-32
+41-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:36:9-32
 42    <uses-feature
-42-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:37:5-39:36
+42-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:37:5-39:36
 43        android:name="android.hardware.camera.autofocus"
-43-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:38:9-57
+43-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:38:9-57
 44        android:required="false" />
-44-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:39:9-33
+44-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:39:9-33
 45
 46    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-46-->[com.google.android.libraries.places:places:2.6.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:10:5-76
-46-->[com.google.android.libraries.places:places:2.6.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:10:22-73
+46-->[com.google.android.libraries.places:places:2.6.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:10:5-76
+46-->[com.google.android.libraries.places:places:2.6.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:10:22-73
 47
 48    <queries>
-48-->[com.facebook.android:facebook-common:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721f0387461fe0e561fbf311f43406be\jetified-facebook-common-15.0.2\AndroidManifest.xml:29:5-31:15
+48-->[com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:17:5-19:15
 49        <package android:name="com.facebook.katana" />
-49-->[com.facebook.android:facebook-common:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721f0387461fe0e561fbf311f43406be\jetified-facebook-common-15.0.2\AndroidManifest.xml:30:9-55
-49-->[com.facebook.android:facebook-common:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721f0387461fe0e561fbf311f43406be\jetified-facebook-common-15.0.2\AndroidManifest.xml:30:18-52
+49-->[com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:18:9-55
+49-->[com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:18:18-52
 50        <!-- Needs to be explicitly declared on Android R+ -->
 51        <package android:name="com.google.android.apps.maps" />
-51-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
-51-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+51-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+51-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
 52    </queries>
 53
 54    <uses-feature
-54-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+54-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
 55        android:glEsVersion="0x00020000"
-55-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+55-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
 56        android:required="true" />
-56-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+56-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
 57
 58    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-58-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\41d9923d84b3f6bd4ce32222c180bb5d\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:25:5-79
-58-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\41d9923d84b3f6bd4ce32222c180bb5d\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:25:22-76
+58-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\41d9923d84b3f6bd4ce32222c180bb5d\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:25:5-79
+58-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\41d9923d84b3f6bd4ce32222c180bb5d\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:25:22-76
 59    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-59-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:26:5-110
-59-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:26:22-107
+59-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:26:5-110
+59-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:26:22-107
 60
 61    <application
-61-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:41:5-227:19
+61-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:41:5-231:19
 62        android:name="com.i2donate.Interwork.MyApplication"
-62-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:42:9-48
+62-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:42:9-48
 63        android:allowBackup="true"
-63-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:43:9-35
+63-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:43:9-35
 64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-64-->[androidx.core:core:1.8.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\194cc394bb73df96cc429cda71e744ee\core-1.8.0\AndroidManifest.xml:24:18-86
+64-->[androidx.core:core:1.8.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\194cc394bb73df96cc429cda71e744ee\core-1.8.0\AndroidManifest.xml:24:18-86
 65        android:debuggable="true"
 66        android:exported="false"
-66-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:44:9-33
+66-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:44:9-33
 67        android:extractNativeLibs="false"
 68        android:fullBackupContent="false"
-68-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:45:9-42
+68-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:45:9-42
 69        android:grantUriPermissions="true"
-69-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:46:9-43
+69-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:46:9-43
 70        android:hardwareAccelerated="false"
-70-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:47:9-44
+70-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:47:9-44
 71        android:icon="@mipmap/ic_launcher"
-71-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:48:9-43
+71-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:48:9-43
 72        android:label="@string/app_name"
-72-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:49:9-41
+72-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:49:9-41
 73        android:largeHeap="true"
-73-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:50:9-33
+73-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:50:9-33
 74        android:roundIcon="@mipmap/ic_launcher"
-74-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:51:9-48
+74-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:51:9-48
 75        android:supportsRtl="true"
-75-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:52:9-35
+75-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:52:9-35
 76        android:testOnly="true"
 77        android:theme="@style/ChatBackground"
-77-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:53:9-46
+77-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:53:9-46
 78        android:usesCleartextTraffic="true"
-78-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:54:9-44
+78-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:54:9-44
 79        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
-79-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:55:9-69
+79-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:55:9-69
 80        <activity android:name="com.i2donate.Activity.PrivactPolicyActivity" />
-80-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:57:9-77
-80-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:57:19-65
+80-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:57:9-77
+80-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:57:19-65
 81        <activity
-81-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:58:9-69:20
+81-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:58:9-70:20
 82            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
-82-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:59:13-84
-83            android:launchMode="singleTask" >
-83-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:60:13-44
-84            <intent-filter>
-84-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:61:13-68:29
-85                <action android:name="android.intent.action.VIEW" />
-85-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:62:17-69
-85-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:62:25-66
-86
-87                <category android:name="android.intent.category.DEFAULT" />
-87-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:64:17-76
-87-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:64:27-73
-88                <category android:name="android.intent.category.BROWSABLE" />
-88-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:17-78
-88-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:27-75
-89
-90                <data android:scheme="com.i2donate.braintree" />
-90-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:67:23-66
-91            </intent-filter>
-92        </activity>
-93        <activity android:name="com.i2donate.Activity.BrainTreePaymentActivity" />
-93-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:70:9-71
-93-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:70:19-68
-94        <activity android:name="com.i2donate.Activity.PrivacyPolicyActivity" />
-94-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:71:9-68
-94-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:71:19-65
-95        <activity android:name="com.i2donate.Activity.TermsAndConditionActivity" />
-95-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:72:9-72
-95-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:72:19-69
-96        <activity android:name="com.i2donate.Activity.NewtypesActivity" />
-96-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:73:9-63
-96-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:73:19-60
-97
-98        <meta-data
-98-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:75:9-77:37
-99            android:name="firebase_crashlytics_collection_enabled"
-99-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:76:13-67
-100            android:value="false" />
-100-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:77:13-34
-101
-102        <service
-102-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:79:9-85:19
-103            android:name="com.i2donate.Notification.fcm.MyFirebaseMessagingService"
-103-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:80:13-72
-104            android:exported="false" >
-104-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:81:13-37
-105            <intent-filter>
-105-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:82:13-84:29
-106                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-106-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:83:17-78
-106-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:83:25-75
-107            </intent-filter>
-108        </service>
-109
-110        <receiver android:name="com.i2donate.Notification.fcm.OnBootBroadcastReceiver" >
-110-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:87:9-91:20
-110-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:87:19-75
-111            <intent-filter>
-111-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:88:13-90:29
-112                <action android:name="android.intent.action.BOOT_COMPLETED" />
-112-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:89:17-79
-112-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:89:25-76
-113            </intent-filter>
-114        </receiver>
-115
-116        <activity android:name="com.i2donate.Activity.ConfirmationActivity" />
-116-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:93:9-67
-116-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:93:19-64
-117        <activity android:name="com.i2donate.Activity.AnnualRevenueActivity" />
-117-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:94:9-68
-117-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:94:19-65
-118        <activity android:name="com.i2donate.Activity.TitleSubTitleActivity" />
-118-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:95:9-68
-118-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:95:19-65
-119        <activity android:name="com.i2donate.Activity.SubCategoryActivity" />
-119-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:96:9-66
-119-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:96:19-63
-120        <activity android:name="com.i2donate.Activity.AdvanceCompletedActivity" />
-120-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:97:9-71
-120-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:97:19-68
-121        <activity android:name="com.i2donate.Activity.PaymentSuccessActivity" />
-121-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:98:9-69
-121-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:98:19-66
-122        <activity android:name="com.i2donate.Activity.SelectPaymentActivity" />
-122-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:99:9-68
-122-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:99:19-65
-123        <activity android:name="com.i2donate.Activity.ChangePasswordActivity" />
-123-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:100:9-69
-123-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:100:19-66
-124        <activity
-124-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:101:9-103:76
-125            android:name="com.i2donate.Activity.OtpActivity"
-125-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:102:13-49
-126            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-126-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:103:13-73
-127        <activity android:name="com.i2donate.Activity.ForgotActivity" />
-127-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:104:9-61
-127-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:104:19-58
-128        <activity android:name="com.i2donate.Activity.AdvanceSearchActivity" />
-128-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:105:9-68
-128-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:105:19-65
-129        <activity
-129-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:106:9-108:53
-130            android:name="com.i2donate.Activity.AdavanceSearchUIDesign"
-130-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:107:13-60
-131            android:theme="@style/adavance_theme" />
-131-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:108:13-50
-132        <activity android:name="com.i2donate.Activity.AdavanceSearch_new" />
-132-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:109:9-65
-132-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:109:19-62
-133        <activity android:name="com.i2donate.Activity.HelpSupportActivity" />
-133-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:110:9-66
-133-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:110:19-63
-134        <activity android:name="com.i2donate.Activity.AboutActivity" />
-134-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:111:9-60
-134-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:111:19-57
-135        <activity android:name="com.i2donate.Activity.InternationalCharitiesActivity" />
-135-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:112:9-77
-135-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:112:19-74
-136        <activity android:name="com.i2donate.Activity.PlaceSearchActivity" />
-136-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:113:9-66
-136-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:113:19-63
-137        <activity android:name="com.i2donate.Activity.AutosearchActivity" />
-137-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:114:9-65
-137-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:114:19-62
-138        <!--
-139             The API key for Google Maps-based APIs is defined as a string resource.
-140             (See the file "res/values/google_maps_api.xml").
-141             Note that the API key is linked to the encryption key used to sign the APK.
-142             You need a different API key for each encryption key, including the release key that is used to
-143             sign the APK for publishing.
-144             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-145        -->
-146        <!--
-147   <meta-data
-148            android:name="com.google.android.geo.API_KEY"
-149            android:value="AIzaSyDwyL_q0Z9StsO0xYL_7qR7_ZIeW85I110" />
-150        -->
-151        <activity android:name="com.i2donate.Activity.UpdateActivity" />
-151-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:128:9-61
-151-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:128:19-58
-152        <activity android:name="com.i2donate.Activity.AdvanceSearch1Activity" />
-152-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:129:9-69
-152-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:129:19-66
-153        <activity
-153-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:130:9-132:58
-154            android:name="com.i2donate.Activity.WelcomeActivity"
-154-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:131:13-53
-155            android:theme="@style/inter_splash_screen" />
-155-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:132:13-55
+82-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:59:13-84
+83            android:exported="true"
+83-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:61:13-36
+84            android:launchMode="singleTask" >
+84-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:60:13-44
+85            <intent-filter>
+85-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:62:13-69:29
+86                <action android:name="android.intent.action.VIEW" />
+86-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:63:17-69
+86-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:63:25-66
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:17-76
+88-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:27-73
+89                <category android:name="android.intent.category.BROWSABLE" />
+89-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:66:17-78
+89-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:66:27-75
+90
+91                <data android:scheme="com.i2donate.braintree" />
+91-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:68:23-66
+92            </intent-filter>
+93        </activity>
+94        <activity android:name="com.i2donate.Activity.BrainTreePaymentActivity" />
+94-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:71:9-71
+94-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:71:19-68
+95        <activity android:name="com.i2donate.Activity.PrivacyPolicyActivity" />
+95-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:72:9-68
+95-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:72:19-65
+96        <activity android:name="com.i2donate.Activity.TermsAndConditionActivity" />
+96-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:73:9-72
+96-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:73:19-69
+97        <activity android:name="com.i2donate.Activity.NewtypesActivity" />
+97-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:74:9-63
+97-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:74:19-60
+98
+99        <meta-data
+99-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:76:9-78:37
+100            android:name="firebase_crashlytics_collection_enabled"
+100-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:77:13-67
+101            android:value="false" />
+101-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:78:13-34
+102
+103        <service
+103-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:80:9-86:19
+104            android:name="com.i2donate.Notification.fcm.MyFirebaseMessagingService"
+104-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:81:13-72
+105            android:exported="false" >
+105-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:82:13-37
+106            <intent-filter>
+106-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:83:13-85:29
+107                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+107-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:84:17-78
+107-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:84:25-75
+108            </intent-filter>
+109        </service>
+110
+111        <receiver
+111-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:88:9-93:20
+112            android:name="com.i2donate.Notification.fcm.OnBootBroadcastReceiver"
+112-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:88:19-75
+113            android:exported="false" >
+113-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:89:13-37
+114            <intent-filter>
+114-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:90:13-92:29
+115                <action android:name="android.intent.action.BOOT_COMPLETED" />
+115-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:91:17-79
+115-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:91:25-76
+116            </intent-filter>
+117        </receiver>
+118
+119        <activity android:name="com.i2donate.Activity.ConfirmationActivity" />
+119-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:95:9-67
+119-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:95:19-64
+120        <activity android:name="com.i2donate.Activity.AnnualRevenueActivity" />
+120-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:96:9-68
+120-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:96:19-65
+121        <activity android:name="com.i2donate.Activity.TitleSubTitleActivity" />
+121-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:97:9-68
+121-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:97:19-65
+122        <activity android:name="com.i2donate.Activity.SubCategoryActivity" />
+122-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:98:9-66
+122-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:98:19-63
+123        <activity android:name="com.i2donate.Activity.AdvanceCompletedActivity" />
+123-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:99:9-71
+123-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:99:19-68
+124        <activity android:name="com.i2donate.Activity.PaymentSuccessActivity" />
+124-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:100:9-69
+124-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:100:19-66
+125        <activity android:name="com.i2donate.Activity.SelectPaymentActivity" />
+125-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:101:9-68
+125-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:101:19-65
+126        <activity android:name="com.i2donate.Activity.ChangePasswordActivity" />
+126-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:102:9-69
+126-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:102:19-66
+127        <activity
+127-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:103:9-105:76
+128            android:name="com.i2donate.Activity.OtpActivity"
+128-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:104:13-49
+129            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+129-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:105:13-73
+130        <activity android:name="com.i2donate.Activity.ForgotActivity" />
+130-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:106:9-61
+130-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:106:19-58
+131        <activity android:name="com.i2donate.Activity.AdvanceSearchActivity" />
+131-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:107:9-68
+131-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:107:19-65
+132        <activity
+132-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:108:9-110:53
+133            android:name="com.i2donate.Activity.AdavanceSearchUIDesign"
+133-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:109:13-60
+134            android:theme="@style/adavance_theme" />
+134-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:110:13-50
+135        <activity android:name="com.i2donate.Activity.AdavanceSearch_new" />
+135-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:111:9-65
+135-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:111:19-62
+136        <activity android:name="com.i2donate.Activity.HelpSupportActivity" />
+136-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:112:9-66
+136-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:112:19-63
+137        <activity android:name="com.i2donate.Activity.AboutActivity" />
+137-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:113:9-60
+137-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:113:19-57
+138        <activity android:name="com.i2donate.Activity.InternationalCharitiesActivity" />
+138-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:114:9-77
+138-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:114:19-74
+139        <activity android:name="com.i2donate.Activity.PlaceSearchActivity" />
+139-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:115:9-66
+139-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:115:19-63
+140        <activity android:name="com.i2donate.Activity.AutosearchActivity" />
+140-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:116:9-65
+140-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:116:19-62
+141        <!--
+142             The API key for Google Maps-based APIs is defined as a string resource.
+143             (See the file "res/values/google_maps_api.xml").
+144             Note that the API key is linked to the encryption key used to sign the APK.
+145             You need a different API key for each encryption key, including the release key that is used to
+146             sign the APK for publishing.
+147             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+148        -->
+149        <!--
+150   <meta-data
+151            android:name="com.google.android.geo.API_KEY"
+152            android:value="AIzaSyDwyL_q0Z9StsO0xYL_7qR7_ZIeW85I110" />
+153        -->
+154        <activity android:name="com.i2donate.Activity.UpdateActivity" />
+154-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:130:9-61
+154-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:130:19-58
+155        <activity android:name="com.i2donate.Activity.AdvanceSearch1Activity" />
+155-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:131:9-69
+155-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:131:19-66
 156        <activity
-156-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:133:9-135:76
-157            android:name="com.i2donate.Activity.UnitedStateDetailsActivity"
-157-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:134:13-64
-158            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-158-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:135:13-73
+156-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:132:9-134:58
+157            android:name="com.i2donate.Activity.WelcomeActivity"
+157-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:133:13-53
+158            android:theme="@style/inter_splash_screen" />
+158-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:134:13-55
 159        <activity
-159-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:136:9-138:48
-160            android:name="com.i2donate.Activity.SettingActivity"
-160-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:137:13-53
-161            android:theme="@style/AppTheme1" />
-161-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:138:13-45
-162        <activity android:name="com.i2donate.Activity.NotificationActivity" />
-162-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:139:9-67
-162-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:139:19-64
-163        <activity android:name="com.i2donate.Activity.FollowingActivity" />
-163-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:140:9-64
-163-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:140:19-61
-164        <activity android:name="com.i2donate.Activity.TypesActivity" />
-164-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:141:9-60
-164-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:141:19-57
-165        <activity
-165-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:142:9-145:76
-166            android:name="com.i2donate.Activity.NameSearchActivity"
-166-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:143:13-56
-167            android:theme="@style/ChatBackground"
-167-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:144:13-50
-168            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-168-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:145:13-73
-169        <activity
-169-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:146:9-148:67
-170            android:name="com.i2donate.Activity.UnitedStateActivity"
-170-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:147:13-57
-171            android:windowSoftInputMode="adjustPan|stateHidden" />
-171-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:148:13-64
+159-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:135:9-137:76
+160            android:name="com.i2donate.Activity.UnitedStateDetailsActivity"
+160-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:136:13-64
+161            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+161-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:137:13-73
+162        <activity
+162-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:138:9-140:48
+163            android:name="com.i2donate.Activity.SettingActivity"
+163-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:139:13-53
+164            android:theme="@style/AppTheme1" />
+164-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:140:13-45
+165        <activity android:name="com.i2donate.Activity.NotificationActivity" />
+165-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:141:9-67
+165-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:141:19-64
+166        <activity android:name="com.i2donate.Activity.FollowingActivity" />
+166-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:142:9-64
+166-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:142:19-61
+167        <activity android:name="com.i2donate.Activity.TypesActivity" />
+167-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:143:9-60
+167-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:143:19-57
+168        <activity
+168-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:144:9-147:76
+169            android:name="com.i2donate.Activity.NameSearchActivity"
+169-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:145:13-56
+170            android:theme="@style/ChatBackground"
+170-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:146:13-50
+171            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+171-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:147:13-73
 172        <activity
-172-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:149:9-152:76
-173            android:name="com.i2donate.CommonActivity.CommonBackActivity"
-173-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:150:13-62
-174            android:theme="@style/ChatBackground"
-174-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:151:13-50
-175            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-175-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:152:13-73
-176        <activity android:name="com.i2donate.Activity.RegisterActivity" />
-176-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:153:9-63
-176-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:153:19-60
-177        <activity
-177-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:154:9-157:48
-178            android:name="com.facebook.FacebookActivity"
-178-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:155:13-57
-179            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-179-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:156:13-96
-180            android:label="@string/app_name"
-180-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:157:13-45
-181            android:theme="@style/com_facebook_activity_theme" />
-181-->[com.facebook.android:facebook-common:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721f0387461fe0e561fbf311f43406be\jetified-facebook-common-15.0.2\AndroidManifest.xml:37:13-63
-182        <activity
-182-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:158:9-169:20
-183            android:name="com.facebook.CustomTabActivity"
-183-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:159:13-58
-184            android:exported="true" >
-184-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:160:13-36
-185            <intent-filter>
-185-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:161:13-168:29
-186                <action android:name="android.intent.action.VIEW" />
-186-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:62:17-69
-186-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:62:25-66
-187
-188                <category android:name="android.intent.category.DEFAULT" />
-188-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:64:17-76
-188-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:64:27-73
-189                <category android:name="android.intent.category.BROWSABLE" />
-189-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:17-78
-189-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:27-75
+172-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:148:9-150:67
+173            android:name="com.i2donate.Activity.UnitedStateActivity"
+173-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:149:13-57
+174            android:windowSoftInputMode="adjustPan|stateHidden" />
+174-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:150:13-64
+175        <activity
+175-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:151:9-154:76
+176            android:name="com.i2donate.CommonActivity.CommonBackActivity"
+176-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:152:13-62
+177            android:theme="@style/ChatBackground"
+177-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:153:13-50
+178            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+178-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:154:13-73
+179        <activity android:name="com.i2donate.Activity.RegisterActivity" />
+179-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:155:9-63
+179-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:155:19-60
+180        <activity
+180-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:156:9-159:48
+181            android:name="com.facebook.FacebookActivity"
+181-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:157:13-57
+182            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+182-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:158:13-96
+183            android:label="@string/app_name"
+183-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:159:13-45
+184            android:theme="@style/com_facebook_activity_theme" />
+184-->[com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:25:13-63
+185        <activity
+185-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:160:9-171:20
+186            android:name="com.facebook.CustomTabActivity"
+186-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:161:13-58
+187            android:exported="true" >
+187-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:162:13-36
+188            <intent-filter>
+188-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:163:13-170:29
+189                <action android:name="android.intent.action.VIEW" />
+189-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:63:17-69
+189-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:63:25-66
 190
-191                <data android:scheme="@string/fb_login_protocol_scheme" />
-191-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:67:23-66
-192            </intent-filter>
-193            <intent-filter>
-193-->[com.facebook.android:facebook-common:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721f0387461fe0e561fbf311f43406be\jetified-facebook-common-15.0.2\AndroidManifest.xml:43:13-52:29
-194                <action android:name="android.intent.action.VIEW" />
-194-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:62:17-69
-194-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:62:25-66
-195
-196                <category android:name="android.intent.category.DEFAULT" />
-196-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:64:17-76
-196-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:64:27-73
-197                <category android:name="android.intent.category.BROWSABLE" />
-197-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:17-78
-197-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:27-75
+191                <category android:name="android.intent.category.DEFAULT" />
+191-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:17-76
+191-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:27-73
+192                <category android:name="android.intent.category.BROWSABLE" />
+192-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:66:17-78
+192-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:66:27-75
+193
+194                <data android:scheme="@string/fb_login_protocol_scheme" />
+194-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:68:23-66
+195            </intent-filter>
+196            <intent-filter>
+196-->[com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:31:13-40:29
+197                <action android:name="android.intent.action.VIEW" />
+197-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:63:17-69
+197-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:63:25-66
 198
-199                <data
-200                    android:host="cct.com.i2donate"
-201                    android:scheme="fbconnect" />
-201-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:67:23-66
-202            </intent-filter>
-203        </activity> <!-- facebooklogin -->
-204        <activity
-204-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:170:9-173:76
-205            android:name="com.i2donate.Activity.LoginActivity"
-205-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:171:13-51
-206            android:theme="@style/ChatBackground"
-206-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:172:13-50
-207            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
-207-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:173:13-73
-208        <activity
-208-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:174:9-182:20
-209            android:name="com.i2donate.Activity.SplashScreenActivity"
-209-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:175:13-58
-210            android:theme="@style/inter_splash_screen" >
-210-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:176:13-55
-211            <intent-filter>
-211-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:177:13-181:29
-212                <action android:name="android.intent.action.MAIN" />
-212-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:178:17-69
-212-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:178:25-66
-213
-214                <category android:name="android.intent.category.LAUNCHER" />
-214-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:180:17-77
-214-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:180:27-74
-215            </intent-filter>
-216        </activity>
-217        <activity android:name="com.i2donate.Activity.MyspaceActivity" />
-217-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:183:9-62
-217-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:183:19-59
-218        <activity android:name="com.i2donate.CommonActivity.CommonMenuActivity" />
-218-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:184:9-71
-218-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:184:19-68
-219        <activity
-219-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:185:9-187:58
-220            android:name="com.i2donate.Activity.BrowseActivity"
-220-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:186:13-52
-221            android:windowSoftInputMode="adjustResize" />
-221-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:187:13-55
-222
-223        <meta-data
-223-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:189:9-191:71
-224            android:name="com.google.android.geo.API_KEY"
-224-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:190:13-58
-225            android:value="AIzaSyDfOZf_bITlewuOVvnVICvjQ70VdFHmR2Q" />
-225-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:191:13-68
-226        <meta-data
-226-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:192:9-194:69
-227            android:name="com.google.android.gms.version"
-227-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:193:13-58
-228            android:value="@integer/google_play_services_version" />
-228-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:194:13-66
-229
-230        <!-- <meta-data -->
-231        <!-- android:name="com.facebook.sdk.ApplicationId" -->
-232        <!-- android:value="@string/facebook_app_id" /> -->
+199                <category android:name="android.intent.category.DEFAULT" />
+199-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:17-76
+199-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:27-73
+200                <category android:name="android.intent.category.BROWSABLE" />
+200-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:66:17-78
+200-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:66:27-75
+201
+202                <data
+203                    android:host="cct.com.i2donate"
+204                    android:scheme="fbconnect" />
+204-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:68:23-66
+205            </intent-filter>
+206        </activity> <!-- facebooklogin -->
+207        <activity
+207-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:172:9-175:76
+208            android:name="com.i2donate.Activity.LoginActivity"
+208-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:173:13-51
+209            android:theme="@style/ChatBackground"
+209-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:174:13-50
+210            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+210-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:175:13-73
+211        <activity
+211-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:176:9-185:20
+212            android:name="com.i2donate.Activity.SplashScreenActivity"
+212-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:177:13-58
+213            android:exported="true"
+213-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:179:13-36
+214            android:theme="@style/inter_splash_screen" >
+214-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:178:13-55
+215            <intent-filter>
+215-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:180:13-184:29
+216                <action android:name="android.intent.action.MAIN" />
+216-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:181:17-69
+216-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:181:25-66
+217
+218                <category android:name="android.intent.category.LAUNCHER" />
+218-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:183:17-77
+218-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:183:27-74
+219            </intent-filter>
+220        </activity>
+221        <activity android:name="com.i2donate.Activity.MyspaceActivity" />
+221-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:186:9-62
+221-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:186:19-59
+222        <activity android:name="com.i2donate.CommonActivity.CommonMenuActivity" />
+222-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:187:9-71
+222-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:187:19-68
+223        <activity
+223-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:188:9-190:58
+224            android:name="com.i2donate.Activity.BrowseActivity"
+224-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:189:13-52
+225            android:windowSoftInputMode="adjustResize" />
+225-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:190:13-55
+226
+227        <meta-data
+227-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:192:9-194:71
+228            android:name="com.google.android.geo.API_KEY"
+228-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:193:13-58
+229            android:value="AIzaSyDfOZf_bITlewuOVvnVICvjQ70VdFHmR2Q" />
+229-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:194:13-68
+230        <meta-data
+230-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:195:9-197:69
+231            android:name="com.google.android.gms.version"
+231-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:196:13-58
+232            android:value="@integer/google_play_services_version" />
+232-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:197:13-66
 233
-234        <meta-data
-234-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:200:9-107
-235            android:name="com.facebook.sdk.ApplicationId"
-235-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:200:20-65
-236            android:value="@string/facebook_app_id" />
-236-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:200:66-105
-237        <meta-data
-237-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:201:9-111
-238            android:name="com.facebook.sdk.ClientToken"
-238-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:201:20-63
-239            android:value="@string/facebook_client_token" />
-239-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:201:64-109
-240
-241        <receiver
-241-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:203:9-209:20
-242            android:name="com.i2donate.Interwork.ConnectivityReceiver"
-242-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:204:13-59
-243            android:enabled="true" >
-243-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:205:13-35
-244            <intent-filter>
-244-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:206:13-208:29
-245                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-245-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:207:17-79
-245-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:207:25-76
-246            </intent-filter>
-247        </receiver>
-248
-249        <meta-data
-249-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:211:9-213:57
-250            android:name="com.google.firebase.messaging.default_notification_icon"
-250-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:212:13-83
-251            android:resource="@drawable/idonate_logo" />
-251-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:213:13-54
-252        <!--
-253 Set color used with incoming notification messages. This is used when no color is set for the incoming
-254             notification message. See README(https://goo.gl/6BKBk7) for more.
-255        -->
-256        <meta-data
-256-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:218:9-220:53
-257            android:name="com.google.firebase.messaging.default_notification_color"
-257-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:219:13-84
-258            android:resource="@color/colorAccent" />
-258-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:220:13-50
-259        <meta-data
-259-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:221:9-223:37
-260            android:name="firebase_messaging_auto_init_enabled"
-260-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:222:13-64
-261            android:value="false" />
-261-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:223:13-34
-262        <meta-data
-262-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:224:9-226:37
-263            android:name="firebase_analytics_collection_enabled"
-263-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:225:13-65
-264            android:value="false" />
-264-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:226:13-34
-265
-266        <activity
-266-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7a2abaaa36e9d00b6f818d9d1c68a678\jetified-tweet-ui-3.1.1\AndroidManifest.xml:28:9-31:49
-267            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
-267-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7a2abaaa36e9d00b6f818d9d1c68a678\jetified-tweet-ui-3.1.1\AndroidManifest.xml:29:13-74
-268            android:configChanges="keyboardHidden|orientation|screenSize"
-268-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7a2abaaa36e9d00b6f818d9d1c68a678\jetified-tweet-ui-3.1.1\AndroidManifest.xml:30:13-74
-269            android:theme="@style/MediaTheme" />
-269-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7a2abaaa36e9d00b6f818d9d1c68a678\jetified-tweet-ui-3.1.1\AndroidManifest.xml:31:13-46
-270        <activity
-270-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7a2abaaa36e9d00b6f818d9d1c68a678\jetified-tweet-ui-3.1.1\AndroidManifest.xml:32:9-34:49
-271            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
-271-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7a2abaaa36e9d00b6f818d9d1c68a678\jetified-tweet-ui-3.1.1\AndroidManifest.xml:33:13-75
-272            android:theme="@style/MediaTheme" />
-272-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\7a2abaaa36e9d00b6f818d9d1c68a678\jetified-tweet-ui-3.1.1\AndroidManifest.xml:34:13-46
-273        <activity
-273-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:28:9-31:71
-274            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
-274-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:29:13-82
-275            android:exported="false"
-275-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:30:13-37
-276            android:windowSoftInputMode="adjustResize|stateVisible" />
-276-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:31:13-68
-277
-278        <service
-278-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:33:9-36:40
-279            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
-279-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:34:13-84
-280            android:enabled="true"
-280-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:35:13-35
-281            android:exported="false" />
-281-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:36:13-37
+234        <!-- <meta-data -->
+235        <!-- android:name="com.facebook.sdk.ApplicationId" -->
+236        <!-- android:value="@string/facebook_app_id" /> -->
+237
+238        <meta-data
+238-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:203:9-107
+239            android:name="com.facebook.sdk.ApplicationId"
+239-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:203:20-65
+240            android:value="@string/facebook_app_id" />
+240-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:203:66-105
+241        <meta-data
+241-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:204:9-111
+242            android:name="com.facebook.sdk.ClientToken"
+242-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:204:20-63
+243            android:value="@string/facebook_client_token" />
+243-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:204:64-109
+244
+245        <receiver
+245-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:206:9-213:20
+246            android:name="com.i2donate.Interwork.ConnectivityReceiver"
+246-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:207:13-59
+247            android:enabled="true"
+247-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:208:13-35
+248            android:exported="false" >
+248-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:209:13-37
+249            <intent-filter>
+249-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:210:13-212:29
+250                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+250-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:211:17-79
+250-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:211:25-76
+251            </intent-filter>
+252        </receiver>
+253
+254        <meta-data
+254-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:215:9-217:57
+255            android:name="com.google.firebase.messaging.default_notification_icon"
+255-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:216:13-83
+256            android:resource="@drawable/idonate_logo" />
+256-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:217:13-54
+257        <!--
+258 Set color used with incoming notification messages. This is used when no color is set for the incoming
+259             notification message. See README(https://goo.gl/6BKBk7) for more.
+260        -->
+261        <meta-data
+261-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:222:9-224:53
+262            android:name="com.google.firebase.messaging.default_notification_color"
+262-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:223:13-84
+263            android:resource="@color/colorAccent" />
+263-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:224:13-50
+264        <meta-data
+264-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:225:9-227:37
+265            android:name="firebase_messaging_auto_init_enabled"
+265-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:226:13-64
+266            android:value="false" />
+266-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:227:13-34
+267        <meta-data
+267-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:228:9-230:37
+268            android:name="firebase_analytics_collection_enabled"
+268-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:229:13-65
+269            android:value="false" />
+269-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:230:13-34
+270
+271        <activity
+271-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\6c500f608307e1db0ac85fd139552eec\jetified-tweet-ui-3.1.1\AndroidManifest.xml:28:9-31:49
+272            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
+272-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\6c500f608307e1db0ac85fd139552eec\jetified-tweet-ui-3.1.1\AndroidManifest.xml:29:13-74
+273            android:configChanges="keyboardHidden|orientation|screenSize"
+273-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\6c500f608307e1db0ac85fd139552eec\jetified-tweet-ui-3.1.1\AndroidManifest.xml:30:13-74
+274            android:theme="@style/MediaTheme" />
+274-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\6c500f608307e1db0ac85fd139552eec\jetified-tweet-ui-3.1.1\AndroidManifest.xml:31:13-46
+275        <activity
+275-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\6c500f608307e1db0ac85fd139552eec\jetified-tweet-ui-3.1.1\AndroidManifest.xml:32:9-34:49
+276            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
+276-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\6c500f608307e1db0ac85fd139552eec\jetified-tweet-ui-3.1.1\AndroidManifest.xml:33:13-75
+277            android:theme="@style/MediaTheme" />
+277-->[com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\6c500f608307e1db0ac85fd139552eec\jetified-tweet-ui-3.1.1\AndroidManifest.xml:34:13-46
+278        <activity
+278-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:28:9-31:71
+279            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
+279-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:29:13-82
+280            android:exported="false"
+280-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:30:13-37
+281            android:windowSoftInputMode="adjustResize|stateVisible" />
+281-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:31:13-68
 282
-283        <activity
-283-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\19c971ef67dba04ba2e2c239bfae8251\jetified-twitter-core-3.1.1\AndroidManifest.xml:28:9-32:40
-284            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
-284-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\19c971ef67dba04ba2e2c239bfae8251\jetified-twitter-core-3.1.1\AndroidManifest.xml:29:13-79
-285            android:configChanges="orientation|screenSize"
-285-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\19c971ef67dba04ba2e2c239bfae8251\jetified-twitter-core-3.1.1\AndroidManifest.xml:30:13-59
-286            android:excludeFromRecents="true"
-286-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\19c971ef67dba04ba2e2c239bfae8251\jetified-twitter-core-3.1.1\AndroidManifest.xml:31:13-46
-287            android:exported="false" />
-287-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\19c971ef67dba04ba2e2c239bfae8251\jetified-twitter-core-3.1.1\AndroidManifest.xml:32:13-37
+283        <service
+283-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:33:9-36:40
+284            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+284-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:34:13-84
+285            android:enabled="true"
+285-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:35:13-35
+286            android:exported="false" />
+286-->[com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\3ba5c59dfaaffc0eb46e5130337f4253\jetified-tweet-composer-3.1.1\AndroidManifest.xml:36:13-37
+287
 288        <activity
-288-->[com.karumi:dexter:5.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b55a957995cf6adfc86a9f90d9aabf1d\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
-289            android:name="com.karumi.dexter.DexterActivity"
-289-->[com.karumi:dexter:5.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b55a957995cf6adfc86a9f90d9aabf1d\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
-290            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-290-->[com.karumi:dexter:5.0.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b55a957995cf6adfc86a9f90d9aabf1d\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
-291        <activity
-291-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d82c9ce8442b07b5d60b2f9a69722b23\jetified-drop-in-3.7.1\AndroidManifest.xml:18:9-20:62
-292            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
-292-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d82c9ce8442b07b5d60b2f9a69722b23\jetified-drop-in-3.7.1\AndroidManifest.xml:19:13-94
-293            android:theme="@style/bt_three_d_secure_theme" />
-293-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d82c9ce8442b07b5d60b2f9a69722b23\jetified-drop-in-3.7.1\AndroidManifest.xml:20:13-59
-294        <activity
-294-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d82c9ce8442b07b5d60b2f9a69722b23\jetified-drop-in-3.7.1\AndroidManifest.xml:21:9-23:64
-295            android:name="com.braintreepayments.api.dropin.DropInActivity"
-295-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d82c9ce8442b07b5d60b2f9a69722b23\jetified-drop-in-3.7.1\AndroidManifest.xml:22:13-75
-296            android:theme="@style/bt_drop_in_activity_theme" />
-296-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d82c9ce8442b07b5d60b2f9a69722b23\jetified-drop-in-3.7.1\AndroidManifest.xml:23:13-61
-297        <activity
-297-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d82c9ce8442b07b5d60b2f9a69722b23\jetified-drop-in-3.7.1\AndroidManifest.xml:24:9-26:65
-298            android:name="com.braintreepayments.api.dropin.AddCardActivity"
-298-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d82c9ce8442b07b5d60b2f9a69722b23\jetified-drop-in-3.7.1\AndroidManifest.xml:25:13-76
-299            android:theme="@style/bt_add_card_activity_theme" />
-299-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d82c9ce8442b07b5d60b2f9a69722b23\jetified-drop-in-3.7.1\AndroidManifest.xml:26:13-62
-300        <activity
-300-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d82c9ce8442b07b5d60b2f9a69722b23\jetified-drop-in-3.7.1\AndroidManifest.xml:27:9-29:70
-301            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
-301-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d82c9ce8442b07b5d60b2f9a69722b23\jetified-drop-in-3.7.1\AndroidManifest.xml:28:13-81
-302            android:theme="@style/bt_vault_manager_activity_theme" />
-302-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d82c9ce8442b07b5d60b2f9a69722b23\jetified-drop-in-3.7.1\AndroidManifest.xml:29:13-67
-303        <activity
-303-->[com.google.android.libraries.places:places:2.6.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:14:9-20:20
-304            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-304-->[com.google.android.libraries.places:places:2.6.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:15:13-91
-305            android:exported="false"
-305-->[com.google.android.libraries.places:places:2.6.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:16:13-37
-306            android:label="@string/places_autocomplete_label"
-306-->[com.google.android.libraries.places:places:2.6.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:17:13-62
-307            android:theme="@style/PlacesAutocompleteOverlay"
-307-->[com.google.android.libraries.places:places:2.6.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:18:13-61
-308            android:windowSoftInputMode="adjustResize" >
-308-->[com.google.android.libraries.places:places:2.6.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:19:13-55
-309        </activity>
-310        <activity android:name="com.facebook.CustomTabMainActivity" />
-310-->[com.facebook.android:facebook-common:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721f0387461fe0e561fbf311f43406be\jetified-facebook-common-15.0.2\AndroidManifest.xml:38:9-71
-310-->[com.facebook.android:facebook-common:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721f0387461fe0e561fbf311f43406be\jetified-facebook-common-15.0.2\AndroidManifest.xml:38:19-68
-311        <activity
-311-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:23:9-27:75
-312            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-312-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:24:13-93
-313            android:excludeFromRecents="true"
-313-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:25:13-46
-314            android:exported="false"
-314-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:26:13-37
-315            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-315-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:27:13-72
-316        <!--
-317            Service handling Google Sign-In user revocation. For apps that do not integrate with
-318            Google Sign-In, this service will never be started.
-319        -->
-320        <service
-320-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:33:9-37:51
-321            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-321-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:34:13-89
-322            android:exported="true"
-322-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:35:13-36
-323            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-323-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:36:13-107
-324            android:visibleToInstantApps="true" />
-324-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:37:13-48
-325        <!--
-326             FirebaseMessagingService performs security checks at runtime,
-327             but set to not exported to explicitly avoid allowing another app to call it.
-328        -->
-329        <service
-329-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:28:9-35:19
-330            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-330-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:29:13-82
-331            android:directBootAware="true"
-331-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:30:13-43
-332            android:exported="false" >
-332-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:31:13-37
-333            <intent-filter android:priority="-500" >
-333-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:82:13-84:29
-334                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-334-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:83:17-78
-334-->D:\AndroidStudioProjects\i2\Phase2-Review-main\Phase2-Review-main\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:83:25-75
-335            </intent-filter>
-336        </service>
-337        <service
-337-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:36:9-42:19
-338            android:name="com.google.firebase.components.ComponentDiscoveryService"
-338-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:37:13-84
-339            android:directBootAware="true"
-339-->[com.google.firebase:firebase-common:20.1.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:35:13-43
-340            android:exported="false" >
-340-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:38:13-37
-341            <meta-data
-341-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:39:13-41:85
-342                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-342-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:40:17-119
-343                android:value="com.google.firebase.components.ComponentRegistrar" />
-343-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:41:17-82
-344            <meta-data
-344-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:32:13-34:85
-345                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-345-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:33:17-96
-346                android:value="com.google.firebase.components.ComponentRegistrar" />
-346-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:34:17-82
-347            <meta-data
-347-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\41d9923d84b3f6bd4ce32222c180bb5d\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:31:13-33:85
-348                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-348-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\41d9923d84b3f6bd4ce32222c180bb5d\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:32:17-139
-349                android:value="com.google.firebase.components.ComponentRegistrar" />
-349-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\41d9923d84b3f6bd4ce32222c180bb5d\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:33:17-82
-350            <meta-data
-350-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fec9089009e03c71b49866c9b9a4ddbb\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
-351                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-351-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fec9089009e03c71b49866c9b9a4ddbb\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
-352                android:value="com.google.firebase.components.ComponentRegistrar" />
-352-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fec9089009e03c71b49866c9b9a4ddbb\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
-353            <meta-data
-353-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d9b0e7fb9d04f2f9b9f82bb2f10cb262\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
-354                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-354-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d9b0e7fb9d04f2f9b9f82bb2f10cb262\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
-355                android:value="com.google.firebase.components.ComponentRegistrar" />
-355-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d9b0e7fb9d04f2f9b9f82bb2f10cb262\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
-356        </service> <!-- Needs to be explicitly declared on P+ -->
-357        <uses-library
-357-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
-358            android:name="org.apache.http.legacy"
-358-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
-359            android:required="false" />
-359-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
-360
-361        <receiver
-361-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:37:9-44:20
-362            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-362-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:38:13-78
-363            android:exported="true"
-363-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:39:13-36
-364            android:permission="com.google.android.c2dm.permission.SEND" >
-364-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:40:13-73
-365            <intent-filter>
-365-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:41:13-43:29
-366                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-366-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:42:17-81
-366-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:42:25-78
-367            </intent-filter>
-368        </receiver>
-369
-370        <activity
-370-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8b05212e4a13ef14cc0dc706d352500e\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-371            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-371-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8b05212e4a13ef14cc0dc706d352500e\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-372            android:exported="false"
-372-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8b05212e4a13ef14cc0dc706d352500e\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-373            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-373-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\8b05212e4a13ef14cc0dc706d352500e\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+288-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\19c971ef67dba04ba2e2c239bfae8251\jetified-twitter-core-3.1.1\AndroidManifest.xml:28:9-32:40
+289            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+289-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\19c971ef67dba04ba2e2c239bfae8251\jetified-twitter-core-3.1.1\AndroidManifest.xml:29:13-79
+290            android:configChanges="orientation|screenSize"
+290-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\19c971ef67dba04ba2e2c239bfae8251\jetified-twitter-core-3.1.1\AndroidManifest.xml:30:13-59
+291            android:excludeFromRecents="true"
+291-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\19c971ef67dba04ba2e2c239bfae8251\jetified-twitter-core-3.1.1\AndroidManifest.xml:31:13-46
+292            android:exported="false" />
+292-->[com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\19c971ef67dba04ba2e2c239bfae8251\jetified-twitter-core-3.1.1\AndroidManifest.xml:32:13-37
+293        <activity
+293-->[com.karumi:dexter:5.0.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5e21c8620010f382eaf06a9fab8f7273\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+294            android:name="com.karumi.dexter.DexterActivity"
+294-->[com.karumi:dexter:5.0.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5e21c8620010f382eaf06a9fab8f7273\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+295            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+295-->[com.karumi:dexter:5.0.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5e21c8620010f382eaf06a9fab8f7273\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+296        <activity
+296-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:18:9-20:62
+297            android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
+297-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:19:13-94
+298            android:theme="@style/bt_three_d_secure_theme" />
+298-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:20:13-59
+299        <activity
+299-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:21:9-23:64
+300            android:name="com.braintreepayments.api.dropin.DropInActivity"
+300-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:22:13-75
+301            android:theme="@style/bt_drop_in_activity_theme" />
+301-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:23:13-61
+302        <activity
+302-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:24:9-26:65
+303            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+303-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:25:13-76
+304            android:theme="@style/bt_add_card_activity_theme" />
+304-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:26:13-62
+305        <activity
+305-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:27:9-29:70
+306            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+306-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:28:13-81
+307            android:theme="@style/bt_vault_manager_activity_theme" />
+307-->[com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:29:13-67
+308        <activity
+308-->[com.google.android.libraries.places:places:2.6.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:14:9-20:20
+309            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+309-->[com.google.android.libraries.places:places:2.6.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:15:13-91
+310            android:exported="false"
+310-->[com.google.android.libraries.places:places:2.6.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:16:13-37
+311            android:label="@string/places_autocomplete_label"
+311-->[com.google.android.libraries.places:places:2.6.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:17:13-62
+312            android:theme="@style/PlacesAutocompleteOverlay"
+312-->[com.google.android.libraries.places:places:2.6.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:18:13-61
+313            android:windowSoftInputMode="adjustResize" >
+313-->[com.google.android.libraries.places:places:2.6.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\4560480896315a5ed0a8a9257e9ca2b3\jetified-places-2.6.0\AndroidManifest.xml:19:13-55
+314        </activity>
+315        <activity android:name="com.facebook.CustomTabMainActivity" />
+315-->[com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:26:9-71
+315-->[com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:26:19-68
+316        <activity
+316-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:23:9-27:75
+317            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+317-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:24:13-93
+318            android:excludeFromRecents="true"
+318-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:25:13-46
+319            android:exported="false"
+319-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:26:13-37
+320            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+320-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:27:13-72
+321        <!--
+322            Service handling Google Sign-In user revocation. For apps that do not integrate with
+323            Google Sign-In, this service will never be started.
+324        -->
+325        <service
+325-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:33:9-37:51
+326            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+326-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:34:13-89
+327            android:exported="true"
+327-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:35:13-36
+328            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+328-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:36:13-107
+329            android:visibleToInstantApps="true" />
+329-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\ca77ccf41ebc10f036fabc1d940cd068\jetified-play-services-auth-20.3.0\AndroidManifest.xml:37:13-48
+330        <!--
+331             FirebaseMessagingService performs security checks at runtime,
+332             but set to not exported to explicitly avoid allowing another app to call it.
+333        -->
+334        <service
+334-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:28:9-35:19
+335            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+335-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:29:13-82
+336            android:directBootAware="true"
+336-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:30:13-43
+337            android:exported="false" >
+337-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:31:13-37
+338            <intent-filter android:priority="-500" >
+338-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:83:13-85:29
+339                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+339-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:84:17-78
+339-->D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:84:25-75
+340            </intent-filter>
+341        </service>
+342        <service
+342-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:36:9-42:19
+343            android:name="com.google.firebase.components.ComponentDiscoveryService"
+343-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:37:13-84
+344            android:directBootAware="true"
+344-->[com.google.firebase:firebase-common:20.1.2] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:35:13-43
+345            android:exported="false" >
+345-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:38:13-37
+346            <meta-data
+346-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:39:13-41:85
+347                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+347-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:40:17-119
+348                android:value="com.google.firebase.components.ComponentRegistrar" />
+348-->[com.google.firebase:firebase-messaging:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5ca67316b2c08aa912b9fcc6180c0a66\jetified-firebase-messaging-20.2.1\AndroidManifest.xml:41:17-82
+349            <meta-data
+349-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:32:13-34:85
+350                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+350-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:33:17-96
+351                android:value="com.google.firebase.components.ComponentRegistrar" />
+351-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:34:17-82
+352            <meta-data
+352-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\41d9923d84b3f6bd4ce32222c180bb5d\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:31:13-33:85
+353                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+353-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\41d9923d84b3f6bd4ce32222c180bb5d\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:32:17-139
+354                android:value="com.google.firebase.components.ComponentRegistrar" />
+354-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\41d9923d84b3f6bd4ce32222c180bb5d\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:33:17-82
+355            <meta-data
+355-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\fec9089009e03c71b49866c9b9a4ddbb\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+356                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+356-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\fec9089009e03c71b49866c9b9a4ddbb\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+357                android:value="com.google.firebase.components.ComponentRegistrar" />
+357-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\fec9089009e03c71b49866c9b9a4ddbb\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+358            <meta-data
+358-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d9b0e7fb9d04f2f9b9f82bb2f10cb262\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+359                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+359-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d9b0e7fb9d04f2f9b9f82bb2f10cb262\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+360                android:value="com.google.firebase.components.ComponentRegistrar" />
+360-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d9b0e7fb9d04f2f9b9f82bb2f10cb262\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+361        </service> <!-- Needs to be explicitly declared on P+ -->
+362        <uses-library
+362-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+363            android:name="org.apache.http.legacy"
+363-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+364            android:required="false" />
+364-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\b02480943bca7e1b3e1302ebce391277\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+365
+366        <receiver
+366-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:37:9-44:20
+367            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+367-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:38:13-78
+368            android:exported="true"
+368-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:39:13-36
+369            android:permission="com.google.android.c2dm.permission.SEND" >
+369-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:40:13-73
+370            <intent-filter>
+370-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:41:13-43:29
+371                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+371-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:42:17-81
+371-->[com.google.firebase:firebase-iid:20.2.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\01c83819255dcd364a2b1e9c7c6fbf77\jetified-firebase-iid-20.2.1\AndroidManifest.xml:42:25-78
+372            </intent-filter>
+373        </receiver>
 374
-375        <provider
-375-->[com.google.firebase:firebase-common:20.1.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:26:9-31:39
-376            android:name="com.google.firebase.provider.FirebaseInitProvider"
-376-->[com.google.firebase:firebase-common:20.1.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:27:13-77
-377            android:authorities="com.i2donate.firebaseinitprovider"
-377-->[com.google.firebase:firebase-common:20.1.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:28:13-72
-378            android:directBootAware="true"
-378-->[com.google.firebase:firebase-common:20.1.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:29:13-43
-379            android:exported="false"
-379-->[com.google.firebase:firebase-common:20.1.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:30:13-37
-380            android:initOrder="100" />
-380-->[com.google.firebase:firebase-common:20.1.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:31:13-36
-381
-382        <receiver
-382-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:29:9-33:20
-383            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-383-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:30:13-85
-384            android:enabled="true"
-384-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:31:13-35
-385            android:exported="false" >
-385-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:32:13-37
-386        </receiver>
-387
-388        <service
-388-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:35:9-38:40
-389            android:name="com.google.android.gms.measurement.AppMeasurementService"
-389-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:36:13-84
-390            android:enabled="true"
-390-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:37:13-35
-391            android:exported="false" />
-391-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:38:13-37
-392        <service
-392-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:39:9-43:72
-393            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-393-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:40:13-87
-394            android:enabled="true"
-394-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:41:13-35
-395            android:exported="false"
-395-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:42:13-37
-396            android:permission="android.permission.BIND_JOB_SERVICE" />
-396-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:43:13-69
-397        <!--
-398         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-399         with the application context. This config is merged in with the host app's manifest,
-400         but there can only be one provider with the same authority activated at any given
-401         point; so if the end user has two or more different apps that use Facebook SDK, only the
-402         first one will be able to use the provider. To work around this problem, we use the
-403         following placeholder in the authority to identify each host application as if it was
-404         a completely different provider.
-405        -->
-406        <provider
-406-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:41:9-44:40
-407            android:name="com.facebook.internal.FacebookInitProvider"
-407-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:42:13-70
-408            android:authorities="com.i2donate.FacebookInitProvider"
-408-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:43:13-72
-409            android:exported="false" />
-409-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:44:13-37
-410
-411        <receiver
-411-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:46:9-52:20
-412            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-412-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:47:13-86
-413            android:exported="false" >
-413-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:48:13-37
-414            <intent-filter>
-414-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:49:13-51:29
-415                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-415-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:50:17-95
-415-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:50:25-92
-416            </intent-filter>
-417        </receiver>
-418        <receiver
-418-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:53:9-59:20
-419            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
-419-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:54:13-118
-420            android:exported="false" >
-420-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:55:13-37
-421            <intent-filter>
-421-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:56:13-58:29
-422                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
-422-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:57:17-103
-422-->[com.facebook.android:facebook-core:15.0.2] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\d52e057a8497f367437d4c8db20ba880\jetified-facebook-core-15.0.2\AndroidManifest.xml:57:25-100
-423            </intent-filter>
-424        </receiver>
-425
-426        <activity
-426-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fe8460c220a5ade77ce02be68de49a58\jetified-braintree-2.18.1\AndroidManifest.xml:15:9-17:62
-427            android:name="com.braintreepayments.api.AndroidPayActivity"
-427-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fe8460c220a5ade77ce02be68de49a58\jetified-braintree-2.18.1\AndroidManifest.xml:16:13-72
-428            android:theme="@style/bt_transparent_activity" />
-428-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fe8460c220a5ade77ce02be68de49a58\jetified-braintree-2.18.1\AndroidManifest.xml:17:13-59
-429        <activity
-429-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fe8460c220a5ade77ce02be68de49a58\jetified-braintree-2.18.1\AndroidManifest.xml:18:9-20:62
-430            android:name="com.braintreepayments.api.GooglePaymentActivity"
-430-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fe8460c220a5ade77ce02be68de49a58\jetified-braintree-2.18.1\AndroidManifest.xml:19:13-75
-431            android:theme="@style/bt_transparent_activity" />
-431-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fe8460c220a5ade77ce02be68de49a58\jetified-braintree-2.18.1\AndroidManifest.xml:20:13-59
-432
-433        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
-433-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fe8460c220a5ade77ce02be68de49a58\jetified-braintree-2.18.1\AndroidManifest.xml:23:9-93
-433-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\fe8460c220a5ade77ce02be68de49a58\jetified-braintree-2.18.1\AndroidManifest.xml:23:18-90
-434
-435        <provider
-435-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-436            android:name="androidx.startup.InitializationProvider"
-436-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-437            android:authorities="com.i2donate.androidx-startup"
-437-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-438            android:exported="false" >
-438-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-439            <meta-data
-439-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-440                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-440-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-441                android:value="androidx.startup" />
-441-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-442            <meta-data
-442-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2d11c5a0c1c6a65673dcb81c7c2d1013\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-443                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-443-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2d11c5a0c1c6a65673dcb81c7c2d1013\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-444                android:value="androidx.startup" />
-444-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\2d11c5a0c1c6a65673dcb81c7c2d1013\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-445        </provider>
-446
-447        <service
-447-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\34520de102f9a770498d793f057719c7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
-448            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-448-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\34520de102f9a770498d793f057719c7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
-449            android:exported="false" >
-449-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\34520de102f9a770498d793f057719c7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
-450            <meta-data
-450-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\34520de102f9a770498d793f057719c7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
-451                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-451-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\34520de102f9a770498d793f057719c7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
-452                android:value="cct" />
-452-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\34520de102f9a770498d793f057719c7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
-453        </service>
-454        <service
-454-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
-455            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-455-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
-456            android:exported="false"
-456-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
-457            android:permission="android.permission.BIND_JOB_SERVICE" >
-457-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+375        <activity
+375-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\8b05212e4a13ef14cc0dc706d352500e\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+376            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+376-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\8b05212e4a13ef14cc0dc706d352500e\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+377            android:exported="false"
+377-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\8b05212e4a13ef14cc0dc706d352500e\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+378            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+378-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\8b05212e4a13ef14cc0dc706d352500e\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+379
+380        <provider
+380-->[com.google.firebase:firebase-common:20.1.2] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:26:9-31:39
+381            android:name="com.google.firebase.provider.FirebaseInitProvider"
+381-->[com.google.firebase:firebase-common:20.1.2] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:27:13-77
+382            android:authorities="com.i2donate.firebaseinitprovider"
+382-->[com.google.firebase:firebase-common:20.1.2] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:28:13-72
+383            android:directBootAware="true"
+383-->[com.google.firebase:firebase-common:20.1.2] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:29:13-43
+384            android:exported="false"
+384-->[com.google.firebase:firebase-common:20.1.2] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:30:13-37
+385            android:initOrder="100" />
+385-->[com.google.firebase:firebase-common:20.1.2] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\fd3f1a27c8b4249dcd49ed65eb050510\jetified-firebase-common-20.1.2\AndroidManifest.xml:31:13-36
+386
+387        <receiver
+387-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:29:9-33:20
+388            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+388-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:30:13-85
+389            android:enabled="true"
+389-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:31:13-35
+390            android:exported="false" >
+390-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:32:13-37
+391        </receiver>
+392
+393        <service
+393-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:35:9-38:40
+394            android:name="com.google.android.gms.measurement.AppMeasurementService"
+394-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:36:13-84
+395            android:enabled="true"
+395-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:37:13-35
+396            android:exported="false" />
+396-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:38:13-37
+397        <service
+397-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:39:9-43:72
+398            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+398-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:40:13-87
+399            android:enabled="true"
+399-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:41:13-35
+400            android:exported="false"
+400-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:42:13-37
+401            android:permission="android.permission.BIND_JOB_SERVICE" />
+401-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\721c6677bd50349a83698f4287fdd2ef\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:43:13-69
+402        <!--
+403         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+404         with the application context. This config is merged in with the host app's manifest,
+405         but there can only be one provider with the same authority activated at any given
+406         point; so if the end user has two or more different apps that use Facebook SDK, only the
+407         first one will be able to use the provider. To work around this problem, we use the
+408         following placeholder in the authority to identify each host application as if it was
+409         a completely different provider.
+410        -->
+411        <provider
+411-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:29:9-32:40
+412            android:name="com.facebook.internal.FacebookInitProvider"
+412-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:30:13-70
+413            android:authorities="com.i2donate.FacebookInitProvider"
+413-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:31:13-72
+414            android:exported="false" />
+414-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:32:13-37
+415
+416        <receiver
+416-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:34:9-40:20
+417            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+417-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:35:13-86
+418            android:exported="false" >
+418-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:36:13-37
+419            <intent-filter>
+419-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:37:13-39:29
+420                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+420-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:38:17-95
+420-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:38:25-92
+421            </intent-filter>
+422        </receiver>
+423        <receiver
+423-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:41:9-47:20
+424            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+424-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:42:13-118
+425            android:exported="false" >
+425-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:43:13-37
+426            <intent-filter>
+426-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:44:13-46:29
+427                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+427-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:45:17-103
+427-->[com.facebook.android:facebook-core:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\d860237fe8e7632e2352f52ad2c19cb5\jetified-facebook-core-15.1.0\AndroidManifest.xml:45:25-100
+428            </intent-filter>
+429        </receiver>
+430
+431        <activity
+431-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f8786387b82ee1346c3ec2adc2e1a0e7\jetified-braintree-2.18.1\AndroidManifest.xml:15:9-17:62
+432            android:name="com.braintreepayments.api.AndroidPayActivity"
+432-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f8786387b82ee1346c3ec2adc2e1a0e7\jetified-braintree-2.18.1\AndroidManifest.xml:16:13-72
+433            android:theme="@style/bt_transparent_activity" />
+433-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f8786387b82ee1346c3ec2adc2e1a0e7\jetified-braintree-2.18.1\AndroidManifest.xml:17:13-59
+434        <activity
+434-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f8786387b82ee1346c3ec2adc2e1a0e7\jetified-braintree-2.18.1\AndroidManifest.xml:18:9-20:62
+435            android:name="com.braintreepayments.api.GooglePaymentActivity"
+435-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f8786387b82ee1346c3ec2adc2e1a0e7\jetified-braintree-2.18.1\AndroidManifest.xml:19:13-75
+436            android:theme="@style/bt_transparent_activity" />
+436-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f8786387b82ee1346c3ec2adc2e1a0e7\jetified-braintree-2.18.1\AndroidManifest.xml:20:13-59
+437
+438        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+438-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f8786387b82ee1346c3ec2adc2e1a0e7\jetified-braintree-2.18.1\AndroidManifest.xml:23:9-93
+438-->[com.braintreepayments.api:braintree:2.18.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f8786387b82ee1346c3ec2adc2e1a0e7\jetified-braintree-2.18.1\AndroidManifest.xml:23:18-90
+439
+440        <provider
+440-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+441            android:name="androidx.startup.InitializationProvider"
+441-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+442            android:authorities="com.i2donate.androidx-startup"
+442-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+443            android:exported="false" >
+443-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+444            <meta-data
+444-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+445                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+445-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+446                android:value="androidx.startup" />
+446-->[androidx.emoji2:emoji2:1.2.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f26369efb2f0f5d06afcd725d804c711\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+447            <meta-data
+447-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\2d11c5a0c1c6a65673dcb81c7c2d1013\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+448                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+448-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\2d11c5a0c1c6a65673dcb81c7c2d1013\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+449                android:value="androidx.startup" />
+449-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\2d11c5a0c1c6a65673dcb81c7c2d1013\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+450        </provider>
+451
+452        <service
+452-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\34520de102f9a770498d793f057719c7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+453            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+453-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\34520de102f9a770498d793f057719c7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+454            android:exported="false" >
+454-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\34520de102f9a770498d793f057719c7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+455            <meta-data
+455-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\34520de102f9a770498d793f057719c7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+456                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+456-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\34520de102f9a770498d793f057719c7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+457                android:value="cct" />
+457-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\34520de102f9a770498d793f057719c7\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
 458        </service>
-459
-460        <receiver
-460-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
-461            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-461-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
-462            android:exported="false" />
-462-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\hai\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
-463    </application>
+459        <service
+459-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+460            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+460-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+461            android:exported="false"
+461-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+462            android:permission="android.permission.BIND_JOB_SERVICE" >
+462-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+463        </service>
 464
-465</manifest>
+465        <receiver
+465-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+466            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+466-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+467            android:exported="false" />
+467-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\909d4dbc2d43c747242df471a1289be0\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+468    </application>
+469
+470</manifest>

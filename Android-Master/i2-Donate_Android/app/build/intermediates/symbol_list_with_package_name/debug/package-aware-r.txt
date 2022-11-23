@@ -5911,6 +5911,7 @@ string navi_profile
 string navigation_drawer_close
 string navigation_drawer_open
 string new_password
+string no_notifications
 string notification_page
 string notification_sentence
 string password_toggle_content_description

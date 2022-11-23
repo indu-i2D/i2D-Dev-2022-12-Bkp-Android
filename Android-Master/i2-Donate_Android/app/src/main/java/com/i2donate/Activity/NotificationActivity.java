@@ -15,9 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.gson.JsonObject;
 import com.i2donate.Adapter.NotificationAdapterList;
-import com.i2donate.Adapter.UnitesStateLocationDetailsAdapterList;
 import com.i2donate.CommonActivity.CommonMenuActivity;
-import com.i2donate.Model.ChangeActivity;
 import com.i2donate.Model.Notification;
 import com.i2donate.R;
 import com.i2donate.RetrofitAPI.ApiClient;
@@ -25,7 +23,6 @@ import com.i2donate.RetrofitAPI.ApiInterface;
 import com.i2donate.Session.SessionManager;
 
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
@@ -68,6 +65,9 @@ public class NotificationActivity extends CommonMenuActivity {
         shimmer_view_container.startShimmerAnimation();
         notification_recyclerview=(RecyclerView)findViewById(R.id.notification_recyclerview);
 
+        NotificationAPI();
+
+
         if (session.isLoggedIn()) {
 
             String like = "1";
@@ -80,7 +80,7 @@ public class NotificationActivity extends CommonMenuActivity {
             //  mContext.finish();
         }
 
-      NotificationAPI();
+
         layoutManager = new LinearLayoutManager(this);
         notification_recyclerview.setLayoutManager(layoutManager);
         notification_recyclerview.setItemAnimator(new DefaultItemAnimator());
@@ -102,15 +102,12 @@ public class NotificationActivity extends CommonMenuActivity {
             public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
 
                 Log.e("likeresponse", "" + response.body());
-
-
             }
 
             @Override
             public void onFailure(Call<JsonObject> call, Throwable t) {
 
                 Log.e("unitedstate", t.toString());
-
             }
         });
 

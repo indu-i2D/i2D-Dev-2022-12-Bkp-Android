@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Activity.PrivacyPolicyActivity">
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -30,7 +31,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="@dimen/_30sdp"
-            android:src="@drawable/idonate_logo"/>
+            android:src="@drawable/idonate_logo" />
 
         <ImageView
             android:id="@+id/refreshMenu"
@@ -41,38 +42,50 @@
             android:paddingBottom="10dp"
             android:visibility="gone" />
     </androidx.appcompat.widget.Toolbar>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
         android:layout_marginRight="@dimen/_10sdp"
         android:text="@string/privacy_title"
         android:textAllCaps="true"
-        android:layout_marginTop="@dimen/_5sdp"
-        android:textSize="@dimen/_20sdp"
         android:textColor="@android:color/white"
+        android:textSize="@dimen/_20sdp"
         android:textStyle="bold" />
-    <WebView
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/webView"
-        android:layout_marginLeft="@dimen/_10sdp"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginRight="@dimen/_10sdp"
-        android:scrollbars="none"
-        android:background="@android:color/transparent"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@android:color/transparent"
+            />
+    </ScrollView>
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"
         android:layout_marginLeft="@dimen/_15sdp"
         android:layout_marginTop="@dimen/_30sdp"
         android:layout_marginRight="@dimen/_10sdp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:visibility="gone">
 
         <TextView
             android:layout_width="match_parent"

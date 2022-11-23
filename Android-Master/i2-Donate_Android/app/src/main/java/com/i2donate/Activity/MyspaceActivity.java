@@ -341,7 +341,7 @@ public class MyspaceActivity extends CommonMenuActivity {
                 intent.putExtra("mylist", like_charitylist1);
                 intent.putExtra("type","likes");
                 startActivity(intent);
-                finish();
+//                finish();
 
             }
         });
@@ -355,7 +355,7 @@ public class MyspaceActivity extends CommonMenuActivity {
                 intent.putExtra("mylist", follow_charitylist1);
                 intent.putExtra("type","follows");
                 startActivity(intent);
-               finish();
+//               finish();
 
             }
         });
@@ -371,7 +371,7 @@ public class MyspaceActivity extends CommonMenuActivity {
                 intent.putExtra("mylist", DonatedCharityList1);
                 intent.putExtra("type","donate");
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
     }

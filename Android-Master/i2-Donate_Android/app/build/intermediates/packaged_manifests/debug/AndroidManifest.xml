@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="26"
-        android:targetSdkVersion="27" />
+        android:targetSdkVersion="32" />
 
     <supports-screens
         android:anyDensity="true"
@@ -80,6 +80,7 @@
         <activity android:name="com.i2donate.Activity.PrivactPolicyActivity" />
         <activity
             android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+            android:exported="true"
             android:launchMode="singleTask" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -107,7 +108,9 @@
             </intent-filter>
         </service>
 
-        <receiver android:name="com.i2donate.Notification.fcm.OnBootBroadcastReceiver" >
+        <receiver
+            android:name="com.i2donate.Notification.fcm.OnBootBroadcastReceiver"
+            android:exported="false" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
@@ -207,6 +210,7 @@
             android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
         <activity
             android:name="com.i2donate.Activity.SplashScreenActivity"
+            android:exported="true"
             android:theme="@style/inter_splash_screen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -240,7 +244,8 @@
 
         <receiver
             android:name="com.i2donate.Interwork.ConnectivityReceiver"
-            android:enabled="true" >
+            android:enabled="true"
+            android:exported="false" >
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>

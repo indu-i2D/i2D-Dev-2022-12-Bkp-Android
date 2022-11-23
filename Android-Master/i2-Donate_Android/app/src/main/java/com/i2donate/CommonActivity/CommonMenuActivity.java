@@ -1,17 +1,11 @@
 package com.i2donate.CommonActivity;
 
+import static com.i2donate.Model.ChangeActivity.showSnackbar;
+
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.os.Handler;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -24,6 +18,13 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.facebook.FacebookSdk;
 import com.facebook.login.LoginManager;
@@ -54,11 +55,10 @@ import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
 import com.twitter.sdk.android.core.TwitterCore;
 import com.twitter.sdk.android.core.TwitterSession;
+
 import java.util.HashMap;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-
-import static com.i2donate.Model.ChangeActivity.showSnackbar;
 
 
 /**
@@ -74,8 +74,8 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
     private TextView myaccount_name_tv;
     private ListView menuListView;
     TextView browse_tv, myspace_tv;
-    LinearLayout linear_browse, linear_myspace, myprofile_name_tv,edit_linear;
-    ImageView browse_img, myspace_img,menu_back_img;
+    LinearLayout linear_browse, linear_myspace, myprofile_name_tv, edit_linear;
+    ImageView browse_img, myspace_img, menu_back_img;
     private View headerView;
     private Selected select;
     boolean doubleclickToClose = false;
@@ -83,7 +83,7 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
     IDonateSharedPreference iDonateSharedPreference;
     private GoogleApiClient mGoogleApiClient;
     static HashMap<String, String> userDetails;
-    int index=0;
+    int index = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -158,28 +158,34 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
                 if (session.isLoggedIn()) {
                     iDonateSharedPreference.seteditprofile(getApplicationContext(), "1");
                     ChangeActivity.changeActivity(CommonMenuActivity.this, UpdateActivity.class);
-                   // finish();
+                    // finish();
                     ;
                 } else {
                     LoginDailogue();
                     //ChangeActivity.changeActivity(CommonMenuActivity.this, LoginActivity.class);
-                  //  finish();
+                    //  finish();
                     ;
                 }
 
             }
         });
+
         if (session.isLoggedIn()) {
             userDetails = session.getUserDetails();
-            Log.e("userDetails", "" + userDetails);
-            Log.e("KEY_UID", "" + userDetails.get(SessionManager.KEY_UID));
-            Log.e("KEY_username", "" + userDetails.get(SessionManager.KEY_NAME));
-          //  Log.e("KEY_username", "" + userDetails.get(SessionManager.KEY_PIC));
+            Log.e("userDetails---", "" + userDetails);
+            Log.e("KEY_UID---", "" + userDetails.get(SessionManager.KEY_UID));
+            Log.e("KEY_username----", "" + userDetails.get(SessionManager.KEY_NAME));
+            Log.e("KEY_profile----", "" + userDetails.get(SessionManager.KEY_PIC));
+            //  Log.e("KEY_username", "" + userDetails.get(SessionManager.KEY_PIC));
             try {
                 String image = userDetails.get(SessionManager.KEY_PIC);
                 Log.e("img", image);
                 Picasso.with(this).load(image).placeholder(R.drawable.ic_profile_holder).memoryPolicy(MemoryPolicy.NO_CACHE).networkPolicy(NetworkPolicy.NO_CACHE).error(R.drawable.ic_profile_holder).into(myprofile_img);
-            }catch (Exception e){
+
+//                if (!image.isEmpty()) {
+//
+//                }
+            } catch (Exception e) {
                 e.printStackTrace();
             }
 
@@ -204,11 +210,11 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
         menuListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Log.e("demotestingsss", "testing"+position);
-                if ( position != menuListView.getCount()) {
+                Log.e("demotestingsss", "testing" + position);
+                if (position != menuListView.getCount()) {
                     /*position != 0 &&*/
                     TextView nameTextView = (TextView) view.findViewById(R.id.commonNavigationItemTextView);
-                    Log.e("demotestingsss", "testing"+nameTextView);
+                    Log.e("demotestingsss", "testing" + nameTextView);
 //                    Toast.makeText(NavigationCommonActivity.this, nameTextView.getText().toString(), Toast.LENGTH_SHORT).show();
                     if (!nameTextView.getText().toString().equalsIgnoreCase(""))
                         switch (nameTextView.getText().toString().toLowerCase().trim()) {
@@ -216,11 +222,11 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
                             case "my notifications":
                                 Log.e("demotestingsss", "testing");
                                 if (session.isLoggedIn()) {
-                                ChangeActivity.changeActivity(CommonMenuActivity.this, NotificationActivity.class);
-                                finish();
-                                }else {
+                                    ChangeActivity.changeActivity(CommonMenuActivity.this, NotificationActivity.class);
+                                    finish();
+                                } else {
                                     LoginDailogue();
-                                   // ChangeActivity.changeActivity(CommonMenuActivity.this, LoginActivity.class);
+                                    // ChangeActivity.changeActivity(CommonMenuActivity.this, LoginActivity.class);
                                 }
                                 break;
                             case "my settings":
@@ -239,39 +245,39 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
                                 finish();
                                 break;
                             case "logout":
-                                iDonateSharedPreference.setlogintype(getApplicationContext(),"non");
+                                iDonateSharedPreference.setlogintype(getApplicationContext(), "non");
                                 Log.e("settings", "settings");
                                 if (session.isLoggedIn()) {
                                     signOut1();
                                     FacebookSdk.sdkInitialize(getApplicationContext());
                                     LoginManager.getInstance().logOut();
                                     if (iDonateSharedPreference.getsocialMedia(getApplicationContext()).equalsIgnoreCase("email")) {
-                                        iDonateSharedPreference.setlogintype(getApplicationContext(),"non");
+                                        iDonateSharedPreference.setlogintype(getApplicationContext(), "non");
                                         signOut();
                                     } else if (iDonateSharedPreference.getsocialMedia(getApplicationContext()).equalsIgnoreCase("facebook")) {
-                                        iDonateSharedPreference.setlogintype(getApplicationContext(),"non");
+                                        iDonateSharedPreference.setlogintype(getApplicationContext(), "non");
                                         FacebookSdk.sdkInitialize(getApplicationContext());
                                         LoginManager.getInstance().logOut();
                                         session.logoutUser();
                                         finish();
 
-                                    }else {
-                                        iDonateSharedPreference.setlogintype(getApplicationContext(),"non");
+                                    } else {
+                                        iDonateSharedPreference.setlogintype(getApplicationContext(), "non");
                                         session.logoutUser();
                                         finish();
                                     }
                                 } else {
                                     if (iDonateSharedPreference.getsocialMedia(getApplicationContext()).equalsIgnoreCase("email")) {
                                         signOut();
-                                        iDonateSharedPreference.setlogintype(getApplicationContext(),"non");
+                                        iDonateSharedPreference.setlogintype(getApplicationContext(), "non");
                                     } else if (iDonateSharedPreference.getsocialMedia(getApplicationContext()).equalsIgnoreCase("facebook")) {
                                         FacebookSdk.sdkInitialize(getApplicationContext());
                                         LoginManager.getInstance().logOut();
                                         LoginDailogue();
                                         //ChangeActivity.changeActivity(CommonMenuActivity.this, LoginActivity.class);
-                                       // finish();
-                                    }else {
-                                        iDonateSharedPreference.setlogintype(getApplicationContext(),"non");
+                                        // finish();
+                                    } else {
+                                        iDonateSharedPreference.setlogintype(getApplicationContext(), "non");
                                         session.logoutUser();
                                         finish();
                                     }
@@ -289,8 +295,8 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
                                         LoginManager.getInstance().logOut();
                                         //LoginDailogue();
                                         ChangeActivity.changeActivity(CommonMenuActivity.this, LoginActivity.class);
-                                      //  finish();
-                                    } else if(iDonateSharedPreference.getsocialMedia(getApplicationContext()).equalsIgnoreCase("twitter")) {
+                                        //  finish();
+                                    } else if (iDonateSharedPreference.getsocialMedia(getApplicationContext()).equalsIgnoreCase("twitter")) {
                                         TwitterSession twitterSession = TwitterCore.getInstance().getSessionManager().getActiveSession();
                                         if (twitterSession != null) {
                                             CookieSyncManager.createInstance(getApplicationContext());
@@ -298,9 +304,7 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
                                             cookieManager.removeSessionCookie();
                                             TwitterCore.getInstance().getSessionManager().clearActiveSession();
                                         }
-                                    }
-                                    else
-                                     {
+                                    } else {
                                         session.logoutUser();
                                     }
 
@@ -309,7 +313,7 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
                                     signOut1();
                                     //LoginDailogue();
                                     ChangeActivity.changeActivity(CommonMenuActivity.this, LoginActivity.class);
-                                  //  finish();
+                                    //  finish();
                                    /* if (iDonateSharedPreference.getsocialMedia(getApplicationContext()).equalsIgnoreCase("email")) {
                                         signOut();
                                     } else if (iDonateSharedPreference.getsocialMedia(getApplicationContext()).equalsIgnoreCase("facebook")) {
@@ -333,6 +337,7 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
 
 
     }
+
     private void LoginDailogue() {
         AlertDialog.Builder builder = new AlertDialog.Builder(CommonMenuActivity.this);
         builder.setTitle("");
@@ -352,6 +357,7 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
         builder.setCancelable(false);
         builder.show();
     }
+
     private void checkConnection() {
         boolean isConnected = ConnectivityReceiver.isConnected();
         showSnack(isConnected);
@@ -372,6 +378,7 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
                     }
                 });
     }
+
     private void signOut1() {
         Auth.GoogleSignInApi.signOut(mGoogleApiClient).setResultCallback(
                 new ResultCallback<Status>() {
@@ -384,6 +391,7 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
                     }
                 });
     }
+
     public void setView(int viewLayout, String activity) {
         frameLayout = (FrameLayout) findViewById(R.id.commonMenuActivityFrameLayout);
         LayoutInflater layoutInflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -421,12 +429,14 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
     @Override
     protected void onResume() {
         super.onResume();
+
         if (index==1){
             Log.e("onresum","onresumne");
-            referesh();
+referesh();
         }
-        Log.e("onresum","onresumne11");
-       index=1;
+        Log.e("onresum", "onresumne11");
+        index = 1;
+
         // register connection status listener
         MyApplication.getInstance().setConnectivityListener(this);
     }
@@ -438,12 +448,14 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
             Log.e("userDetails", "" + userDetails);
             Log.e("KEY_UID", "" + userDetails.get(SessionManager.KEY_UID));
             Log.e("KEY_username", "" + userDetails.get(SessionManager.KEY_NAME));
+            Log.e("KEY_profile", "" + userDetails.get(SessionManager.KEY_PIC));
             //  Log.e("KEY_username", "" + userDetails.get(SessionManager.KEY_PIC));
             try {
                 String image = userDetails.get(SessionManager.KEY_PIC);
-                Log.e("img", image);
                 Picasso.with(this).load(image).placeholder(R.drawable.ic_profile_holder).memoryPolicy(MemoryPolicy.NO_CACHE).networkPolicy(NetworkPolicy.NO_CACHE).error(R.drawable.ic_profile_holder).into(myprofile_img);
-            }catch (Exception e){
+
+                Log.e("img", image);
+            } catch (Exception e) {
                 e.printStackTrace();
             }
 
@@ -494,7 +506,7 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
                         finish();
                     } else {
                         LoginDailogue();
-                       // ChangeActivity.changeActivity(CommonMenuActivity.this, LoginActivity.class);
+                        // ChangeActivity.changeActivity(CommonMenuActivity.this, LoginActivity.class);
                         //finish();
                     }
 
@@ -557,7 +569,7 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
             } else {
                 ChangeActivity.clearAllPreviousActivity(CommonMenuActivity.this, BrowseActivity.class);
                 browse_tv.setTextColor(getResources().getColor(R.color.quantum_white_text));
-               finishAffinity();
+                finishAffinity();
                 // super.onBackPressed();
             }
         }

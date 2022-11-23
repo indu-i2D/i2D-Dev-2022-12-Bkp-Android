@@ -1,10 +1,21 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidStudioProjects\\i2\\Phase2-Review-main\\Phase2-Review-main\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hai\\.gradle\\caches\\transforms-2\\files-2.1\\7a2abaaa36e9d00b6f818d9d1c68a678\\jetified-tweet-ui-3.1.1\\res\\values-v11\\values-v11.xml",
+                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-2\\files-2.1\\3ba5c59dfaaffc0eb46e5130337f4253\\jetified-tweet-composer-3.1.1\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,565",
+                        "endLines": "9,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "560,1076"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-2\\files-2.1\\6c500f608307e1db0ac85fd139552eec\\jetified-tweet-ui-3.1.1\\res\\values-v11\\values-v11.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,17 +31,6 @@
                         "endLines": "22",
                         "endColumns": "12",
                         "endOffsets": "1341"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\hai\\.gradle\\caches\\transforms-2\\files-2.1\\3ba5c59dfaaffc0eb46e5130337f4253\\jetified-tweet-composer-3.1.1\\res\\values-v11\\values-v11.xml",
-                    "from": {
-                        "startLines": "2,10",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,565",
-                        "endLines": "9,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "560,1076"
                     }
                 }
             ]

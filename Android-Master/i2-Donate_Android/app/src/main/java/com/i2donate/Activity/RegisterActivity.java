@@ -85,7 +85,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class RegisterActivity extends AppCompatActivity implements
-        GoogleApiClient.OnConnectionFailedListener{
+        GoogleApiClient.OnConnectionFailedListener {
     private static final String TAG = RegisterActivity.class.getSimpleName();
     private static final int RC_SIGN_IN = 007;
     ImageView back_icon_img;
@@ -102,7 +102,7 @@ public class RegisterActivity extends AppCompatActivity implements
     TextInputLayout confirm_input_layout;
     @BindView(R.id.business_name_input_layout)
     TextInputLayout business_name_input_layout;
-    EditText reg_name_et, reg_email_et, reg_mobile_et, reg_password_et, reg_confirm_password_et,business_reg_name_et;
+    EditText reg_name_et, reg_email_et, reg_mobile_et, reg_password_et, reg_confirm_password_et, business_reg_name_et;
     SearchableSpinner country_spinner;
     Button register_btn;
     TextView iagree_tv;
@@ -119,7 +119,7 @@ public class RegisterActivity extends AppCompatActivity implements
     private GoogleApiClient mGoogleApiClient;
     CallbackManager callbackManager;
     private final String PACKAGE = "com.i2donate";
-    RadioButton radio_btn_male, radio_btn_female, radio_btn_orthers,radio_btn_yes,radio_btn_no;
+    RadioButton radio_btn_male, radio_btn_female, radio_btn_orthers, radio_btn_yes, radio_btn_no;
     String radi_gender = "";
     String radi_business = "";
     CheckBox checkbox_btn;
@@ -127,13 +127,14 @@ public class RegisterActivity extends AppCompatActivity implements
     SessionManager sessionManager;
     IDonateSharedPreference iDonateSharedPreference;
     private LinearLayout register_gender_layout;
-    String type="";
-    String business_name="";
+    String type = "";
+    String business_name = "";
     TwitterLoginButton twitter_login_btn;
     private TwitterAuthClient client;
     String device_token;
     LinearLayout terms_layout;
     int user_id;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -233,17 +234,17 @@ public class RegisterActivity extends AppCompatActivity implements
         radio_btn_female = (RadioButton) findViewById(R.id.radio_btn_female);
         radio_btn_orthers = (RadioButton) findViewById(R.id.radio_btn_orthers);
         checkbox_btn = (CheckBox) findViewById(R.id.checkbox_btn);
-        business_reg_name_et=(EditText)findViewById(R.id.business_reg_name_et);
-        business_name_input_layout=(TextInputLayout)findViewById(R.id.business_name_input_layout);
-        radio_btn_yes=(RadioButton)findViewById(R.id.radio_btn_yes);
-        radio_btn_no=(RadioButton)findViewById(R.id.radio_btn_no);
+        business_reg_name_et = (EditText) findViewById(R.id.business_reg_name_et);
+        business_name_input_layout = (TextInputLayout) findViewById(R.id.business_name_input_layout);
+        radio_btn_yes = (RadioButton) findViewById(R.id.radio_btn_yes);
+        radio_btn_no = (RadioButton) findViewById(R.id.radio_btn_no);
         google_sign_btn = (ImageView) findViewById(R.id.google_sign_btn);
         facebook_login = (ImageView) findViewById(R.id.facebook_login);
         twitter_login = (ImageView) findViewById(R.id.twitter_login);
         facebook_login_btn = (LoginButton) findViewById(R.id.facebook_login_btn);
-        register_gender_layout=(LinearLayout)findViewById(R.id.register_gender_layout);
-        terms_layout=(LinearLayout)findViewById(R.id.terms_layout);
-        iagree_tv=(TextView)findViewById(R.id.iagree_tv);
+        register_gender_layout = (LinearLayout) findViewById(R.id.register_gender_layout);
+        terms_layout = (LinearLayout) findViewById(R.id.terms_layout);
+        iagree_tv = (TextView) findViewById(R.id.iagree_tv);
       /*  try {
             Field popup = Spinner.class.getDeclaredField("mPopup");
             popup.setAccessible(true);
@@ -368,17 +369,17 @@ public class RegisterActivity extends AppCompatActivity implements
         radio_btn_no.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (radio_btn_no.isChecked()){
-                    radi_business="yes";
-                    type="business";
+                if (radio_btn_no.isChecked()) {
+                    radi_business = "yes";
+                    type = "business";
                     register_gender_layout.setVisibility(View.GONE);
-                    radi_gender="";
-                    business_name=business_reg_name_et.getText().toString();
+                    radi_gender = "";
+                    business_name = business_reg_name_et.getText().toString();
                     business_name_input_layout.setVisibility(View.VISIBLE);
-                }else {
+                } else {
                     register_gender_layout.setVisibility(View.VISIBLE);
                     business_reg_name_et.setText("");
-                    type="Individual";
+                    type = "Individual";
                     if (radio_btn_male.isChecked()) {
                         radi_gender = "M";
                     } else if (radio_btn_female.isChecked()) {
@@ -396,9 +397,9 @@ public class RegisterActivity extends AppCompatActivity implements
         radio_btn_yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (radio_btn_yes.isChecked()){
-                    radi_business="no";
-                    type="Individual";
+                if (radio_btn_yes.isChecked()) {
+                    radi_business = "no";
+                    type = "Individual";
                     business_reg_name_et.setText("");
                     register_gender_layout.setVisibility(View.VISIBLE);
                     business_name_input_layout.setVisibility(View.GONE);
@@ -412,10 +413,10 @@ public class RegisterActivity extends AppCompatActivity implements
 
                         radi_gender = "";
                     }
-                }else {
-                    type="business";
+                } else {
+                    type = "business";
                     radi_gender = "";
-                    business_name=business_reg_name_et.getText().toString();
+                    business_name = business_reg_name_et.getText().toString();
                     register_gender_layout.setVisibility(View.GONE);
                     business_name_input_layout.setVisibility(View.VISIBLE);
                 }
@@ -449,7 +450,23 @@ public class RegisterActivity extends AppCompatActivity implements
 
             @Override
             public void afterTextChanged(Editable s) {
-
+                if (radi_business.equals("no")) {
+                    Log.e(TAG, "afterTextChanged:yes");
+                    if (s.toString().matches(Validation.NAME_PATTERN)) {
+                        name_input_layout.setError("");
+                    } else {
+                        name_input_layout.setError("Name is invalid");
+                    }
+                } else if (radi_business.equals("yes")) {
+                    Log.e(TAG, "afterTextChanged:no ");
+                    name_input_layout.setError("");
+                } else {
+                    if (s.toString().matches(Validation.NAMEPATTERN)) {
+                        name_input_layout.setError("");
+                    } else {
+                        name_input_layout.setError("Name is invalid");
+                    }
+                }
             }
         });
 
@@ -517,7 +534,7 @@ public class RegisterActivity extends AppCompatActivity implements
                 if (charSequence.toString().startsWith(" ")) {
                     reg_mobile_et.setText("");
                     Toast.makeText(getApplicationContext(), "Space Not allowed", Toast.LENGTH_LONG).show();
-                   // mobile_input_layout.setError("Required mobile number");
+                    // mobile_input_layout.setError("Required mobile number");
                     //disableButton(...)
                 } else {
 
@@ -602,9 +619,9 @@ public class RegisterActivity extends AppCompatActivity implements
             @Override
             public void afterTextChanged(Editable s) {
                 String passwordvalidation = s.toString();
-                if (passwordvalidation.length()>=8 && passwordvalidation.matches(Validation.PASSWORD_PATTERN)){
+                if (passwordvalidation.length() >= 8 && passwordvalidation.matches(Validation.PASSWORD_PATTERN)) {
                     password_input_layout.setError("");
-                }else {
+                } else {
                     password_input_layout.setError("Password is invalid");
                 }
 
@@ -677,57 +694,79 @@ public class RegisterActivity extends AppCompatActivity implements
         iagree_tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               if (checkbox_btn.isChecked()){
-                   checkbox_btn.setChecked(false);
-               }else {
-                   checkbox_btn.setChecked(true);
-               }
+                if (checkbox_btn.isChecked()) {
+                    checkbox_btn.setChecked(false);
+                } else {
+                    checkbox_btn.setChecked(true);
+                }
             }
         });
         terms_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ChangeActivity.changeActivityData(RegisterActivity.this, TermsAndConditionActivity.class,"");
+                ChangeActivity.changeActivityData(RegisterActivity.this, TermsAndConditionActivity.class, "");
             }
         });
         register_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                if (!reg_name_et.getText().toString().trim().isEmpty() && !reg_email_et.getText().toString().trim().isEmpty() && !reg_password_et.getText().toString().trim().isEmpty()) {
+                if (!reg_name_et.getText().toString().trim().isEmpty() && !reg_email_et.getText().toString().trim().isEmpty() && !reg_mobile_et.getText().toString().trim().isEmpty() && !reg_password_et.getText().toString().trim().isEmpty()) {
                     if (reg_email_et.getText().toString().trim().matches(Validation.emailPattern)) {
                         // if (reg_password_et.getText().toString().trim().equals(reg_confirm_password_et.getText().toString().trim())) {
-                        if (reg_password_et.getText().toString().trim().matches(Validation.PASSWORD_PATTERN) && reg_password_et.getText().toString().trim().length()>=8 ){
+                        if (reg_password_et.getText().toString().trim().matches(Validation.PASSWORD_PATTERN) && reg_password_et.getText().toString().trim().length() >= 8) {
 
                             radiofn();
                             radiobussi();
                             /// if (!radi_gender.isEmpty()) {
-                            if (!radi_business.isEmpty()){
+                            if (!radi_business.isEmpty()) {
                                 if (checkbox_btn.isChecked()) {
-                                    if (!country_symbol.isEmpty()) {
+                                    if (radi_business.equals("no")) {
+                                        if (!country_symbol.isEmpty()) {
 
-                                        if (isOnline()) {
+                                            if (isOnline()) {
 
-                                            RegisterAPI();
+                                                RegisterAPI();
 
+                                            } else {
+                                                //Toast.makeText(LoginActivity.this, "Please check internet connection", Toast.LENGTH_SHORT).show();
+                                                ConstantFunctions.showSnakBar("Please check internet connection", v);
+                                            }
                                         } else {
-                                            //Toast.makeText(LoginActivity.this, "Please check internet connection", Toast.LENGTH_SHORT).show();
-                                            ConstantFunctions.showSnakBar("Please check internet connection", v);
+                                            Toast.makeText(RegisterActivity.this, "Select country", Toast.LENGTH_SHORT).show();
                                         }
                                     } else {
-                                        Toast.makeText(RegisterActivity.this, "Select country", Toast.LENGTH_SHORT).show();
+                                        if (reg_name_et.getText().toString().toString().trim().matches(Validation.NAME_PATTERN)) {
+                                            if (!country_symbol.isEmpty()) {
+
+                                                if (isOnline()) {
+
+                                                    RegisterAPI();
+
+                                                } else {
+                                                    //Toast.makeText(LoginActivity.this, "Please check internet connection", Toast.LENGTH_SHORT).show();
+                                                    ConstantFunctions.showSnakBar("Please check internet connection", v);
+                                                }
+                                            } else {
+                                                Toast.makeText(RegisterActivity.this, "Select country", Toast.LENGTH_SHORT).show();
+                                            }
+                                        } else {
+                                            Toast.makeText(RegisterActivity.this, "Name format is invalid", Toast.LENGTH_SHORT).show();
+                                        }
                                     }
+
                                 } else {
                                     Toast.makeText(RegisterActivity.this, "Please accept our Terms and Conditions", Toast.LENGTH_SHORT).show();
                                 }
-                            }else {
+
+                            } else {
                                 Toast.makeText(RegisterActivity.this, "Please select Register as Individual / Business", Toast.LENGTH_SHORT).show();
                             }
 
                            /* } else {
                                 Toast.makeText(RegisterActivity.this, "Please select gender", Toast.LENGTH_SHORT).show();
                             }*/
-                        }else {
+                        } else {
                             password_input_layout.setError("Password format is invalid");
                             Toast.makeText(RegisterActivity.this, "Password format is invalid", Toast.LENGTH_SHORT).show();
                         }
@@ -805,6 +844,7 @@ public class RegisterActivity extends AppCompatActivity implements
         });
 
     }
+
     private TwitterSession getTwitterSession() {
         TwitterSession session = TwitterCore.getInstance().getSessionManager().getActiveSession();
         //NOTE : if you want to get token and secret too use uncomment the below code
@@ -814,6 +854,7 @@ public class RegisterActivity extends AppCompatActivity implements
 
         return session;
     }
+
     public void fetchTwitterEmail(final TwitterSession twitterSession) {
         client.requestEmail(twitterSession, new com.twitter.sdk.android.core.Callback<String>() {
             @Override
@@ -831,6 +872,7 @@ public class RegisterActivity extends AppCompatActivity implements
             }
         });
     }
+
     private void getToken() {
 
         FirebaseMessaging.getInstance().setAutoInitEnabled(true);
@@ -849,14 +891,14 @@ public class RegisterActivity extends AppCompatActivity implements
 
                         // Log and toast
 //                        String msg = getString(R.string.msg_token_fmt, token);
-                        Log.e("device_token", ""+ device_token);
+                        Log.e("device_token", "" + device_token);
                         //  Toast.makeText(SplashActivity.this, token, Toast.LENGTH_SHORT).show();
                     }
                 });
     }
 
     private void sentdevicetoken(final String type) {
-       int status=iDonateSharedPreference.getNotificationstatus(getApplicationContext());
+        int status = iDonateSharedPreference.getNotificationstatus(getApplicationContext());
         JsonObject jsonObject1 = new JsonObject();
         jsonObject1.addProperty("user_id", user_id);
         jsonObject1.addProperty("device_id", device_token);
@@ -873,22 +915,22 @@ public class RegisterActivity extends AppCompatActivity implements
                 public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
                     Log.e(TAG, "" + response.body());
                     try {
-                        JSONObject jsonObject=new JSONObject(String.valueOf(response.body()));
-                        String status=jsonObject.getString("status");
-                        String message=jsonObject.getString("message");
-                        String data=jsonObject.getString("data");
-                        iDonateSharedPreference.settoken(getApplicationContext(),device_token);
-                        if (status.equalsIgnoreCase("1")){
-                            final JSONObject jsonObject2=new JSONObject(data);
-                            if(type.equalsIgnoreCase("social")){
+                        JSONObject jsonObject = new JSONObject(String.valueOf(response.body()));
+                        String status = jsonObject.getString("status");
+                        String message = jsonObject.getString("message");
+                        String data = jsonObject.getString("data");
+                        iDonateSharedPreference.settoken(getApplicationContext(), device_token);
+                        if (status.equalsIgnoreCase("1")) {
+                            final JSONObject jsonObject2 = new JSONObject(data);
+                            if (type.equalsIgnoreCase("social")) {
                                 ChangeActivity.changeActivity(RegisterActivity.this, UpdateActivity.class);
                                 finish();
-                            }else {
+                            } else {
                                 finish();
                             }
 
 
-                        }else {
+                        } else {
                             // ConstantFunctions.showSnackbar(reg_email_et,message,ForgotActivity.this);
                         }
                     } catch (JSONException e) {
@@ -925,13 +967,14 @@ public class RegisterActivity extends AppCompatActivity implements
                 @Override
                 public void success(Result<User> result) {
                     User user = result.data;
-                    Log.e(TAG,"User Id : " + user.id + "\nUser Name : " + user.name + "\nEmail Id : " + user.email + "\nScreen Name : " + user.screenName);
+                    Log.e(TAG, "User Id : " + user.id + "\nUser Name : " + user.name + "\nEmail Id : " + user.email + "\nScreen Name : " + user.screenName);
 
                     String imageProfileUrl = user.profileImageUrl;
                     Log.e(TAG, "Data : " + imageProfileUrl);
-                    if(user.email == null){
+                    if (user.email == null) {
                         gmailfacebookloginAPI(user.name, "", "twitter", user.profileImageUrl);
-                    } else gmailfacebookloginAPI(user.name, user.email, "twitter", user.profileImageUrl);
+                    } else
+                        gmailfacebookloginAPI(user.name, user.email, "twitter", user.profileImageUrl);
                     //NOTE : User profile provided by twitter is very small in size i.e 48*48
                     //Link : https://developer.twitter.com/en/docs/accounts-and-users/user-profile-images-and-banners
                     //so if you want to get bigger size image then do the following:
@@ -955,6 +998,7 @@ public class RegisterActivity extends AppCompatActivity implements
         }
 
     }
+
     private void defaultLoginTwitter() {
         //check if user is already authenticated or not
         if (getTwitterSession() == null) {
@@ -971,7 +1015,7 @@ public class RegisterActivity extends AppCompatActivity implements
                     // Do something with result, which provides a TwitterSession for making API calls
                     TwitterSession twitterSession = result.data;
 
-                    Log.e(TAG, "Success : "+result.data);
+                    Log.e(TAG, "Success : " + result.data);
 
                     //call fetch email only when permission is granted
                     fetchTwitterEmail(twitterSession);
@@ -993,6 +1037,7 @@ public class RegisterActivity extends AppCompatActivity implements
         }
 
     }
+
     private void signIn() {
         Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
         startActivityForResult(signInIntent, RC_SIGN_IN);
@@ -1037,6 +1082,7 @@ public class RegisterActivity extends AppCompatActivity implements
 
         }
     }
+
     private void gmailfacebookloginAPI(final String name, final String personName, final String socialmedia, final String image_url) {
         Log.e("socialmedia", "" + image_url);
         final ProgressDialog progressDialog = new ProgressDialog(this);
@@ -1080,16 +1126,16 @@ public class RegisterActivity extends AppCompatActivity implements
                             Log.e("data232", "" + jsonObject1);
                             iDonateSharedPreference.seteditprofile(getApplicationContext(), "2");
                             iDonateSharedPreference.setprofiledata(getApplicationContext(), data);
-                            iDonateSharedPreference.setlogintype(getApplicationContext(),"sociallogin");
-                            sessionManager.createLoginSession(jsonObject1.getString("user_id"), jsonObject1.getString("email"), jsonObject1.getString("name"), jsonObject1.getString("phone_number"), jsonObject1.getString("photo"), jsonObject1.getString("token"), jsonObject1.getString("business_name"), jsonObject1.getString("country"), jsonObject1.getString("gender"),jsonObject1.getString("type"));
-                            user_id= Integer.parseInt(jsonObject1.getString("user_id"));
+                            iDonateSharedPreference.setlogintype(getApplicationContext(), "sociallogin");
+                            sessionManager.createLoginSession(jsonObject1.getString("user_id"), jsonObject1.getString("email"), jsonObject1.getString("name"), jsonObject1.getString("phone_number"), jsonObject1.getString("photo"), jsonObject1.getString("token"), jsonObject1.getString("business_name"), jsonObject1.getString("country"), jsonObject1.getString("gender"), jsonObject1.getString("type"));
+                            user_id = Integer.parseInt(jsonObject1.getString("user_id"));
                             Log.e("response_name", "" + iDonateSharedPreference.getName(getApplicationContext()));
                             Toast.makeText(RegisterActivity.this, message, Toast.LENGTH_SHORT).show();
                             // iDonateSharedPreference.seteditprofile(getApplicationContext(), "0");
                             sentdevicetoken("social");
                         } else if (jsonObject.getString("status").equals("0")) {
                             // Toast.makeText(LoginActivity.this, message, Toast.LENGTH_SHORT).show();
-                            ConstantFunctions.showSnackbar(reg_name_et,message,RegisterActivity.this);
+                            ConstantFunctions.showSnackbar(reg_name_et, message, RegisterActivity.this);
                             if (iDonateSharedPreference.getsocialMedia(getApplicationContext()).equalsIgnoreCase("email")) {
                                 Log.e("data232email", "" + "email");
                                 signOut();
@@ -1130,6 +1176,7 @@ public class RegisterActivity extends AppCompatActivity implements
             Log.e("Exception", "" + e);
         }
     }
+
     private void signOut() {
         Auth.GoogleSignInApi.signOut(mGoogleApiClient).setResultCallback(
                 new ResultCallback<Status>() {
@@ -1201,21 +1248,24 @@ public class RegisterActivity extends AppCompatActivity implements
         // be available.
         Log.d(TAG, "onConnectionFailed:" + connectionResult);
     }
+
     private void radiobussi() {
         if (radio_btn_yes.isChecked()) {
             radi_business = "yes";
         } else if (radio_btn_no.isChecked()) {
             radi_business = "no";
-        }else {
+        } else {
 
             radi_business = "";
         }
     }
-    public static String getDeviceUniqueID(Activity activity){
+
+    public static String getDeviceUniqueID(Activity activity) {
         String device_unique_id = Settings.Secure.getString(activity.getContentResolver(),
                 Settings.Secure.ANDROID_ID);
         return device_unique_id;
     }
+
     private void RegisterAPI() {
         final ProgressDialog progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Loading...");
@@ -1225,10 +1275,10 @@ public class RegisterActivity extends AppCompatActivity implements
         String user_password = reg_password_et.getText().toString().trim();
         String user_mobile = reg_mobile_et.getText().toString().trim();
         String user_email = reg_email_et.getText().toString().trim();
-        if(type.equalsIgnoreCase("business")){
-            business_name=business_reg_name_et.getText().toString();
-        }else {
-            business_name="";
+        if (type.equalsIgnoreCase("business")) {
+            business_name = business_reg_name_et.getText().toString();
+        } else {
+            business_name = "";
         }
         JsonObject jsonObject1 = new JsonObject();
         jsonObject1.addProperty("name", user_name);
@@ -1270,7 +1320,7 @@ public class RegisterActivity extends AppCompatActivity implements
                             ChangeActivity.changeActivity(RegisterActivity.this, LoginActivity.class);
                             finish();
                         } else if (jsonObject.getString("status").equals("0")) {
-                            ConstantFunctions.showSnackbar(reg_mobile_et,message,RegisterActivity.this);
+                            ConstantFunctions.showSnackbar(reg_mobile_et, message, RegisterActivity.this);
                             // Toast.makeText(RegisterActivity.this, message, Toast.LENGTH_SHORT).show();
                         }
                     } catch (JSONException e) {

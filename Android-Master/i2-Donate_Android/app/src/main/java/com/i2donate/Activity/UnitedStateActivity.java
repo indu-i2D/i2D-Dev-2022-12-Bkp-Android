@@ -1,6 +1,5 @@
 package com.i2donate.Activity;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Rect;
@@ -57,6 +56,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -149,7 +149,7 @@ public class UnitedStateActivity extends CommonBackActivity {
         united_state_recyclerview = (RecyclerView) findViewById(R.id.united_state_recyclerview);
         search_et = (EditText) findViewById(R.id.search_us_et);
         search_name_et = (EditText) findViewById(R.id.search_name_et1);
-        search_et.setFocusable(false);
+        search_et.setFocusable(true);
         search_name_et1 = (EditText) findViewById(R.id.search_us_et1);
         search_na_et1 = (EditText) findViewById(R.id.search_na_et1);
         search_name_et1.setFocusable(false);
@@ -171,8 +171,14 @@ public class UnitedStateActivity extends CommonBackActivity {
         listOfdate = iDonateSharedPreference.getselectedtypedata(getApplicationContext());
         listofsubCategory = iDonateSharedPreference.getselectedsubcategorydata(getApplicationContext());
         listofchilCategory = iDonateSharedPreference.getselectedchildcategorydata(getApplicationContext());
-        unitesStateLocationDetailsAdapterList = new LoadMoreUnitesStateLocationDetailsAdapterList((UnitedStateActivity) context, charitylist1);
-        united_state_recyclerview.setAdapter(unitesStateLocationDetailsAdapterList);
+
+        if (listOfdate.size() > 0) {
+            CharityAPI(page, "none");
+        }
+
+
+//        unitesStateLocationDetailsAdapterList = new LoadMoreUnitesStateLocationDetailsAdapterList((UnitedStateActivity) context, charitylist1);
+//        united_state_recyclerview.setAdapter(unitesStateLocationDetailsAdapterList);
         if (session.isLoggedIn()) {
             title_tv1.setVisibility(View.VISIBLE);
         } else {
@@ -180,7 +186,7 @@ public class UnitedStateActivity extends CommonBackActivity {
         }
         if (isOnline()) {
             if (flag == 0) {
-                // CharityAPI();
+//                 CharityAPI();
                 Log.e("notcallapi", "yes");
             } else {
                 Log.e("notcallapi", "not");
@@ -191,11 +197,13 @@ public class UnitedStateActivity extends CommonBackActivity {
 
 
     }
-    public static String getDeviceUniqueID(Context activity){
+
+    public static String getDeviceUniqueID(Context activity) {
         String device_unique_id = Settings.Secure.getString(activity.getContentResolver(),
                 Settings.Secure.ANDROID_ID);
         return device_unique_id;
     }
+
     private void listioner() {
         nestedscrollview.setOnScrollChangeListener(new NestedScrollView.OnScrollChangeListener() {
             @Override
@@ -471,9 +479,9 @@ public class UnitedStateActivity extends CommonBackActivity {
                     close_img1.setVisibility(View.VISIBLE);
                     if (text.length() > 2) {
 //                        callWebservice(text);
-                        page="1";
-                        backflag=1;
-                        CharityAPI(page,"none");
+                        page = "1";
+                        backflag = 1;
+                        CharityAPI(page, "none");
                     } else {
                         charitylist.clear();
                         // charitylist1.clear();
@@ -484,9 +492,9 @@ public class UnitedStateActivity extends CommonBackActivity {
 
                                 if (hasFocus) {*/
                         // Here's the key code
-                        page="1";
-                        backflag=0;
-                        CharityAPI(page,"none");
+                        page = "1";
+                        backflag = 0;
+                        CharityAPI(page, "none");
                               /*  }
                             }
                         });*/
@@ -505,8 +513,8 @@ public class UnitedStateActivity extends CommonBackActivity {
 
                             if (hasFocus) {
                                 // Here's the key code
-                                page="1";
-                                CharityAPI(page,"none");
+                                page = "1";
+                                CharityAPI(page, "none");
                             }
                         }
                     });
@@ -534,9 +542,9 @@ public class UnitedStateActivity extends CommonBackActivity {
             public void onClick(View v) {
                 search_na_et1.setText("");
                 search_name_et.setText("");
-                page="1";
-                backflag=0;
-                CharityAPI(page,"none");
+                page = "1";
+                backflag = 0;
+                CharityAPI(page, "none");
             }
         });
         close_img1.setOnClickListener(new View.OnClickListener() {
@@ -544,9 +552,9 @@ public class UnitedStateActivity extends CommonBackActivity {
             public void onClick(View v) {
                 search_na_et1.setText("");
                 search_name_et.setText("");
-                page="1";
-                backflag=0;
-                CharityAPI(page,"none");
+                page = "1";
+                backflag = 0;
+                CharityAPI(page, "none");
             }
         });
 /*
@@ -728,22 +736,104 @@ public class UnitedStateActivity extends CommonBackActivity {
                 //   finish();
             }
         });
-        search_et.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                ChangeActivity.changeActivity(UnitedStateActivity.this, AutosearchActivity.class);
-                flag = 1;
-                ChangeActivity.changeActivityData(UnitedStateActivity.this, PlaceSearchActivity.class, "1");
-                finish();
-            }
-        });
+//        search_et.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+////                ChangeActivity.changeActivity(UnitedStateActivity.this, AutosearchActivity.class);
+//                flag = 1;
+//                ChangeActivity.changeActivityData(UnitedStateActivity.this, PlaceSearchActivity.class, "1");
+//                finish();
+//            }
+//        });
+//
+//        search_name_et1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                flag = 1;
+//                ChangeActivity.changeActivityData(UnitedStateActivity.this, PlaceSearchActivity.class, "1");
+//                finish();
+//            }
+//        });
 
-        search_name_et1.setOnClickListener(new View.OnClickListener() {
+        search_et.addTextChangedListener(new TextWatcher() {
             @Override
-            public void onClick(View v) {
-                flag = 1;
-                ChangeActivity.changeActivityData(UnitedStateActivity.this, PlaceSearchActivity.class, "1");
-                finish();
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                String text = search_name_et.getText().toString();
+                if (text.length() > 0) {
+                    //
+                    search_icon.setVisibility(View.GONE);
+                    close_img.setVisibility(View.VISIBLE);
+                    if (text.length() > 2) {
+                        page = "1";
+                        backflag = 1;
+                        CharityAPI(page, "none");
+                    } else {
+//                        unitesStateLocationAdapterList.notifyDataSetChanged();
+                        //  charitylist1.clear();
+                        //charitylist.clear();
+                       /* search_name_et.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                            @Override
+                            public void onFocusChange(View v, boolean hasFocus) {
+
+                                if (hasFocus) {*/
+                        // Here's the key code
+                        Log.e("focusing", "focusing");
+                        page = "1";
+                        CharityAPI(page, "none");
+                        backflag = 0;
+                               /* }
+                            }
+                        });*/
+
+
+//                        arrayList.clear();
+//                        adapter.notifyDataSetChanged();
+                    }
+                } else {
+
+                    search_icon.setVisibility(View.VISIBLE);
+                    close_img.setVisibility(View.GONE);
+//                    unitesStateLocationAdapterList.notifyDataSetChanged();
+                    // charitylist1.clear();
+                    charitylist.clear();
+                    search_name_et.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                        @Override
+                        public void onFocusChange(View v, boolean hasFocus) {
+
+                            if (hasFocus) {
+                                // Here's the key code
+                                page = "1";
+                                CharityAPI(page, "none");
+                            }
+                        }
+                    });
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                Log.e(TAG, "afterTextChanged: " + charitylist1.size());
+//
+//                if (search_et.getText().toString().equals("")) {
+////                    matchListAdapter.updateList(matchArrayLists);
+////                    GetAllMatches(tomorrowAsString, todayAsString);
+//                } else {
+//                    filter(s.toString());
+//                }
+                if (charitylist1.size() != 0) {
+                    filter(s.toString());
+//                    String text = search_et.getText().toString().toLowerCase(Locale.getDefault());
+//                    unitesStateLocationDetailsAdapterList.filter(text);
+//                    Log.e("name", "name");
+
+
+
+            }
             }
         });
 
@@ -1014,6 +1104,34 @@ public class UnitedStateActivity extends CommonBackActivity {
 
     }
 
+
+    void filter(String text) {
+        ArrayList<Charitylist> temp = new ArrayList();
+        for (Charitylist d : charitylist1) {
+            //or use .equal(text) with you want equal match
+            //use .toLowerCase() for better matches
+//
+            if (d.getName().toLowerCase(Locale.ROOT).contains(text)) {
+                temp.add(d);
+            } else if (d.getCity().toLowerCase(Locale.ROOT).contains(text)) {
+                temp.add(d);
+            } else if (d.getStreet().toLowerCase(Locale.ROOT).contains(text)) {
+                temp.add(d);
+            }
+        }
+        //update recyclerview
+        unitesStateLocationDetailsAdapterList.updateList(temp);
+
+        if (charitylist1.size() == 0) {
+            UnitedStateActivity.nodata(0);
+            Log.e("charitylist1", "" + charitylist1.size());
+        } else {
+            UnitedStateActivity.nodata(1);
+            Log.e("charitylist12", "" + charitylist1.size());
+        }
+    }
+
+
     private void LoginDailogue() {
         AlertDialog.Builder builder = new AlertDialog.Builder(UnitedStateActivity.this);
         builder.setTitle("");
@@ -1090,7 +1208,7 @@ public class UnitedStateActivity extends CommonBackActivity {
             } else {
                 searchName = iDonateSharedPreference.getSearchName(context);
             }
-            Log.e("searchName",""+searchName);
+            Log.e("searchName", "" + searchName);
             String searchRevenue = iDonateSharedPreference.getRevenue(context);
             searchDeductible = iDonateSharedPreference.getDeductible(context);
             if (searchRevenue.equalsIgnoreCase("")) {
@@ -1126,7 +1244,7 @@ public class UnitedStateActivity extends CommonBackActivity {
                 childCategory_Array.add(listofchilCategory.get(k));
             }
         }
-        String device_id=getDeviceUniqueID(context);
+        String device_id = getDeviceUniqueID(context);
         JsonObject jsonObject1 = new JsonObject();
         jsonObject1.addProperty("name", searchName);
         jsonObject1.addProperty("latitude", lat);
@@ -1254,7 +1372,8 @@ public class UnitedStateActivity extends CommonBackActivity {
                                 unitesStateLocationDetailsAdapterList.notifyDataSetChanged();
                                 united_state_recyclerview.setNestedScrollingEnabled(true);
 //                            united_state_recyclerview.setItemAnimator(new DefaultItemAnimator());
-
+                                unitesStateLocationDetailsAdapterList = new LoadMoreUnitesStateLocationDetailsAdapterList((UnitedStateActivity) context, charitylist1);
+                                united_state_recyclerview.setAdapter(unitesStateLocationDetailsAdapterList);
 
                             } else {
                                 //   if (page.equalsIgnoreCase("1")) {
@@ -1416,6 +1535,8 @@ public class UnitedStateActivity extends CommonBackActivity {
         listOfdate = iDonateSharedPreference.getselectedtypedata(getApplicationContext());
         listofsubCategory = iDonateSharedPreference.getselectedsubcategorydata(getApplicationContext());
         listofchilCategory = iDonateSharedPreference.getselectedchildcategorydata(getApplicationContext());
+
+        Log.e(TAG, "onResume: "+listOfdate.size() );
         if (listOfdate.size() > 0) {
             CharityAPI(page, "none");
         }
@@ -1444,7 +1565,6 @@ public class UnitedStateActivity extends CommonBackActivity {
                 unitesStateLocationDetailsAdapterList = new LoadMoreUnitesStateLocationDetailsAdapterList((UnitedStateActivity) context, charitylist1);
                 united_state_recyclerview.setAdapter(unitesStateLocationDetailsAdapterList);
             }
-
         }
         unitesStateLocationDetailsAdapterList = new LoadMoreUnitesStateLocationDetailsAdapterList((UnitedStateActivity) context, charitylist1);
         united_state_recyclerview.setAdapter(unitesStateLocationDetailsAdapterList);

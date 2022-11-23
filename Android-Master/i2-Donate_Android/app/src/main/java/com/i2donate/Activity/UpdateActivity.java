@@ -15,9 +15,9 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
+import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.os.Bundle;
 import android.provider.Settings;
 import android.text.Editable;
 import android.text.TextUtils;
@@ -83,7 +83,7 @@ import retrofit2.Response;
 
 public class UpdateActivity extends AppCompatActivity {
     private static final String TAG = UpdateActivity.class.getSimpleName();
-    private EditText update_name_et, update_email_et, update_mobile_et,business_reg_name_et;
+    private EditText update_name_et, update_email_et, update_mobile_et, business_reg_name_et;
     TextInputLayout name_input_layout_update;
     private TextView skip_btn;
     private ImageView back_icon_img, myprofile_edit_img, ic_edit_icon;
@@ -102,21 +102,22 @@ public class UpdateActivity extends AppCompatActivity {
     SearchableSpinner country_spinner;
     private final static String API_KEY = "";
     String country_symbol = "";
-    RadioButton radio_btn_male, radio_btn_female, radio_btn_orthers,radio_btn_yes,radio_btn_no;
+    RadioButton radio_btn_male, radio_btn_female, radio_btn_orthers, radio_btn_yes, radio_btn_no;
     int index = 0;
     SessionManager sessionManager;
     @BindView(R.id.business_name_input_layout)
     TextInputLayout business_name_input_layout;
-    String gender, name, user_id, token, email, password, phone, country="", base64img = "",terms="";
-    private LinearLayout gender_layout,terms_layout;
+    String gender, name, user_id, token, email, password, phone, country = "", base64img = "", terms = "";
+    private LinearLayout gender_layout, terms_layout;
     CheckBox checkbox_btn;
-    private  TextView selected_business_tv;
+    private TextView selected_business_tv;
     private RadioGroup business_radioGroup1;
     static HashMap<String, String> userDetails;
     SessionManager session;
-    String business_name="";
-    String type="";
-    String permission="";
+    String business_name = "";
+    String type = "";
+    String permission = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -231,39 +232,39 @@ public class UpdateActivity extends AppCompatActivity {
         skip_btn = (TextView) findViewById(R.id.skip_btn);
         update_btn = (Button) findViewById(R.id.update_btn);
         country_spinner = (SearchableSpinner) findViewById(R.id.spin_country);
-        business_reg_name_et=(EditText)findViewById(R.id.business_reg_name_et);
-        business_name_input_layout=(TextInputLayout)findViewById(R.id.business_name_input_layout);
-        radio_btn_yes=(RadioButton)findViewById(R.id.radio_btn_yes);
-        radio_btn_no=(RadioButton)findViewById(R.id.radio_btn_no);
-        gender_layout=(LinearLayout)findViewById(R.id.gender_layout);
-        terms_layout=(LinearLayout)findViewById(R.id.terms_layout);
-        checkbox_btn=(CheckBox)findViewById(R.id.checkbox_btn);
-        selected_business_tv=(TextView)findViewById(R.id.selected_business_tv);
-        business_radioGroup1=(RadioGroup)findViewById(R.id.business_radioGroup1);
+        business_reg_name_et = (EditText) findViewById(R.id.business_reg_name_et);
+        business_name_input_layout = (TextInputLayout) findViewById(R.id.business_name_input_layout);
+        radio_btn_yes = (RadioButton) findViewById(R.id.radio_btn_yes);
+        radio_btn_no = (RadioButton) findViewById(R.id.radio_btn_no);
+        gender_layout = (LinearLayout) findViewById(R.id.gender_layout);
+        terms_layout = (LinearLayout) findViewById(R.id.terms_layout);
+        checkbox_btn = (CheckBox) findViewById(R.id.checkbox_btn);
+        selected_business_tv = (TextView) findViewById(R.id.selected_business_tv);
+        business_radioGroup1 = (RadioGroup) findViewById(R.id.business_radioGroup1);
         Log.e("data232", "" + iDonateSharedPreference.getprofiledata(getApplicationContext()));
         String updateauth = iDonateSharedPreference.getprofiledata(getApplicationContext());
         Log.e("update23", updateauth);
         userDetails = session.getUserDetails();
         Log.e("KEY_BUSINESS", "" + userDetails.get(SessionManager.KEY_BUSINESS));
-        type=userDetails.get(SessionManager.KEY_type);
-        business_name=userDetails.get(SessionManager.KEY_BUSINESS);
-        if (!type.isEmpty()){
-            String typeupper = type.substring(0,1).toUpperCase() + type.substring(1);
+        type = userDetails.get(SessionManager.KEY_type);
+        business_name = userDetails.get(SessionManager.KEY_BUSINESS);
+        if (!type.isEmpty()) {
+            String typeupper = type.substring(0, 1).toUpperCase() + type.substring(1);
             selected_business_tv.setText(typeupper);
-            if (type.equalsIgnoreCase("business")){
+            if (type.equalsIgnoreCase("business")) {
                 business_name_input_layout.setVisibility(View.VISIBLE);
                 gender_layout.setVisibility(View.GONE);
                 selected_business_tv.setVisibility(View.VISIBLE);
                 business_radioGroup1.setVisibility(View.GONE);
-                if (!business_name.isEmpty()){
-                    business_reg_name_et.setText(business_name.substring(0,1).toUpperCase() + business_name.substring(1));
+                if (!business_name.isEmpty()) {
+                    business_reg_name_et.setText(business_name.substring(0, 1).toUpperCase() + business_name.substring(1));
                 }
-            }else if( type.equalsIgnoreCase("individual")) {
+            } else if (type.equalsIgnoreCase("individual")) {
                 business_name_input_layout.setVisibility(View.GONE);
                 gender_layout.setVisibility(View.VISIBLE);
                 business_radioGroup1.setVisibility(View.GONE);
                 selected_business_tv.setVisibility(View.VISIBLE);
-            }else {
+            } else {
                 business_name_input_layout.setVisibility(View.GONE);
                 gender_layout.setVisibility(View.VISIBLE);
                 selected_business_tv.setVisibility(View.GONE);
@@ -286,9 +287,17 @@ public class UpdateActivity extends AppCompatActivity {
             country = jsonObject1.getString("country");
             gender = jsonObject1.getString("gender");
             terms = jsonObject1.getString("terms");
-            String image = jsonObject1.getString("photo");
+
             try {
-                Picasso.with(this).load(image).placeholder(R.drawable.ic_profile_holder).memoryPolicy(MemoryPolicy.NO_CACHE).networkPolicy(NetworkPolicy.NO_CACHE).error(R.drawable.ic_profile_holder).into(myprofile_edit_img);
+                String image = jsonObject1.getString("photo");
+                if (image.isEmpty()) {
+                    Picasso.with(this).load(R.drawable.ic_profile_holder).placeholder(R.drawable.ic_profile_holder).memoryPolicy(MemoryPolicy.NO_CACHE).networkPolicy(NetworkPolicy.NO_CACHE).error(R.drawable.ic_profile_holder).into(myprofile_edit_img);
+
+
+                } else {
+                    Picasso.with(this).load(image).placeholder(R.drawable.ic_profile_holder).memoryPolicy(MemoryPolicy.NO_CACHE).networkPolicy(NetworkPolicy.NO_CACHE).error(R.drawable.ic_profile_holder).into(myprofile_edit_img);
+
+                }
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -300,15 +309,15 @@ public class UpdateActivity extends AppCompatActivity {
             } else if (gender.equalsIgnoreCase("O")) {
                 radio_btn_orthers.setChecked(true);
             }
-            if (country.isEmpty()){
-                country="US";
+            if (country.isEmpty()) {
+                country = "US";
 
             }
-            if (terms.equalsIgnoreCase("Yes")){
+            if (terms.equalsIgnoreCase("Yes")) {
                 terms_layout.setVisibility(View.GONE);
                 skip_btn.setVisibility(View.VISIBLE);
                 checkbox_btn.setChecked(true);
-            }else {
+            } else {
                 skip_btn.setVisibility(View.GONE);
                 terms_layout.setVisibility(View.VISIBLE);
             }
@@ -328,17 +337,16 @@ public class UpdateActivity extends AppCompatActivity {
         }
 
 
-
         editprofile = iDonateSharedPreference.geteditprofile(getApplicationContext());
         if (editprofile.equalsIgnoreCase("1")) {
 
             business_radioGroup1.setVisibility(View.GONE);
             update_btn.setVisibility(View.GONE);
-            if (terms.equalsIgnoreCase("Yes")){
+            if (terms.equalsIgnoreCase("Yes")) {
                 terms_layout.setVisibility(View.GONE);
                 skip_btn.setVisibility(View.VISIBLE);
                 checkbox_btn.setChecked(true);
-            }else {
+            } else {
                 skip_btn.setVisibility(View.GONE);
                 terms_layout.setVisibility(View.VISIBLE);
             }
@@ -387,10 +395,10 @@ public class UpdateActivity extends AppCompatActivity {
         checkbox_btn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked){
+                if (isChecked) {
                     update_btn.setVisibility(View.VISIBLE);
-                }else {
-                    
+                } else {
+
                 }
             }
         });
@@ -433,15 +441,15 @@ public class UpdateActivity extends AppCompatActivity {
         radio_btn_no.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (radio_btn_no.isChecked()){
+                if (radio_btn_no.isChecked()) {
                     business_name_input_layout.setVisibility(View.VISIBLE);
-                    business_name=business_reg_name_et.getText().toString();
+                    business_name = business_reg_name_et.getText().toString();
                     gender_layout.setVisibility(View.GONE);
-                    type="business";
-                }else {
+                    type = "business";
+                } else {
                     gender_layout.setVisibility(View.VISIBLE);
                     business_reg_name_et.setText("");
-                    type="individual";
+                    type = "individual";
                     business_name_input_layout.setVisibility(View.GONE);
                 }
             }
@@ -449,15 +457,15 @@ public class UpdateActivity extends AppCompatActivity {
         radio_btn_yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (radio_btn_yes.isChecked()){
+                if (radio_btn_yes.isChecked()) {
                     business_reg_name_et.setText("");
-                    type="individual";
+                    type = "individual";
                     business_name_input_layout.setVisibility(View.GONE);
                     gender_layout.setVisibility(View.VISIBLE);
-                }else {
-                    type="business";
+                } else {
+                    type = "business";
                     gender_layout.setVisibility(View.GONE);
-                    business_name=business_reg_name_et.getText().toString();
+                    business_name = business_reg_name_et.getText().toString();
                     business_name_input_layout.setVisibility(View.VISIBLE);
                 }
             }
@@ -481,19 +489,19 @@ public class UpdateActivity extends AppCompatActivity {
         terms_layout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ChangeActivity.changeActivityData(UpdateActivity.this, TermsAndConditionActivity.class,"");
+                ChangeActivity.changeActivityData(UpdateActivity.this, TermsAndConditionActivity.class, "");
             }
         });
         myprofile_edit_img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 update_btn.setVisibility(View.VISIBLE);
-                if (new IDonateSharedPreference().getpermission(getApplicationContext()).equalsIgnoreCase("granted")){
+                if (new IDonateSharedPreference().getpermission(getApplicationContext()).equalsIgnoreCase("granted")) {
                     getGallery();
-                }else {
+                } else {
                     requestMultiplePermissions();
                 }
-               // selectFile();
+                // selectFile();
             }
         });
 
@@ -562,16 +570,16 @@ public class UpdateActivity extends AppCompatActivity {
                 radiofn();
                 if (!isEmpty(update_name_et)) {
                     if (isOnline()) {
-                        if (checkbox_btn.isChecked()){
+                        if (checkbox_btn.isChecked()) {
                             UpadteAPI();
-                        }else {
+                        } else {
                             Toast.makeText(UpdateActivity.this, "Please accept our Terms and Conditions", Toast.LENGTH_SHORT).show();
                         }
 
 
                     } else {
                         // Toast.makeText(UpdateActivity.this, "Please check internet connection", Toast.LENGTH_SHORT).show();
-                        ConstantFunctions.showSnackbar(update_name_et,"Please check internet connection",UpdateActivity.this);
+                        ConstantFunctions.showSnackbar(update_name_et, "Please check internet connection", UpdateActivity.this);
                         //ConstantFunctions.showSnakBar("Please check internet connection", v);
                     }
 
@@ -598,11 +606,13 @@ public class UpdateActivity extends AppCompatActivity {
         CharSequence charSequence = text.getText().toString();
         return TextUtils.isEmpty(charSequence);
     }
-    public static String getDeviceUniqueID(Activity activity){
+
+    public static String getDeviceUniqueID(Activity activity) {
         String device_unique_id = Settings.Secure.getString(activity.getContentResolver(),
                 Settings.Secure.ANDROID_ID);
         return device_unique_id;
     }
+
     private void UpadteAPI() {
         final ProgressDialog progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Loading...");
@@ -610,6 +620,7 @@ public class UpdateActivity extends AppCompatActivity {
         final String image_url = "";
         name = update_name_et.getText().toString().trim();
 
+        Log.e(TAG, "UpadteAPI:---- "+base64img );
         String phone = update_mobile_et.getText().toString().trim();
         JsonObject jsonObject1 = new JsonObject();
         jsonObject1.addProperty("user_id", user_id);
@@ -621,9 +632,9 @@ public class UpdateActivity extends AppCompatActivity {
         jsonObject1.addProperty("country", country);
         jsonObject1.addProperty("gender", gender);
         jsonObject1.addProperty("photo", base64img);
-        jsonObject1.addProperty("business_name",business_name);
-        jsonObject1.addProperty("type",type);
-        jsonObject1.addProperty("terms","Yes");
+        jsonObject1.addProperty("business_name", business_name);
+        jsonObject1.addProperty("type", type);
+        jsonObject1.addProperty("terms", "Yes");
         Log.e("jsonObject1", "" + jsonObject1);
 
 
@@ -646,7 +657,7 @@ public class UpdateActivity extends AppCompatActivity {
                             Log.e("data232", "" + data);
                             JSONObject jsonObject1 = new JSONObject(data);
                             Log.e("data232", "" + jsonObject1);
-                            sessionManager.createLoginSession(jsonObject1.getString("user_id"), jsonObject1.getString("email"), jsonObject1.getString("name"), jsonObject1.getString("phone_number"),jsonObject1.getString("photo"),jsonObject1.getString("token"),jsonObject1.getString("business_name"),jsonObject1.getString("country"),jsonObject1.getString("gender"),jsonObject1.getString("type"));
+                            sessionManager.createLoginSession(jsonObject1.getString("user_id"), jsonObject1.getString("email"), jsonObject1.getString("name"), jsonObject1.getString("phone_number"), jsonObject1.getString("photo"), jsonObject1.getString("token"), jsonObject1.getString("business_name"), jsonObject1.getString("country"), jsonObject1.getString("gender"), jsonObject1.getString("type"));
                             iDonateSharedPreference.setprofiledata(getApplicationContext(), data);
                             Log.e("updatedata", "" + iDonateSharedPreference.getprofiledata(getApplicationContext()));
                             iDonateSharedPreference.setSocialProfileimg(getApplicationContext(), image_url);
@@ -664,7 +675,7 @@ public class UpdateActivity extends AppCompatActivity {
                             Toast.makeText(UpdateActivity.this, message, Toast.LENGTH_SHORT).show();
                         } else if (jsonObject.getString("status").equals("0")) {
                             // Toast.makeText(UpdateActivity.this, message, Toast.LENGTH_SHORT).show();
-                            ConstantFunctions.showSnackbar(update_name_et,message,UpdateActivity.this);
+                            ConstantFunctions.showSnackbar(update_name_et, message, UpdateActivity.this);
                         }
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -713,6 +724,7 @@ public class UpdateActivity extends AppCompatActivity {
     }
 
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if (requestCode == REQUEST_READ_PERMISSION && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             getGallery();
         }
@@ -724,7 +736,8 @@ public class UpdateActivity extends AppCompatActivity {
         pictureDialog.setTitle("Select Action");
         String[] pictureDialogItems = {
                 "Select photo from gallery",
-                "Capture photo from camera"};
+                "Capture photo from camera",
+                "Remove Photo"};
         pictureDialog.setItems(pictureDialogItems,
                 new DialogInterface.OnClickListener() {
                     @Override
@@ -735,6 +748,11 @@ public class UpdateActivity extends AppCompatActivity {
                                 break;
                             case 1:
                                 takePhotoFromCamera();
+                                break;
+                            case 2:
+
+                                myprofile_edit_img.setImageDrawable(getDrawable(R.drawable.ic_profile_holder));
+                                base64img = "null";
                                 break;
                         }
                     }
@@ -878,8 +896,8 @@ public class UpdateActivity extends AppCompatActivity {
                                     public void onPermissionsChecked(MultiplePermissionsReport report) {
                                         // check if all permissions are granted
                                         if (report.areAllPermissionsGranted()) {
-                                            permission="granted";
-                                            new IDonateSharedPreference().setpermission(getApplicationContext(),"granted");
+                                            permission = "granted";
+                                            new IDonateSharedPreference().setpermission(getApplicationContext(), "granted");
                                             //   Toast.makeText(getApplicationContext(), "All permissions are granted by user!", Toast.LENGTH_SHORT).show();
                                         }
 

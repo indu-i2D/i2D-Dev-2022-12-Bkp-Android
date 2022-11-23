@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidStudioProjects\\i2\\Phase2-Review-main\\Phase2-Review-main\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw400dp-v13\\values-sw400dp-v13.xml",
+            "outputFile": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw400dp-v13\\values-sw400dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hai\\.gradle\\caches\\transforms-2\\files-2.1\\d3d109fa93f9053f1f8cee2d039535b0\\jetified-card-form-3.5.0\\res\\values-sw400dp-v13\\values-sw400dp-v13.xml",
+                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-2\\files-2.1\\02dc7cd42976f9de604613d3b3e73489\\jetified-card-form-3.5.0\\res\\values-sw400dp-v13\\values-sw400dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

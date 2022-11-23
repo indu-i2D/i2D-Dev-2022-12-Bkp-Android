@@ -57,7 +57,8 @@
         <activity android:name=".Activity.PrivactPolicyActivity"></activity>
         <activity
             android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -84,7 +85,8 @@
             </intent-filter>
         </service>
 
-        <receiver android:name=".Notification.fcm.OnBootBroadcastReceiver">
+        <receiver android:name=".Notification.fcm.OnBootBroadcastReceiver"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
@@ -173,7 +175,8 @@
             android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
         <activity
             android:name=".Activity.SplashScreenActivity"
-            android:theme="@style/inter_splash_screen">
+            android:theme="@style/inter_splash_screen"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -202,7 +205,8 @@
 
         <receiver
             android:name=".Interwork.ConnectivityReceiver"
-            android:enabled="true">
+            android:enabled="true"
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>

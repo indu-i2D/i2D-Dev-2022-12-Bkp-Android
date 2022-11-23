@@ -64,11 +64,11 @@
     <string name="register_text">REGISTER</string>
     <string name="register_name">Name*</string>
     <string name="register_email">Email Address*</string>
-    <string name="register_mobile">Mobile</string>
+    <string name="register_mobile">Mobile*</string>
     <string name="update_mobile">Mobile</string>
     <string name="register_password">Password*</string>
     <string name="register_confirm_password">Confirm password*</string>
-    <string name="register_password_hint">Note: Password must be at least 8 characters long and have a combination of letters, numbers and symbols</string>
+    <string name="register_password_hint">Note: Password must be at least 8 char long and have a combination of Capital and Small letters, Number and Symbols</string>
     <string name="register_gender">Gender</string>
     <string name="register_male">Male</string>
     <string name="register_female">Female</string>
@@ -197,6 +197,7 @@
     <!--Name_serach-->
 
     <string name="name_search_noresult">No data found...</string>
+    <string name="no_notifications">No Notifications</string>
     <!--Advanced Search-->
     <string name="advanced_search">advanced search</string>
     <string name="advanced_narrow">Narrow down search results for complex searches by using the Advanced Search.</string>

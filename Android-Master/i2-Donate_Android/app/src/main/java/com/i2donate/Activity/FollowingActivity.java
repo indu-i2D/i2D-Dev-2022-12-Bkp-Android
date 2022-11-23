@@ -125,9 +125,6 @@ public class FollowingActivity extends CommonMenuActivity {
                     no_data_linear.setVisibility(View.VISIBLE);
 
                 }else if (type.equalsIgnoreCase("donate")) {
-                        Log.e("DonatedC_size","" + DonatedCharityList1.size());
-                        Log.e("getCharity_name","" + DonatedCharityList1.get(0).getCharity_name());
-                        Log.e("getCharity_name","" + DonatedCharityList1.get(1).getCharity_name());
                     if (DonatedCharityList1.size()!=0) {
                         following_recyclerview.setVisibility(View.VISIBLE);
                         no_data_linear.setVisibility(View.GONE);

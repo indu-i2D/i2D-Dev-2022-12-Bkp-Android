@@ -74,7 +74,7 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:gravity="center"
                 android:textColor="@color/colorPrimary"
-                android:text="@string/name_search_noresult"
+                android:text="@string/no_notifications"
                android:textSize="@dimen/_12sdp" />
         </LinearLayout>
     </LinearLayout>
