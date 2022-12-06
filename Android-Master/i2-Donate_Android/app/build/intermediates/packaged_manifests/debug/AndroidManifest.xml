@@ -5,7 +5,7 @@
     android:versionName="1.0.0" >
 
     <uses-sdk
-        android:minSdkVersion="26"
+        android:minSdkVersion="21"
         android:targetSdkVersion="32" />
 
     <supports-screens
@@ -28,6 +28,8 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.RECORD_VIDEO" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -42,8 +44,6 @@
     <uses-feature
         android:name="android.hardware.camera.autofocus"
         android:required="false" />
-
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <queries>
         <package android:name="com.facebook.katana" />
@@ -64,7 +64,6 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:exported="false"
-        android:extractNativeLibs="false"
         android:fullBackupContent="false"
         android:grantUriPermissions="true"
         android:hardwareAccelerated="false"
@@ -73,7 +72,6 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/ChatBackground"
         android:usesCleartextTraffic="true"
         android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
@@ -269,30 +267,24 @@
             android:value="false" />
 
         <activity
-            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:theme="@style/MediaTheme" />
-        <activity
-            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
-            android:theme="@style/MediaTheme" />
-        <activity
-            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize|stateVisible" />
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
 
-        <service
-            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+        <provider
+            android:name="com.balsikandar.crashreporter.CrashReporterInitProvider"
+            android:authorities="com.i2donate.CrashReporterInitProvider"
             android:enabled="true"
             android:exported="false" />
 
         <activity
-            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
-            android:configChanges="orientation|screenSize"
-            android:excludeFromRecents="true"
-            android:exported="false" />
+            android:name="com.balsikandar.crashreporter.ui.CrashReporterActivity"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.balsikandar.android.task"
+            android:theme="@style/CrashReporter.Theme" />
         <activity
-            android:name="com.karumi.dexter.DexterActivity"
-            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+            android:name="com.balsikandar.crashreporter.ui.LogMessageActivity"
+            android:parentActivityName="com.balsikandar.crashreporter.ui.CrashReporterActivity"
+            android:theme="@style/CrashReporter.Theme" />
         <activity
             android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"
             android:theme="@style/bt_three_d_secure_theme" />
@@ -327,6 +319,29 @@
             android:exported="true"
             android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
             android:visibleToInstantApps="true" />
+
+        <activity
+            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/MediaTheme" />
+        <activity
+            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
+            android:theme="@style/MediaTheme" />
+        <activity
+            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+
+        <service
+            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false" />
         <!--
              FirebaseMessagingService performs security checks at runtime,
              but set to not exported to explicitly avoid allowing another app to call it.

@@ -24,6 +24,14 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_usa_location_white.xml.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_usa_location_white.xml"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_profile_holder.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_profile_holder.png"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_usa_icon.png.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\usa_icon.png"
     },
@@ -108,12 +116,12 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_group_list_layout_my_categories.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\group_list_layout_my_categories.xml"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout-small_activity_bowse.xml.flat",
@@ -140,12 +148,12 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\logout.png"
     },
     {
-        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_usa_location_white.xml.flat",
-        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\ic_usa_location_white.xml"
-    },
-    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_liked.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_liked.png"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_search_row_list.xml.flat",
@@ -164,12 +172,12 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\adavanced_search_choose_listitem3.xml"
     },
     {
-        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_privacy_policy.xml.flat",
-        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\activity_privacy_policy.xml"
-    },
-    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_out.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_privacy_policy.xml.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\activity_privacy_policy.xml"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_search_list.xml.flat",
@@ -204,6 +212,14 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_profile_holder.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_profile_holder.png"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_followed.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_followed.png"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_common_menu.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\activity_common_menu.xml"
     },
@@ -236,6 +252,10 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\activity_adavance_search_new.xml"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_liked.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_liked.png"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_adapter_item.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\notification_adapter_item.xml"
     },
@@ -254,10 +274,6 @@
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_second.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\row_second.xml"
-    },
-    {
-        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile_holder.xml.flat",
-        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\ic_profile_holder.xml"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
@@ -300,6 +316,14 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable-xxxhdpi\\twitter.png"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_usa_location_white.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_usa_location_white.png"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_usa_location_white.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_usa_location_white.png"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goal_icon.png.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\goal_icon.png"
     },
@@ -312,8 +336,20 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\activity_otp.xml"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_profile_holder.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_profile_holder.png"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_followed.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_followed.png"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_help_support.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\activity_help_support.xml"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_liked.xml.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_liked.xml"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -322,6 +358,10 @@
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_advance_search.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\activity_advance_search.xml"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_followed.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_followed.png"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_linkedin_icon.png.flat",
@@ -360,12 +400,24 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\splashlogo.png"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_usa_location_white.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_usa_location_white.png"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_browse.png.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\browse.png"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_select_payment.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\activity_select_payment.xml"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_followed.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_followed.png"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_down.xml.flat",
@@ -432,12 +484,28 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\icon_checked.png"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_usa_location_white.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_usa_location_white.png"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_usa_location_white.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_usa_location_white.png"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\anim_visiblity_animation.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\anim\\visiblity_animation.xml"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_liked.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_liked.png"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_idonate_welcome_logo.png.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\idonate_welcome_logo.png"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_followed.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_followed.png"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_border.xml.flat",
@@ -456,12 +524,24 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\font\\commercialscriptbt.ttf"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_profile_holder.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_profile_holder.png"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_place_search.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\activity_place_search.xml"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_usa_location_white.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_usa_location_white.png"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_liked.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_liked.png"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_unchecked.png.flat",
@@ -504,12 +584,16 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\activity_annual_revenue.xml"
     },
     {
-        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_followed.xml.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_followed.xml"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_splashlogo.png.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable-xxxhdpi\\splashlogo.png"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_profile_holder.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_profile_holder.png"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_name_icon.png.flat",
@@ -552,6 +636,10 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\cross.png"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_profile_holder.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_profile_holder.png"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_checked_pament.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\ic_checked_pament.xml"
     },
@@ -570,6 +658,10 @@
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_types.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\activity_types.xml"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_liked.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_liked.png"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_adavance_search_layout.xml.flat",
@@ -628,6 +720,10 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\advanced_border.xml"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_profile_holder.xml.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_profile_holder.xml"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera_edit_icon.xml.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\ic_camera_edit_icon.xml"
     },
@@ -652,6 +748,10 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_all_location.xml"
     },
     {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_liked.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_liked.png"
+    },
+    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_icon.png.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\back_icon.png"
     },
@@ -668,16 +768,16 @@
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\layout\\activity_confirmation.xml"
     },
     {
-        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_remove_icon.png.flat",
-        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\remove_icon.png"
-    },
-    {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_splash_background.png.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable-xxxhdpi\\splash_background.png"
     },
     {
-        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_liked.xml.flat",
-        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\ic_liked.xml"
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_remove_icon.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\remove_icon.png"
+    },
+    {
+        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_followed.png.flat",
+        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_followed.png"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment_success.xml.flat",
@@ -762,10 +862,6 @@
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_charity_icon.png.flat",
         "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\charity_icon.png"
-    },
-    {
-        "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_followed.xml.flat",
-        "source": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\src\\main\\res\\drawable\\ic_followed.xml"
     },
     {
         "merged": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_value_icon.png.flat",

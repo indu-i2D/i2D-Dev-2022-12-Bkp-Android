@@ -1,11 +1,12 @@
 package com.i2donate.Activity;
 
-import android.os.Handler;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.balsikandar.crashreporter.CrashReporter;
 import com.i2donate.Model.ChangeActivity;
 import com.i2donate.R;
 
@@ -15,6 +16,10 @@ public class SplashScreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+
+
+        CrashReporter.initialize(this);
+
         if (getIntent().getExtras() != null) {
             Log.e("test","test");
             for (String key : getIntent().getExtras().keySet()) {

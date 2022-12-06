@@ -1,6 +1,5 @@
-com/i2donate/Activity/SplashScreenActivity.java
- com.i2donate.Activity.SplashScreenActivity
- com.i2donate.Activity.SplashScreenActivity$1
+com/i2donate/Model/DonatedCharityList.java
+ com.i2donate.Model.DonatedCharityList
 com/i2donate/Activity/AnnualRevenueActivity.java
  com.i2donate.Activity.AnnualRevenueActivity
  com.i2donate.Activity.AnnualRevenueActivity$1
@@ -81,6 +80,9 @@ com/i2donate/Activity/BrowseActivity.java
  com.i2donate.Activity.BrowseActivity$5
  com.i2donate.Activity.BrowseActivity$6
  com.i2donate.Activity.BrowseActivity$7
+com/i2donate/Adapter/DonatedlistAdapterList.java
+ com.i2donate.Adapter.DonatedlistAdapterList
+ com.i2donate.Adapter.DonatedlistAdapterList$MyViewHolder
 com/i2donate/Activity/RegisterActivity.java
  com.i2donate.Activity.RegisterActivity
  com.i2donate.Activity.RegisterActivity$1
@@ -113,8 +115,6 @@ com/i2donate/Activity/RegisterActivity.java
  com.i2donate.Activity.RegisterActivity$7
  com.i2donate.Activity.RegisterActivity$8
  com.i2donate.Activity.RegisterActivity$9
-com/i2donate/Interwork/ConnectivityShowReceiver.java
- com.i2donate.Interwork.ConnectivityShowReceiver
 com/i2donate/Adapter/AdvancesearchAdapterList.java
  com.i2donate.Adapter.AdvancesearchAdapterList
  com.i2donate.Adapter.AdvancesearchAdapterList$1
@@ -351,19 +351,21 @@ com/i2donate/Adapter/SecondLevelViewAdapter.java
  com.i2donate.Adapter.SecondLevelViewAdapter
  com.i2donate.Adapter.SecondLevelViewAdapter$1
  com.i2donate.Adapter.SecondLevelViewAdapter$2
-com/i2donate/Adapter/NotificationAdapterList.java
- com.i2donate.Adapter.NotificationAdapterList
- com.i2donate.Adapter.NotificationAdapterList$MyViewHolder
-com/i2donate/CommonActivity/CommonBackActivity.java
- com.i2donate.CommonActivity.CommonBackActivity
- com.i2donate.CommonActivity.CommonBackActivity$1
- com.i2donate.CommonActivity.CommonBackActivity$2
- com.i2donate.CommonActivity.CommonBackActivity$3
- com.i2donate.CommonActivity.CommonBackActivity$4
- com.i2donate.CommonActivity.CommonBackActivity$5
 com/i2donate/Adapter/PlacesAutoCompleteAdapter1.java
  com.i2donate.Adapter.PlacesAutoCompleteAdapter1
  com.i2donate.Adapter.PlacesAutoCompleteAdapter1$ViewHolder
+com/i2donate/Notification/fcm/MyFirebaseMessagingService.java
+ com.i2donate.Notification.fcm.MyFirebaseMessagingService
+com/i2donate/Activity/ChangePasswordActivity.java
+ com.i2donate.Activity.ChangePasswordActivity
+ com.i2donate.Activity.ChangePasswordActivity$1
+ com.i2donate.Activity.ChangePasswordActivity$2
+ com.i2donate.Activity.ChangePasswordActivity$3
+ com.i2donate.Activity.ChangePasswordActivity$4
+ com.i2donate.Activity.ChangePasswordActivity$5
+ com.i2donate.Activity.ChangePasswordActivity$6
+ com.i2donate.Activity.ChangePasswordActivity$7
+ com.i2donate.Activity.ChangePasswordActivity$8
 com/i2donate/RetrofitAPI/ApiClient.java
  com.i2donate.RetrofitAPI.ApiClient
 com/i2donate/Activity/SubCategoryActivity.java
@@ -380,8 +382,31 @@ com/i2donate/Adapter/MyCategoriesExpandableListAdapter.java
  com.i2donate.Adapter.MyCategoriesExpandableListAdapter$1
  com.i2donate.Adapter.MyCategoriesExpandableListAdapter$ViewHolderChild
  com.i2donate.Adapter.MyCategoriesExpandableListAdapter$ViewHolderParent
-com/i2donate/Validation/Validation.java
- com.i2donate.Validation.Validation
+com/i2donate/Adapter/FollowingAdapterList.java
+ com.i2donate.Adapter.FollowingAdapterList
+ com.i2donate.Adapter.FollowingAdapterList$1
+ com.i2donate.Adapter.FollowingAdapterList$10
+ com.i2donate.Adapter.FollowingAdapterList$10$1
+ com.i2donate.Adapter.FollowingAdapterList$11
+ com.i2donate.Adapter.FollowingAdapterList$12
+ com.i2donate.Adapter.FollowingAdapterList$13
+ com.i2donate.Adapter.FollowingAdapterList$14
+ com.i2donate.Adapter.FollowingAdapterList$2
+ com.i2donate.Adapter.FollowingAdapterList$3
+ com.i2donate.Adapter.FollowingAdapterList$4
+ com.i2donate.Adapter.FollowingAdapterList$5
+ com.i2donate.Adapter.FollowingAdapterList$6
+ com.i2donate.Adapter.FollowingAdapterList$6$1
+ com.i2donate.Adapter.FollowingAdapterList$6$2
+ com.i2donate.Adapter.FollowingAdapterList$6$3
+ com.i2donate.Adapter.FollowingAdapterList$6$4
+ com.i2donate.Adapter.FollowingAdapterList$6$4$1
+ com.i2donate.Adapter.FollowingAdapterList$6$5
+ com.i2donate.Adapter.FollowingAdapterList$6$6
+ com.i2donate.Adapter.FollowingAdapterList$7
+ com.i2donate.Adapter.FollowingAdapterList$8
+ com.i2donate.Adapter.FollowingAdapterList$9
+ com.i2donate.Adapter.FollowingAdapterList$MyViewHolder
 com/i2donate/Model/SubCategory.java
  com.i2donate.Model.SubCategory
 com/i2donate/Adapter/GooglePlacesAutocompleteAdapter.java
@@ -470,33 +495,10 @@ com/i2donate/Activity/AdvanceSearch1Activity.java
  com.i2donate.Activity.AdvanceSearch1Activity
  com.i2donate.Activity.AdvanceSearch1Activity$1
  com.i2donate.Activity.AdvanceSearch1Activity$2
-com/i2donate/Activity/LoginActivity.java
- com.i2donate.Activity.LoginActivity
- com.i2donate.Activity.LoginActivity$1
- com.i2donate.Activity.LoginActivity$10
- com.i2donate.Activity.LoginActivity$11
- com.i2donate.Activity.LoginActivity$12
- com.i2donate.Activity.LoginActivity$13
- com.i2donate.Activity.LoginActivity$14
- com.i2donate.Activity.LoginActivity$15
- com.i2donate.Activity.LoginActivity$16
- com.i2donate.Activity.LoginActivity$17
- com.i2donate.Activity.LoginActivity$18
- com.i2donate.Activity.LoginActivity$19
- com.i2donate.Activity.LoginActivity$2
- com.i2donate.Activity.LoginActivity$20
- com.i2donate.Activity.LoginActivity$21
- com.i2donate.Activity.LoginActivity$22
- com.i2donate.Activity.LoginActivity$23
- com.i2donate.Activity.LoginActivity$24
- com.i2donate.Activity.LoginActivity$25
- com.i2donate.Activity.LoginActivity$3
- com.i2donate.Activity.LoginActivity$4
- com.i2donate.Activity.LoginActivity$5
- com.i2donate.Activity.LoginActivity$6
- com.i2donate.Activity.LoginActivity$7
- com.i2donate.Activity.LoginActivity$8
- com.i2donate.Activity.LoginActivity$9
+com/i2donate/Activity/FollowingActivity.java
+ com.i2donate.Activity.FollowingActivity
+ com.i2donate.Activity.FollowingActivity$1
+ com.i2donate.Activity.FollowingActivity$2
 com/i2donate/Adapter/LoadMoreUnitesStateLocationAdapterList.java
  com.i2donate.Adapter.LoadMoreUnitesStateLocationAdapterList
  com.i2donate.Adapter.LoadMoreUnitesStateLocationAdapterList$1
@@ -530,10 +532,21 @@ com/i2donate/Adapter/InternationalGooglePlacesAutocompleteAdapter.java
  com.i2donate.Adapter.InternationalGooglePlacesAutocompleteAdapter
  com.i2donate.Adapter.InternationalGooglePlacesAutocompleteAdapter$1
  com.i2donate.Adapter.InternationalGooglePlacesAutocompleteAdapter$PredictionHolder
-com/i2donate/Activity/NotificationActivity.java
- com.i2donate.Activity.NotificationActivity
- com.i2donate.Activity.NotificationActivity$1
- com.i2donate.Activity.NotificationActivity$2
+com/i2donate/Activity/OtpActivity.java
+ com.i2donate.Activity.OtpActivity
+ com.i2donate.Activity.OtpActivity$1
+ com.i2donate.Activity.OtpActivity$10
+ com.i2donate.Activity.OtpActivity$11
+ com.i2donate.Activity.OtpActivity$12
+ com.i2donate.Activity.OtpActivity$2
+ com.i2donate.Activity.OtpActivity$3
+ com.i2donate.Activity.OtpActivity$4
+ com.i2donate.Activity.OtpActivity$5
+ com.i2donate.Activity.OtpActivity$6
+ com.i2donate.Activity.OtpActivity$7
+ com.i2donate.Activity.OtpActivity$8
+ com.i2donate.Activity.OtpActivity$9
+ com.i2donate.Activity.OtpActivity$MainLayout
 com/i2donate/Model/ChildCategory.java
  com.i2donate.Model.ChildCategory
 com/i2donate/Commonmethod/SearchableSpinner.java
@@ -579,8 +592,33 @@ com/i2donate/Activity/NewtypesActivity.java
 com/i2donate/Interwork/ConnectivityReceiver.java
  com.i2donate.Interwork.ConnectivityReceiver
  com.i2donate.Interwork.ConnectivityReceiver$ConnectivityReceiverListener
-com/i2donate/Model/DonatedCharityList.java
- com.i2donate.Model.DonatedCharityList
+com/i2donate/Activity/LoginActivity.java
+ com.i2donate.Activity.LoginActivity
+ com.i2donate.Activity.LoginActivity$1
+ com.i2donate.Activity.LoginActivity$10
+ com.i2donate.Activity.LoginActivity$11
+ com.i2donate.Activity.LoginActivity$12
+ com.i2donate.Activity.LoginActivity$13
+ com.i2donate.Activity.LoginActivity$14
+ com.i2donate.Activity.LoginActivity$15
+ com.i2donate.Activity.LoginActivity$16
+ com.i2donate.Activity.LoginActivity$17
+ com.i2donate.Activity.LoginActivity$18
+ com.i2donate.Activity.LoginActivity$19
+ com.i2donate.Activity.LoginActivity$2
+ com.i2donate.Activity.LoginActivity$20
+ com.i2donate.Activity.LoginActivity$21
+ com.i2donate.Activity.LoginActivity$22
+ com.i2donate.Activity.LoginActivity$23
+ com.i2donate.Activity.LoginActivity$24
+ com.i2donate.Activity.LoginActivity$25
+ com.i2donate.Activity.LoginActivity$3
+ com.i2donate.Activity.LoginActivity$4
+ com.i2donate.Activity.LoginActivity$5
+ com.i2donate.Activity.LoginActivity$6
+ com.i2donate.Activity.LoginActivity$7
+ com.i2donate.Activity.LoginActivity$8
+ com.i2donate.Activity.LoginActivity$9
 com/i2donate/Activity/AdvanceSearchActivity.java
  com.i2donate.Activity.AdvanceSearchActivity
  com.i2donate.Activity.AdvanceSearchActivity$1
@@ -661,15 +699,8 @@ com/i2donate/Activity/InternationalCharitiesActivity.java
  com.i2donate.Activity.InternationalCharitiesActivity$7$1
  com.i2donate.Activity.InternationalCharitiesActivity$8
  com.i2donate.Activity.InternationalCharitiesActivity$9
-com/i2donate/Activity/TypesActivity.java
- com.i2donate.Activity.TypesActivity
- com.i2donate.Activity.TypesActivity$1
- com.i2donate.Activity.TypesActivity$2
- com.i2donate.Activity.TypesActivity$3
- com.i2donate.Activity.TypesActivity$4
- com.i2donate.Activity.TypesActivity$5
- com.i2donate.Activity.TypesActivity$6
- com.i2donate.Activity.TypesActivity$7
+com/i2donate/Validation/Validation.java
+ com.i2donate.Validation.Validation
 com/i2donate/Activity/UnitedStateDetailsActivity.java
  com.i2donate.Activity.UnitedStateDetailsActivity
  com.i2donate.Activity.UnitedStateDetailsActivity$1
@@ -700,29 +731,23 @@ com/i2donate/Model/ConstantManager.java
  com.i2donate.Model.ConstantManager$Parameter
 com/i2donate/ApiModel/LoginResponse.java
  com.i2donate.ApiModel.LoginResponse
-com/i2donate/Activity/OtpActivity.java
- com.i2donate.Activity.OtpActivity
- com.i2donate.Activity.OtpActivity$1
- com.i2donate.Activity.OtpActivity$10
- com.i2donate.Activity.OtpActivity$11
- com.i2donate.Activity.OtpActivity$12
- com.i2donate.Activity.OtpActivity$2
- com.i2donate.Activity.OtpActivity$3
- com.i2donate.Activity.OtpActivity$4
- com.i2donate.Activity.OtpActivity$5
- com.i2donate.Activity.OtpActivity$6
- com.i2donate.Activity.OtpActivity$7
- com.i2donate.Activity.OtpActivity$8
- com.i2donate.Activity.OtpActivity$9
- com.i2donate.Activity.OtpActivity$MainLayout
-com/i2donate/Activity/ForgotActivity.java
- com.i2donate.Activity.ForgotActivity
- com.i2donate.Activity.ForgotActivity$1
- com.i2donate.Activity.ForgotActivity$2
- com.i2donate.Activity.ForgotActivity$3
- com.i2donate.Activity.ForgotActivity$4
- com.i2donate.Activity.ForgotActivity$5
- com.i2donate.Activity.ForgotActivity$6
+com/i2donate/Activity/MyspaceActivity.java
+ com.i2donate.Activity.MyspaceActivity
+ com.i2donate.Activity.MyspaceActivity$1
+ com.i2donate.Activity.MyspaceActivity$2
+ com.i2donate.Activity.MyspaceActivity$3
+ com.i2donate.Activity.MyspaceActivity$4
+ com.i2donate.Activity.MyspaceActivity$5
+ com.i2donate.Activity.MyspaceActivity$6
+com/i2donate/Activity/TypesActivity.java
+ com.i2donate.Activity.TypesActivity
+ com.i2donate.Activity.TypesActivity$1
+ com.i2donate.Activity.TypesActivity$2
+ com.i2donate.Activity.TypesActivity$3
+ com.i2donate.Activity.TypesActivity$4
+ com.i2donate.Activity.TypesActivity$5
+ com.i2donate.Activity.TypesActivity$6
+ com.i2donate.Activity.TypesActivity$7
 com/i2donate/Adapter/AdvancedSearchAdapterParent.java
  com.i2donate.Adapter.AdvancedSearchAdapterParent
 com/i2donate/Adapter/TypesCategorylistAdapter.java
@@ -737,6 +762,38 @@ com/i2donate/Model/ProfileExample.java
  com.i2donate.Model.ProfileExample
 com/i2donate/Notification/fcm/NotificationUtils.java
  com.i2donate.Notification.fcm.NotificationUtils
+com/i2donate/CommonActivity/CommonBackActivity.java
+ com.i2donate.CommonActivity.CommonBackActivity
+ com.i2donate.CommonActivity.CommonBackActivity$1
+ com.i2donate.CommonActivity.CommonBackActivity$2
+ com.i2donate.CommonActivity.CommonBackActivity$3
+ com.i2donate.CommonActivity.CommonBackActivity$4
+ com.i2donate.CommonActivity.CommonBackActivity$5
+com/i2donate/Session/PrefManager.java
+ com.i2donate.Session.PrefManager
+com/i2donate/Adapter/ThreeLevelViewAdapter.java
+ com.i2donate.Adapter.ThreeLevelViewAdapter
+ com.i2donate.Adapter.ThreeLevelViewAdapter$1
+com/i2donate/Activity/ForgotActivity.java
+ com.i2donate.Activity.ForgotActivity
+ com.i2donate.Activity.ForgotActivity$1
+ com.i2donate.Activity.ForgotActivity$2
+ com.i2donate.Activity.ForgotActivity$3
+ com.i2donate.Activity.ForgotActivity$4
+ com.i2donate.Activity.ForgotActivity$5
+ com.i2donate.Activity.ForgotActivity$6
+com/i2donate/Interwork/ConnectivityShowReceiver.java
+ com.i2donate.Interwork.ConnectivityShowReceiver
+com/i2donate/Activity/SplashScreenActivity.java
+ com.i2donate.Activity.SplashScreenActivity
+ com.i2donate.Activity.SplashScreenActivity$1
+com/i2donate/Adapter/NotificationAdapterList.java
+ com.i2donate.Adapter.NotificationAdapterList
+ com.i2donate.Adapter.NotificationAdapterList$MyViewHolder
+com/i2donate/Activity/NotificationActivity.java
+ com.i2donate.Activity.NotificationActivity
+ com.i2donate.Activity.NotificationActivity$1
+ com.i2donate.Activity.NotificationActivity$2
 com/i2donate/CommonActivity/CommonMenuActivity.java
  com.i2donate.CommonActivity.CommonMenuActivity
  com.i2donate.CommonActivity.CommonMenuActivity$1
@@ -749,60 +806,3 @@ com/i2donate/CommonActivity/CommonMenuActivity.java
  com.i2donate.CommonActivity.CommonMenuActivity$7
  com.i2donate.CommonActivity.CommonMenuActivity$8
  com.i2donate.CommonActivity.CommonMenuActivity$9
-com/i2donate/Session/PrefManager.java
- com.i2donate.Session.PrefManager
-com/i2donate/Adapter/ThreeLevelViewAdapter.java
- com.i2donate.Adapter.ThreeLevelViewAdapter
- com.i2donate.Adapter.ThreeLevelViewAdapter$1
-com/i2donate/Activity/ChangePasswordActivity.java
- com.i2donate.Activity.ChangePasswordActivity
- com.i2donate.Activity.ChangePasswordActivity$1
- com.i2donate.Activity.ChangePasswordActivity$2
- com.i2donate.Activity.ChangePasswordActivity$3
- com.i2donate.Activity.ChangePasswordActivity$4
- com.i2donate.Activity.ChangePasswordActivity$5
- com.i2donate.Activity.ChangePasswordActivity$6
- com.i2donate.Activity.ChangePasswordActivity$7
- com.i2donate.Activity.ChangePasswordActivity$8
-com/i2donate/Notification/fcm/MyFirebaseMessagingService.java
- com.i2donate.Notification.fcm.MyFirebaseMessagingService
-com/i2donate/Activity/MyspaceActivity.java
- com.i2donate.Activity.MyspaceActivity
- com.i2donate.Activity.MyspaceActivity$1
- com.i2donate.Activity.MyspaceActivity$2
- com.i2donate.Activity.MyspaceActivity$3
- com.i2donate.Activity.MyspaceActivity$4
- com.i2donate.Activity.MyspaceActivity$5
- com.i2donate.Activity.MyspaceActivity$6
-com/i2donate/Adapter/DonatedlistAdapterList.java
- com.i2donate.Adapter.DonatedlistAdapterList
- com.i2donate.Adapter.DonatedlistAdapterList$MyViewHolder
-com/i2donate/Activity/FollowingActivity.java
- com.i2donate.Activity.FollowingActivity
- com.i2donate.Activity.FollowingActivity$1
- com.i2donate.Activity.FollowingActivity$2
-com/i2donate/Adapter/FollowingAdapterList.java
- com.i2donate.Adapter.FollowingAdapterList
- com.i2donate.Adapter.FollowingAdapterList$1
- com.i2donate.Adapter.FollowingAdapterList$10
- com.i2donate.Adapter.FollowingAdapterList$10$1
- com.i2donate.Adapter.FollowingAdapterList$11
- com.i2donate.Adapter.FollowingAdapterList$12
- com.i2donate.Adapter.FollowingAdapterList$13
- com.i2donate.Adapter.FollowingAdapterList$14
- com.i2donate.Adapter.FollowingAdapterList$2
- com.i2donate.Adapter.FollowingAdapterList$3
- com.i2donate.Adapter.FollowingAdapterList$4
- com.i2donate.Adapter.FollowingAdapterList$5
- com.i2donate.Adapter.FollowingAdapterList$6
- com.i2donate.Adapter.FollowingAdapterList$6$1
- com.i2donate.Adapter.FollowingAdapterList$6$2
- com.i2donate.Adapter.FollowingAdapterList$6$3
- com.i2donate.Adapter.FollowingAdapterList$6$4
- com.i2donate.Adapter.FollowingAdapterList$6$4$1
- com.i2donate.Adapter.FollowingAdapterList$6$5
- com.i2donate.Adapter.FollowingAdapterList$6$6
- com.i2donate.Adapter.FollowingAdapterList$7
- com.i2donate.Adapter.FollowingAdapterList$8
- com.i2donate.Adapter.FollowingAdapterList$9
- com.i2donate.Adapter.FollowingAdapterList$MyViewHolder

@@ -843,7 +843,7 @@ public class UpdateActivity extends AppCompatActivity {
         String base_64_image;
         Bitmap bitmapOrg = BitmapFactory.decodeFile(path);
         ByteArrayOutputStream bao = new ByteArrayOutputStream();
-        bitmapOrg.compress(Bitmap.CompressFormat.JPEG, 50, bao);
+        bitmapOrg.compress(Bitmap.CompressFormat.PNG, 50, bao);
         byte[] ba = bao.toByteArray();
         base_64_image = Base64.encodeToString(ba, Base64.DEFAULT);
         return base_64_image;
