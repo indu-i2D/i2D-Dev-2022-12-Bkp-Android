@@ -98,6 +98,7 @@
                 android:layout_marginRight="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp">
                 <EditText
+                    android:singleLine="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
@@ -119,6 +120,7 @@
                 app:passwordToggleEnabled="true"
                 app:passwordToggleTint="@color/colorPrimaryDark">
                 <EditText
+                    android:singleLine="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/login_password"

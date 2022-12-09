@@ -135,6 +135,7 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Small">
 
                         <EditText
+                            android:singleLine="true"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/reg_name_et"
@@ -151,6 +152,7 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Small">
 
                         <EditText
+                            android:singleLine="true"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/reg_email_et"
@@ -168,11 +170,12 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Small">
 
                         <EditText
+                            android:singleLine="true"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/reg_mobile_et"
                             android:hint="@string/register_mobile"
-                            android:maxLength="15"
+                            android:maxLength="10"
                             android:backgroundTint="@color/edittextline_color"
                             android:inputType="number"
                             android:textAppearance="@style/TextAppearance.AppCompat.Small" />
@@ -188,6 +191,7 @@
                         app:passwordToggleTint="@color/colorPrimaryDark">
 
                         <EditText
+                            android:singleLine="true"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:id="@+id/reg_password_et"
@@ -198,6 +202,7 @@
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <TextView
+
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/_12sdp"

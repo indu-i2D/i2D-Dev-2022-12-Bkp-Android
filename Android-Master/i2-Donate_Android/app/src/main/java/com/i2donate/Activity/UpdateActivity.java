@@ -786,9 +786,15 @@ public class UpdateActivity extends AppCompatActivity {
                 try {
                     Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), contentURI);
                     String path = saveImage(bitmap);
+                    Log.e(TAG, "onActivityResult: ----------"+path );
                     Toast.makeText(UpdateActivity.this, "Image Saved!", Toast.LENGTH_SHORT).show();
                     myprofile_edit_img.setImageBitmap(bitmap);
-                    base64img = convertToString(path);
+
+                    ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+                    bitmap.compress(Bitmap.CompressFormat.PNG, 100, byteArrayOutputStream);
+                    byte[] byteArray = byteArrayOutputStream .toByteArray();
+                    String encoded = Base64.encodeToString(byteArray, Base64.DEFAULT);
+                    base64img = encoded;
                     Log.e("base64", "" + base64img);
 
                 } catch (IOException e) {
@@ -803,7 +809,12 @@ public class UpdateActivity extends AppCompatActivity {
             myprofile_edit_img.setImageBitmap(thumbnail);
             saveImage(thumbnail);
             String path = saveImageCam(thumbnail, getApplicationContext(), IMAGE_DIRECTORY);
-            base64img = convertToString(path);
+//            base64img = convertToString(path);
+            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+            thumbnail.compress(Bitmap.CompressFormat.PNG, 100, byteArrayOutputStream);
+            byte[] byteArray = byteArrayOutputStream .toByteArray();
+            String encoded = Base64.encodeToString(byteArray, Base64.DEFAULT);
+            base64img = encoded;
             Log.e("base64", "" + base64img);
             Toast.makeText(UpdateActivity.this, "Image Saved!", Toast.LENGTH_SHORT).show();
         }

@@ -1,14 +1,14 @@
 -- Merging decision tree log ---
 data
-INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:70:17-69
+INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:71:17-69
 	android:scheme
 		INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:70:23-66
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:71:23-66
 manifest
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-235:12
-INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-235:12
-INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-235:12
-INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-235:12
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-236:12
+INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-236:12
+INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-236:12
+INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-236:12
 MERGED from [com.karumi:dexter:5.0.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5e21c8620010f382eaf06a9fab8f7273\jetified-dexter-5.0.0\AndroidManifest.xml:17:1-32:12
 MERGED from [com.balsikandar.android:crashreporter:1.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f956772384f1ad188855a86e3f693da8\jetified-crashreporter-1.1.0\AndroidManifest.xml:2:1-29:12
 MERGED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:2:1-32:12
@@ -124,22 +124,22 @@ MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\PC2\
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\7a1b0fd64470bbfe0f23f2e83f7889f4\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.braintreepayments.api:visa-checkout:1.0.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\53989f9555f7836fbec71d3e070c7b76\jetified-visa-checkout-1.0.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.paypal.android.sdk:data-collector:2.18.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a0cbb545fd7e4f2c44008f9dc302c047\jetified-data-collector-2.18.1\AndroidManifest.xml:2:1-13:12
-INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-235:12
-INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-235:12
-INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-235:12
+INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-236:12
+INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-236:12
+INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-236:12
 	package
 		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:4:5-27
 		INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-235:12
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-236:12
 		INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-235:12
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:1-236:12
 		INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:2:11-69
@@ -308,7 +308,7 @@ ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Androi
 	android:name
 		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:40:9-57
 application
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:43:5-233:19
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:43:5-234:19
 MERGED from [com.karumi:dexter:5.0.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5e21c8620010f382eaf06a9fab8f7273\jetified-dexter-5.0.0\AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:5.0.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\5e21c8620010f382eaf06a9fab8f7273\jetified-dexter-5.0.0\AndroidManifest.xml:26:5-30:19
 MERGED from [com.balsikandar.android:crashreporter:1.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\f956772384f1ad188855a86e3f693da8\jetified-crashreporter-1.1.0\AndroidManifest.xml:11:5-27:19
@@ -423,16 +423,18 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PC
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\93d0da99c23d1f3fa982b2bdacd745c8\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\7a1b0fd64470bbfe0f23f2e83f7889f4\jetified-installreferrer-1.0\AndroidManifest.xml:11:5-20
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\7a1b0fd64470bbfe0f23f2e83f7889f4\jetified-installreferrer-1.0\AndroidManifest.xml:11:5-20
+	android:requestLegacyExternalStorage
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:53:9-52
 	android:grantUriPermissions
 		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:48:9-43
 	android:windowSoftInputMode
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:57:9-69
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:58:9-69
 	android:exported
 		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:46:9-33
 	tools:ignore
 		ADDED from [com.braintreepayments.api:drop-in:3.7.1] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\33b5b5f45608f152d8d798625fc2b192\jetified-drop-in-3.7.1\AndroidManifest.xml:17:9-39
 	android:roundIcon
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:53:9-48
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:54:9-48
 	android:largeHeap
 		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:52:9-33
 	android:icon
@@ -440,7 +442,7 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\PC2\.grad
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\194cc394bb73df96cc429cda71e744ee\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:54:9-35
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:55:9-35
 	android:label
 		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:51:9-41
 	android:hardwareAccelerated
@@ -450,353 +452,353 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\PC2\.grad
 	android:allowBackup
 		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:45:9-35
 	android:theme
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:55:9-46
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:56:9-46
 	tools:replace
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:58:9-71
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:59:9-71
 	android:usesCleartextTraffic
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:56:9-44
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:57:9-44
 	android:name
 		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:44:9-48
 activity#com.i2donate.Activity.PrivactPolicyActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:59:9-77
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:60:9-77
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:59:19-65
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:60:19-65
 activity#com.braintreepayments.api.BraintreeBrowserSwitchActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:60:9-72:20
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:61:9-73:20
 	android:launchMode
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:62:13-44
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:63:13-44
 	android:exported
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:63:13-36
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:64:13-36
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:61:13-84
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:62:13-84
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.i2donate.braintree
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:64:13-71:29
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:13-72:29
 action#android.intent.action.VIEW
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:17-69
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:66:17-69
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:65:25-66
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:66:25-66
 category#android.intent.category.DEFAULT
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:67:17-76
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:68:17-76
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:67:27-73
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:68:27-73
 category#android.intent.category.BROWSABLE
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:68:17-78
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:69:17-78
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:68:27-75
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:69:27-75
 activity#com.i2donate.Activity.BrainTreePaymentActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:73:9-71
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:74:9-71
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:73:19-68
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:74:19-68
 activity#com.i2donate.Activity.PrivacyPolicyActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:74:9-68
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:75:9-68
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:74:19-65
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:75:19-65
 activity#com.i2donate.Activity.TermsAndConditionActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:75:9-72
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:76:9-72
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:75:19-69
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:76:19-69
 activity#com.i2donate.Activity.NewtypesActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:76:9-63
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:77:9-63
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:76:19-60
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:77:19-60
 meta-data#firebase_crashlytics_collection_enabled
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:78:9-80:37
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:79:9-81:37
 	android:value
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:80:13-34
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:81:13-34
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:79:13-67
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:80:13-67
 service#com.i2donate.Notification.fcm.MyFirebaseMessagingService
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:82:9-88:19
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:83:9-89:19
 	android:exported
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:84:13-37
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:85:13-37
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:83:13-72
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:84:13-72
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:85:13-87:29
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:86:13-88:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:86:17-78
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:87:17-78
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:86:25-75
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:87:25-75
 receiver#com.i2donate.Notification.fcm.OnBootBroadcastReceiver
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:90:9-95:20
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:91:9-96:20
 	android:exported
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:91:13-37
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:92:13-37
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:90:19-75
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:91:19-75
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:92:13-94:29
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:93:13-95:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:93:17-79
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:94:17-79
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:93:25-76
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:94:25-76
 activity#com.i2donate.Activity.ConfirmationActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:97:9-67
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:98:9-67
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:97:19-64
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:98:19-64
 activity#com.i2donate.Activity.AnnualRevenueActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:98:9-68
-	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:98:19-65
-activity#com.i2donate.Activity.TitleSubTitleActivity
 ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:99:9-68
 	android:name
 		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:99:19-65
+activity#com.i2donate.Activity.TitleSubTitleActivity
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:100:9-68
+	android:name
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:100:19-65
 activity#com.i2donate.Activity.SubCategoryActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:100:9-66
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:101:9-66
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:100:19-63
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:101:19-63
 activity#com.i2donate.Activity.AdvanceCompletedActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:101:9-71
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:102:9-71
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:101:19-68
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:102:19-68
 activity#com.i2donate.Activity.PaymentSuccessActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:102:9-69
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:103:9-69
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:102:19-66
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:103:19-66
 activity#com.i2donate.Activity.SelectPaymentActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:103:9-68
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:104:9-68
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:103:19-65
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:104:19-65
 activity#com.i2donate.Activity.ChangePasswordActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:104:9-69
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:105:9-69
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:104:19-66
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:105:19-66
 activity#com.i2donate.Activity.OtpActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:105:9-107:76
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:106:9-108:76
 	android:windowSoftInputMode
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:107:13-73
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:108:13-73
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:106:13-49
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:107:13-49
 activity#com.i2donate.Activity.ForgotActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:108:9-61
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:109:9-61
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:108:19-58
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:109:19-58
 activity#com.i2donate.Activity.AdvanceSearchActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:109:9-68
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:110:9-68
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:109:19-65
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:110:19-65
 activity#com.i2donate.Activity.AdavanceSearchUIDesign
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:110:9-112:53
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:111:9-113:53
 	android:theme
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:112:13-50
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:113:13-50
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:111:13-60
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:112:13-60
 activity#com.i2donate.Activity.AdavanceSearch_new
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:113:9-65
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:114:9-65
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:113:19-62
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:114:19-62
 activity#com.i2donate.Activity.HelpSupportActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:114:9-66
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:115:9-66
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:114:19-63
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:115:19-63
 activity#com.i2donate.Activity.AboutActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:115:9-60
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:116:9-60
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:115:19-57
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:116:19-57
 activity#com.i2donate.Activity.InternationalCharitiesActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:116:9-77
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:117:9-77
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:116:19-74
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:117:19-74
 activity#com.i2donate.Activity.PlaceSearchActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:117:9-66
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:118:9-66
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:117:19-63
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:118:19-63
 activity#com.i2donate.Activity.AutosearchActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:118:9-65
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:119:9-65
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:118:19-62
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:119:19-62
 activity#com.i2donate.Activity.UpdateActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:132:9-61
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:133:9-61
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:132:19-58
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:133:19-58
 activity#com.i2donate.Activity.AdvanceSearch1Activity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:133:9-69
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:134:9-69
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:133:19-66
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:134:19-66
 activity#com.i2donate.Activity.WelcomeActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:134:9-136:58
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:135:9-137:58
 	android:theme
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:136:13-55
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:137:13-55
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:135:13-53
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:136:13-53
 activity#com.i2donate.Activity.UnitedStateDetailsActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:137:9-139:76
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:138:9-140:76
 	android:windowSoftInputMode
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:139:13-73
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:140:13-73
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:138:13-64
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:139:13-64
 activity#com.i2donate.Activity.SettingActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:140:9-142:48
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:141:9-143:48
 	android:theme
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:142:13-45
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:143:13-45
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:141:13-53
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:142:13-53
 activity#com.i2donate.Activity.NotificationActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:143:9-67
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:144:9-67
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:143:19-64
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:144:19-64
 activity#com.i2donate.Activity.FollowingActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:144:9-64
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:145:9-64
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:144:19-61
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:145:19-61
 activity#com.i2donate.Activity.TypesActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:145:9-60
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:146:9-60
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:145:19-57
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:146:19-57
 activity#com.i2donate.Activity.NameSearchActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:146:9-149:76
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:147:9-150:76
 	android:windowSoftInputMode
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:149:13-73
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:150:13-73
 	android:theme
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:148:13-50
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:149:13-50
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:147:13-56
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:148:13-56
 activity#com.i2donate.Activity.UnitedStateActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:150:9-152:67
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:151:9-153:67
 	android:windowSoftInputMode
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:152:13-64
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:153:13-64
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:151:13-57
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:152:13-57
 activity#com.i2donate.CommonActivity.CommonBackActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:153:9-156:76
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:154:9-157:76
 	android:windowSoftInputMode
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:156:13-73
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:157:13-73
 	android:theme
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:155:13-50
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:156:13-50
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:154:13-62
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:155:13-62
 activity#com.i2donate.Activity.RegisterActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:157:9-63
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:158:9-63
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:157:19-60
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:158:19-60
 activity#com.facebook.FacebookActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:158:9-161:48
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:159:9-162:48
 MERGED from [com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:22:9-25:66
 MERGED from [com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:22:9-25:66
 	android:label
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:161:13-45
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:162:13-45
 	android:configChanges
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:160:13-96
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:161:13-96
 	android:theme
 		ADDED from [com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:25:13-63
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:159:13-57
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:160:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:162:9-173:20
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:163:9-174:20
 MERGED from [com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:27:9-41:20
 MERGED from [com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:27:9-41:20
 	tools:node
 		ADDED from [com.facebook.android:facebook-common:15.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\a2fb9305603654afe85e3baa6b09d3ed\jetified-facebook-common-15.1.0\AndroidManifest.xml:30:13-31
 	android:exported
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:164:13-36
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:165:13-36
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:163:13-58
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:164:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:165:13-172:29
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:166:13-173:29
 activity#com.i2donate.Activity.LoginActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:174:9-177:76
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:175:9-178:76
 	android:windowSoftInputMode
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:177:13-73
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:178:13-73
 	android:theme
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:176:13-50
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:177:13-50
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:175:13-51
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:176:13-51
 activity#com.i2donate.Activity.SplashScreenActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:178:9-187:20
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:179:9-188:20
 	android:exported
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:181:13-36
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:182:13-36
 	android:theme
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:180:13-55
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:181:13-55
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:179:13-58
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:180:13-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:182:13-186:29
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:183:13-187:29
 action#android.intent.action.MAIN
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:183:17-69
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:184:17-69
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:183:25-66
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:184:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:185:17-77
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:186:17-77
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:185:27-74
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:186:27-74
 activity#com.i2donate.Activity.MyspaceActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:188:9-62
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:189:9-62
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:188:19-59
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:189:19-59
 activity#com.i2donate.CommonActivity.CommonMenuActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:189:9-71
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:190:9-71
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:189:19-68
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:190:19-68
 activity#com.i2donate.Activity.BrowseActivity
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:190:9-192:58
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:191:9-193:58
 	android:windowSoftInputMode
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:192:13-55
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:193:13-55
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:191:13-52
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:192:13-52
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:194:9-196:71
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:195:9-197:71
 	android:value
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:196:13-68
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:197:13-68
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:195:13-58
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:196:13-58
 meta-data#com.google.android.gms.version
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:197:9-199:69
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:198:9-200:69
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\45b8e5402129c23b519b2e53f43c6020\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\PC2\.gradle\caches\transforms-2\files-2.1\45b8e5402129c23b519b2e53f43c6020\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:199:13-66
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:200:13-66
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:198:13-58
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:199:13-58
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:205:9-107
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:206:9-107
 	android:value
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:205:66-105
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:206:66-105
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:205:20-65
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:206:20-65
 meta-data#com.facebook.sdk.ClientToken
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:206:9-111
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:207:9-111
 	android:value
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:206:64-109
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:207:64-109
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:206:20-63
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:207:20-63
 receiver#com.i2donate.Interwork.ConnectivityReceiver
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:208:9-215:20
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:209:9-216:20
 	android:enabled
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:210:13-35
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:211:13-35
 	android:exported
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:211:13-37
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:212:13-37
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:209:13-59
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:210:13-59
 intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:212:13-214:29
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:213:13-215:29
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:213:17-79
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:214:17-79
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:213:25-76
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:214:25-76
 meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:217:9-219:57
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:218:9-220:57
 	android:resource
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:219:13-54
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:220:13-54
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:218:13-83
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:219:13-83
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:224:9-226:53
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:225:9-227:53
 	android:resource
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:226:13-50
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:227:13-50
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:225:13-84
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:226:13-84
 meta-data#firebase_messaging_auto_init_enabled
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:227:9-229:37
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:228:9-230:37
 	android:value
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:229:13-34
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:230:13-34
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:228:13-64
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:229:13-64
 meta-data#firebase_analytics_collection_enabled
-ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:230:9-232:37
+ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:231:9-233:37
 	android:value
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:232:13-34
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:233:13-34
 	android:name
-		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:231:13-65
+		ADDED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml:232:13-65
 uses-sdk
 INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\dhruvi\I2_Donate\I2_Donate_Android\Android-Master\i2-Donate_Android\app\src\main\AndroidManifest.xml
