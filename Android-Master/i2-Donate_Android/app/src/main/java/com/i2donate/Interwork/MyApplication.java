@@ -3,6 +3,9 @@ package com.i2donate.Interwork;
 import android.app.Application;
 import android.util.Log;
 
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
+
 public class MyApplication extends Application {
 
     private static MyApplication mInstance;
@@ -11,6 +14,8 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        AppEventsLogger.activateApp(this);
         mInstance = this;
     }
 

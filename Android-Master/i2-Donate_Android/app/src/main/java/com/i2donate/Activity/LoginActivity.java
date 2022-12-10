@@ -83,7 +83,6 @@ import org.json.JSONObject;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.Arrays;
 
 import retrofit2.Call;
 import retrofit2.Response;
@@ -131,6 +130,8 @@ public class LoginActivity extends AppCompatActivity implements
         Twitter.initialize(this);
         FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_login);
+
+        calculateHashKey(getApplicationContext().getPackageName());
         //  getWindow().setBackgroundDrawableResource(R.drawable.dashbord_background);
 
 //        Log.e("a-136","" + config);
@@ -166,6 +167,27 @@ public class LoginActivity extends AppCompatActivity implements
 
     }
 
+
+    private void calculateHashKey(String yourPackageName) {
+        try {
+            PackageInfo info = getPackageManager().getPackageInfo(
+                    yourPackageName,
+                    PackageManager.GET_SIGNATURES);
+            for (Signature signature : info.signatures) {
+                MessageDigest md = MessageDigest.getInstance("SHA");
+                md.update(signature.toByteArray());
+                Log.e(TAG, "KeyHash: " + Base64.encodeToString(md.digest(), Base64.DEFAULT));
+                Log.d("KeyHash:",
+                        Base64.encodeToString(md.digest(), Base64.DEFAULT));
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+    }
+
+
     private void requestStoragePermission() {
         if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                 Manifest.permission.READ_EXTERNAL_STORAGE)) {
@@ -176,7 +198,7 @@ public class LoginActivity extends AppCompatActivity implements
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
                             ActivityCompat.requestPermissions(LoginActivity.this,
-                                    new String[] {Manifest.permission.READ_EXTERNAL_STORAGE}, STORAGE_PERMISSION_CODE);
+                                    new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, STORAGE_PERMISSION_CODE);
                         }
                     });
             builder.setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -213,7 +235,7 @@ public class LoginActivity extends AppCompatActivity implements
                     new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
                             ActivityCompat.requestPermissions(LoginActivity.this,
-                                    new String[] {Manifest.permission.READ_EXTERNAL_STORAGE}, STORAGE_PERMISSION_CODE);
+                                    new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, STORAGE_PERMISSION_CODE);
                         }
                     });
             builder.setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -226,6 +248,7 @@ public class LoginActivity extends AppCompatActivity implements
             builder.show();
         }
     }
+
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -237,6 +260,7 @@ public class LoginActivity extends AppCompatActivity implements
             }
         }
     }
+
     private void init() {
         iDonateSharedPreference = new IDonateSharedPreference();
         login_btn = (Button) findViewById(R.id.login_btn);
@@ -252,7 +276,7 @@ public class LoginActivity extends AppCompatActivity implements
         twitter_login = (ImageView) findViewById(R.id.twitter_login);
         twitter_login_btn = (TwitterLoginButton) findViewById(R.id.twitter_login_btn);
         password_layout_input = (TextInputLayout) findViewById(R.id.password_layout_input);
-        forgot_btn_tv=(TextView)findViewById(R.id.forgot_btn_tv);
+        forgot_btn_tv = (TextView) findViewById(R.id.forgot_btn_tv);
         mProgressDialog = new ProgressDialog(this);
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
@@ -277,7 +301,9 @@ public class LoginActivity extends AppCompatActivity implements
             getUserProfile(AccessToken.getCurrentAccessToken());
         }
 */
-        facebook_login_btn.setReadPermissions(Arrays.asList("email", "public_profile"));
+
+        facebook_login_btn.setReadPermissions("email", "public_profile","user_friends");
+//        facebook_login_btn.setReadPermissions(Arrays.asList("email", "public_profile"));
         callbackManager = CallbackManager.Factory.create();
 
         client = new TwitterAuthClient();
@@ -326,34 +352,34 @@ public class LoginActivity extends AppCompatActivity implements
 
             @Override
             public void onError(FacebookException exception) {
-                Log.e("click", "click"+exception);
+                Log.e("click", "click---------" + exception);
                 // App code
             }
         });
 
 
-        facebook_login_btn.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
-            @Override
-            public void onSuccess(LoginResult loginResult) {
-                Log.e(TAG, "onSuccess: "+"Login Success \n" +
-                        "User ID: " + loginResult.getAccessToken().getUserId() + "\n" +
-                        "Access Token: " + loginResult.getAccessToken().getToken() );
-//                tvStatus.setText("Login Success \n" +
+//        facebook_login_btn.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+//            @Override
+//            public void onSuccess(LoginResult loginResult) {
+//                Log.e(TAG, "onSuccess: " + "Login Success \n" +
 //                        "User ID: " + loginResult.getAccessToken().getUserId() + "\n" +
 //                        "Access Token: " + loginResult.getAccessToken().getToken());
-            }
-
-            @Override
-            public void onCancel() {
-                Log.e(TAG, "onCancel: " );
-//                tvStatus.setText("Login cancelled");
-            }
-
-            @Override
-            public void onError(FacebookException e) {
-                Log.e(TAG, "onError: "+e );
-            }
-        });
+////                tvStatus.setText("Login Success \n" +
+////                        "User ID: " + loginResult.getAccessToken().getUserId() + "\n" +
+////                        "Access Token: " + loginResult.getAccessToken().getToken());
+//            }
+//
+//            @Override
+//            public void onCancel() {
+//                Log.e(TAG, "onCancel: ");
+////                tvStatus.setText("Login cancelled");
+//            }
+//
+//            @Override
+//            public void onError(FacebookException e) {
+//                Log.e(TAG, "onError:facebook+login_btn " + e);
+//            }
+//        });
 
 
     }
@@ -442,9 +468,9 @@ public class LoginActivity extends AppCompatActivity implements
             @Override
             public void afterTextChanged(Editable s) {
                 String passwordvalidation = s.toString();
-                if (passwordvalidation.length()>=8 && passwordvalidation.matches(Validation.PASSWORD_PATTERN)){
+                if (passwordvalidation.length() >= 8 && passwordvalidation.matches(Validation.PASSWORD_PATTERN)) {
                     password_layout_input.setError("");
-                }else {
+                } else {
                     password_layout_input.setError("Password is invalid");
                 }
             }
@@ -455,17 +481,17 @@ public class LoginActivity extends AppCompatActivity implements
             public void onClick(View v) {
                 if (!isEmpty(login_username) && !isEmpty(login_password)) {
                     if (login_username.getText().toString().trim().matches(Validation.emailPattern)) {
-                        if (login_password.getText().toString().trim().matches(Validation.PASSWORD_PATTERN) && login_password.getText().toString().trim().length()>=8 ){
+                        if (login_password.getText().toString().trim().matches(Validation.PASSWORD_PATTERN) && login_password.getText().toString().trim().length() >= 8) {
                             if (isOnline()) {
 
                                 LoginAPI();
 
                             } else {
                                 //Toast.makeText(LoginActivity.this, "Please check internet connection", Toast.LENGTH_SHORT).show();
-                               // ConstantFunctions.showSnakBar("Please check internet connection", v);
-                                ConstantFunctions.showSnackbar(login_username,"Please check internet connection",LoginActivity.this);
+                                // ConstantFunctions.showSnakBar("Please check internet connection", v);
+                                ConstantFunctions.showSnackbar(login_username, "Please check internet connection", LoginActivity.this);
                             }
-                        }else {
+                        } else {
                             Toast.makeText(LoginActivity.this, "Enter correct password", Toast.LENGTH_SHORT).show();
                         }
 
@@ -553,49 +579,49 @@ public class LoginActivity extends AppCompatActivity implements
     private void defaultLoginTwitter() {
         //check if user is already authenticated or not
 
-        Log.e("527", "51111111" );
+        Log.e("527", "51111111");
 //        if (getTwitterSession() == null) {
-            Log.e(TAG, "getTwitterSession is null");
+        Log.e(TAG, "getTwitterSession is null");
 
-            //if user is not authenticated start authenticating
-            twitter_login_btn.setCallback(new Callback<TwitterSession>() {
+        //if user is not authenticated start authenticating
+        twitter_login_btn.setCallback(new Callback<TwitterSession>() {
 
 
-                @Override
-                public void success(Result<TwitterSession> result) {
+            @Override
+            public void success(Result<TwitterSession> result) {
 
-                    // Do something with result, which provides a TwitterSession for making API calls
-                    TwitterSession twitterSession = result.data;
-                    TwitterSession session = TwitterCore.getInstance().getSessionManager().getActiveSession();
-                    TwitterAuthToken authToken = session.getAuthToken();
+                // Do something with result, which provides a TwitterSession for making API calls
+                TwitterSession twitterSession = result.data;
+                TwitterSession session = TwitterCore.getInstance().getSessionManager().getActiveSession();
+                TwitterAuthToken authToken = session.getAuthToken();
 
-                    Log.e("543", "Success : "+result.data);
-                    Log.e("543", "Success : "+session);
-                    Log.e("543", "Success : "+session.getUserName());
-                    Log.e("543", "Success : "+authToken);
+                Log.e("543", "Success : " + result.data);
+                Log.e("543", "Success : " + session);
+                Log.e("543", "Success : " + session.getUserName());
+                Log.e("543", "Success : " + authToken);
 
 //                    User user = session.get();
 //                    String imageProfileUrl = user.profileImageUrl;
 //                    Log.e(TAG, "Data : " + imageProfileUrl);
 //                    if(user.email == null){
-                        gmailfacebookloginAPI(session.getUserName(), "", "twitter", "");
+                gmailfacebookloginAPI(session.getUserName(), "", "twitter", "");
 //                    } else gmailfacebookloginAPI(user.name, user.email, "twitter", user.profileImageUrl);
 
-                    //call fetch email only when permission is granted
+                //call fetch email only when permission is granted
 //                    fetchTwitterEmail(twitterSession);
 
-                }
+            }
 
-                @Override
-                public void failure(TwitterException exception) {
-                    // Do something on failure
-                    Toast.makeText(LoginActivity.this, "Failed to authenticate. Please try again.", Toast.LENGTH_SHORT).show();
-                }
-            });
-            twitter_login_btn.performClick();
+            @Override
+            public void failure(TwitterException exception) {
+                // Do something on failure
+                Toast.makeText(LoginActivity.this, "Failed to authenticate. Please try again.", Toast.LENGTH_SHORT).show();
+            }
+        });
+        twitter_login_btn.performClick();
 //        } else {
 
-            //if user is already authenticated direct call fetch twitter email api
+        //if user is already authenticated direct call fetch twitter email api
 //            Toast.makeText(this, "User already authenticated", Toast.LENGTH_SHORT).show();
 //            fetchTwitterEmail(getTwitterSession());
 //        }
@@ -630,6 +656,7 @@ public class LoginActivity extends AppCompatActivity implements
         }
     }
 */
+
     /**
      * Before using this feature, ensure that “Request email addresses from users” is checked for your Twitter app.
      *
@@ -657,7 +684,6 @@ public class LoginActivity extends AppCompatActivity implements
     /**
      * call Verify Credentials API when Twitter Auth is successful else it will go in exception block
      * this metod will provide you User model which contain all user information
-     *
      */
     public void fetchTwitterImage() {
         //check if user is already authenticated or not
@@ -676,13 +702,14 @@ public class LoginActivity extends AppCompatActivity implements
                 @Override
                 public void success(Result<User> result) {
                     User user = result.data;
-                    Log.e(TAG,"User Id : " + user.id + "\nUser Name : " + user.name + "\nEmail Id : " + user.email + "\nScreen Name : " + user.screenName);
+                    Log.e(TAG, "User Id : " + user.id + "\nUser Name : " + user.name + "\nEmail Id : " + user.email + "\nScreen Name : " + user.screenName);
 
                     String imageProfileUrl = user.profileImageUrl;
                     Log.e(TAG, "Data : " + imageProfileUrl);
-                    if(user.email == null){
+                    if (user.email == null) {
                         gmailfacebookloginAPI(user.name, "", "twitter", user.profileImageUrl);
-                    } else gmailfacebookloginAPI(user.name, user.email, "twitter", user.profileImageUrl);
+                    } else
+                        gmailfacebookloginAPI(user.name, user.email, "twitter", user.profileImageUrl);
                     //NOTE : User profile provided by twitter is very small in size i.e 48*48
                     //Link : https://developer.twitter.com/en/docs/accounts-and-users/user-profile-images-and-banners
                     //so if you want to get bigger size image then do the following:
@@ -749,11 +776,13 @@ public class LoginActivity extends AppCompatActivity implements
             Log.d(TAG, e.getMessage(), e);
         }
     }
-    public static String getDeviceUniqueID(Activity activity){
+
+    public static String getDeviceUniqueID(Activity activity) {
         String device_unique_id = Settings.Secure.getString(activity.getContentResolver(),
                 Settings.Secure.ANDROID_ID);
         return device_unique_id;
     }
+
     private void LoginAPI() {
         final ProgressDialog progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Loading...");
@@ -787,19 +816,19 @@ public class LoginActivity extends AppCompatActivity implements
                             Log.e("data232", "" + data);
                             JSONObject jsonObject1 = new JSONObject(data);
                             Log.e("data232", "" + jsonObject1);
-                            user_id= Integer.parseInt(jsonObject1.getString("user_id"));
-                            sessionManager.createLoginSession(jsonObject1.getString("user_id"), jsonObject1.getString("email"), jsonObject1.getString("name"), jsonObject1.getString("phone_number"), jsonObject1.getString("photo"), jsonObject1.getString("token"), jsonObject1.getString("business_name"), jsonObject1.getString("country"), jsonObject1.getString("gender"),jsonObject1.getString("type"));
+                            user_id = Integer.parseInt(jsonObject1.getString("user_id"));
+                            sessionManager.createLoginSession(jsonObject1.getString("user_id"), jsonObject1.getString("email"), jsonObject1.getString("name"), jsonObject1.getString("phone_number"), jsonObject1.getString("photo"), jsonObject1.getString("token"), jsonObject1.getString("business_name"), jsonObject1.getString("country"), jsonObject1.getString("gender"), jsonObject1.getString("type"));
                             iDonateSharedPreference.setprofiledata(getApplicationContext(), data);
                             Log.e("updatedata", "" + iDonateSharedPreference.getprofiledata(getApplicationContext()));
                             iDonateSharedPreference.setSocialProfileimg(getApplicationContext(), image_url);
-                            iDonateSharedPreference.setlogintype(getApplicationContext(),"registerlogin");
+                            iDonateSharedPreference.setlogintype(getApplicationContext(), "registerlogin");
                             //ChangeActivity.clearAllPreviousActivity(LoginActivity.this, BrowseActivity.class);
                             sentdevicetoken("login");
                             // iDonateSharedPreference.seteditprofile(getApplicationContext(), "0");
                             Toast.makeText(LoginActivity.this, message, Toast.LENGTH_SHORT).show();
                         } else if (jsonObject.getString("status").equals("0")) {
-                           // Toast.makeText(LoginActivity.this, message, Toast.LENGTH_SHORT).show();
-                            ConstantFunctions.showSnackbar(login_username,message,LoginActivity.this);
+                            // Toast.makeText(LoginActivity.this, message, Toast.LENGTH_SHORT).show();
+                            ConstantFunctions.showSnackbar(login_username, message, LoginActivity.this);
                         }
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -889,6 +918,7 @@ public class LoginActivity extends AppCompatActivity implements
 
         }
     }
+
     private void getToken() {
 
         FirebaseMessaging.getInstance().setAutoInitEnabled(true);
@@ -907,13 +937,14 @@ public class LoginActivity extends AppCompatActivity implements
 
                         // Log and toast
 //                        String msg = getString(R.string.msg_token_fmt, token);
-                        Log.e("device_token", ""+ device_token);
+                        Log.e("device_token", "" + device_token);
                         //  Toast.makeText(SplashActivity.this, token, Toast.LENGTH_SHORT).show();
                     }
                 });
     }
+
     private void sentdevicetoken(final String type) {
-        int status=iDonateSharedPreference.getNotificationstatus(getApplicationContext());
+        int status = iDonateSharedPreference.getNotificationstatus(getApplicationContext());
         JsonObject jsonObject1 = new JsonObject();
         jsonObject1.addProperty("user_id", user_id);
         jsonObject1.addProperty("device_id", device_token);
@@ -930,23 +961,23 @@ public class LoginActivity extends AppCompatActivity implements
                 public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
                     Log.e(TAG, "" + response.body());
                     try {
-                        JSONObject jsonObject=new JSONObject(String.valueOf(response.body()));
-                        String status=jsonObject.getString("status");
-                        String message=jsonObject.getString("message");
-                        String data=jsonObject.getString("data");
-                        iDonateSharedPreference.settoken(getApplicationContext(),device_token);
-                        if (status.equalsIgnoreCase("1")){
-                            final JSONObject jsonObject2=new JSONObject(data);
-                            if(type.equalsIgnoreCase("social")){
+                        JSONObject jsonObject = new JSONObject(String.valueOf(response.body()));
+                        String status = jsonObject.getString("status");
+                        String message = jsonObject.getString("message");
+                        String data = jsonObject.getString("data");
+                        iDonateSharedPreference.settoken(getApplicationContext(), device_token);
+                        if (status.equalsIgnoreCase("1")) {
+                            final JSONObject jsonObject2 = new JSONObject(data);
+                            if (type.equalsIgnoreCase("social")) {
                                 ChangeActivity.changeActivity(LoginActivity.this, UpdateActivity.class);
                                 finish();
-                            }else {
+                            } else {
                                 finish();
                             }
 
 
-                        }else {
-                           // ConstantFunctions.showSnackbar(reg_email_et,message,ForgotActivity.this);
+                        } else {
+                            // ConstantFunctions.showSnackbar(reg_email_et,message,ForgotActivity.this);
                         }
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -964,6 +995,7 @@ public class LoginActivity extends AppCompatActivity implements
             Log.e("Exception", "" + e);
         }
     }
+
     private void gmailfacebookloginAPI(final String name, final String personName, final String socialmedia, final String image_url) {
         Log.e("socialmedia", "" + image_url);
         final ProgressDialog progressDialog = new ProgressDialog(this);
@@ -1005,11 +1037,11 @@ public class LoginActivity extends AppCompatActivity implements
                             Log.e("data232", "" + data);
                             JSONObject jsonObject1 = new JSONObject(data);
                             Log.e("data232", "" + jsonObject1);
-                            user_id= Integer.parseInt(jsonObject1.getString("user_id"));
+                            user_id = Integer.parseInt(jsonObject1.getString("user_id"));
                             iDonateSharedPreference.seteditprofile(getApplicationContext(), "2");
                             iDonateSharedPreference.setprofiledata(getApplicationContext(), data);
-                            iDonateSharedPreference.setlogintype(getApplicationContext(),"sociallogin");
-                            sessionManager.createLoginSession(jsonObject1.getString("user_id"), jsonObject1.getString("email"), jsonObject1.getString("name"), jsonObject1.getString("phone_number"), jsonObject1.getString("photo"), jsonObject1.getString("token"), jsonObject1.getString("business_name"), jsonObject1.getString("country"), jsonObject1.getString("gender"),jsonObject1.getString("type"));
+                            iDonateSharedPreference.setlogintype(getApplicationContext(), "sociallogin");
+                            sessionManager.createLoginSession(jsonObject1.getString("user_id"), jsonObject1.getString("email"), jsonObject1.getString("name"), jsonObject1.getString("phone_number"), jsonObject1.getString("photo"), jsonObject1.getString("token"), jsonObject1.getString("business_name"), jsonObject1.getString("country"), jsonObject1.getString("gender"), jsonObject1.getString("type"));
                             Log.e("response_name", "" + iDonateSharedPreference.getName(getApplicationContext()));
                             Toast.makeText(LoginActivity.this, message, Toast.LENGTH_SHORT).show();
                             sentdevicetoken("social");
@@ -1017,8 +1049,8 @@ public class LoginActivity extends AppCompatActivity implements
                           /*  ChangeActivity.changeActivity(LoginActivity.this, UpdateActivity.class);
                             finish();*/
                         } else if (jsonObject.getString("status").equals("0")) {
-                           // Toast.makeText(LoginActivity.this, message, Toast.LENGTH_SHORT).show();
-                            ConstantFunctions.showSnackbar(login_username,message,LoginActivity.this);
+                            // Toast.makeText(LoginActivity.this, message, Toast.LENGTH_SHORT).show();
+                            ConstantFunctions.showSnackbar(login_username, message, LoginActivity.this);
                             if (iDonateSharedPreference.getsocialMedia(getApplicationContext()).equalsIgnoreCase("email")) {
                                 Log.e("data232email", "" + "email");
                                 signOut();
@@ -1191,33 +1223,33 @@ public class LoginActivity extends AppCompatActivity implements
 
     @Override
     public void onBackPressed() {
-        iDonateSharedPreference.setlogintype(getApplicationContext(),"non");
+        iDonateSharedPreference.setlogintype(getApplicationContext(), "non");
         //  ChangeActivity.changeActivity(LoginActivity.this, BrowseActivity.class);
         finish();
 
     }
 
-        @Override
-        public boolean dispatchTouchEvent(MotionEvent event) {
-            View view = getCurrentFocus();
-            boolean ret = super.dispatchTouchEvent(event);
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent event) {
+        View view = getCurrentFocus();
+        boolean ret = super.dispatchTouchEvent(event);
 
-            if (view instanceof EditText) {
-                View w = getCurrentFocus();
-                int scrcoords[] = new int[2];
-                w.getLocationOnScreen(scrcoords);
-                float x = event.getRawX() + w.getLeft() - scrcoords[0];
-                float y = event.getRawY() + w.getTop() - scrcoords[1];
+        if (view instanceof EditText) {
+            View w = getCurrentFocus();
+            int scrcoords[] = new int[2];
+            w.getLocationOnScreen(scrcoords);
+            float x = event.getRawX() + w.getLeft() - scrcoords[0];
+            float y = event.getRawY() + w.getTop() - scrcoords[1];
 
-                if (event.getAction() == MotionEvent.ACTION_UP
-                        && (x < w.getLeft() || x >= w.getRight()
-                        || y < w.getTop() || y > w.getBottom())) {
-                    InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-                    imm.hideSoftInputFromWindow(getWindow().getCurrentFocus().getWindowToken(), 0);
-                }
+            if (event.getAction() == MotionEvent.ACTION_UP
+                    && (x < w.getLeft() || x >= w.getRight()
+                    || y < w.getTop() || y > w.getBottom())) {
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(getWindow().getCurrentFocus().getWindowToken(), 0);
             }
-            return ret;
         }
+        return ret;
+    }
 
 
     protected boolean isOnline() {

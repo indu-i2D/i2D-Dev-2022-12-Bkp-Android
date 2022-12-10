@@ -430,9 +430,9 @@ public class CommonMenuActivity extends AppCompatActivity implements Connectivit
     protected void onResume() {
         super.onResume();
 
-        if (index==1){
-            Log.e("onresum","onresumne");
-referesh();
+        if (index == 1) {
+            Log.e("onresum", "onresumne");
+            referesh();
         }
         Log.e("onresum", "onresumne11");
         index = 1;

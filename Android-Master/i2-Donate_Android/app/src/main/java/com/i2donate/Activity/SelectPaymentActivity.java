@@ -247,7 +247,7 @@ public class SelectPaymentActivity extends AppCompatActivity {
                     String message=jsonObject.getString("message");
                     JSONObject jsonobjectdata=jsonObject.getJSONObject("data");
                     String i2D_D_CHARITY_NAME=jsonobjectdata.getString("i2D_D_CHARITY_NAME");
-                    String i2D_D_AMOUNT=jsonobjectdata.getString("i2D_D_DONATION_AMOUNT");
+                    String i2D_D_AMOUNT=jsonobjectdata.getString("i2D_D_AMOUNT");
                     startActivity(new Intent(SelectPaymentActivity.this, PaymentSuccessActivity.class)
                           .putExtra("message", message)
                             .putExtra("PaymentAmount", i2D_D_AMOUNT)

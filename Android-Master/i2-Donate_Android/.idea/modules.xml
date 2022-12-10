@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/i2-Donate_Android.iml" filepath="$PROJECT_DIR$/.idea/modules/i2-Donate_Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/i2-Donate_Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/i2-Donate_Android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/i2-Donate_Android.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/i2-Donate_Android.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/i2-Donate_Android.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/i2-Donate_Android.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/i2-Donate_Android.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/i2-Donate_Android.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkedin-sdk/i2-Donate_Android.linkedin-sdk.iml" filepath="$PROJECT_DIR$/.idea/modules/linkedin-sdk/i2-Donate_Android.linkedin-sdk.iml" />
     </modules>
   </component>

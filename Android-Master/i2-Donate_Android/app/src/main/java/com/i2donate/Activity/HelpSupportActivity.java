@@ -30,7 +30,7 @@ public class HelpSupportActivity extends CommonMenuActivity {
         webView.getSettings();
         webView.setScrollbarFadingEnabled(true);
         webView.setBackgroundColor(Color.TRANSPARENT);
-        webView.loadUrl("https://admin.i2-donate.com/help_and_support.html");
+        webView.loadUrl("https://www.test.i2-donate.com/i2D-Publish-Docs/i2-Donate%20Help%20and%20Support.html");
 
         final WebSettings webSettings = webView.getSettings();
         webSettings.setTextZoom(webSettings.getTextZoom() - 68);

@@ -1,65 +1,30 @@
 package com.i2donate.Adapter;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.LevelListDrawable;
-import android.os.Bundle;
 import android.os.Handler;
-import android.provider.Settings;
-import android.text.Editable;
-import android.text.Html;
-import android.text.Spanned;
-import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.bottomsheet.BottomSheetDialog;
-import com.google.gson.JsonObject;
 import com.i2donate.Activity.FollowingActivity;
-import com.i2donate.Activity.LoginActivity;
-import com.i2donate.Activity.NameSearchActivity;
-import com.i2donate.Activity.SelectPaymentActivity;
-import com.i2donate.Activity.UnitedStateDetailsActivity;
-import com.i2donate.Model.ChangeActivity;
 import com.i2donate.Model.Charitylist;
 import com.i2donate.Model.CustomImageView;
 import com.i2donate.Model.DonatedCharityList;
 import com.i2donate.R;
-import com.i2donate.RetrofitAPI.ApiClient;
 import com.i2donate.RetrofitAPI.ApiInterface;
 import com.i2donate.Session.IDonateSharedPreference;
 import com.i2donate.Session.SessionManager;
-import com.squareup.picasso.Picasso;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 
 /**
@@ -79,11 +44,12 @@ public class DonatedlistAdapterList extends RecyclerView.Adapter<DonatedlistAdap
      Dialog d;
     private Handler handler = new Handler();
     IDonateSharedPreference iDonateSharedPreference;
-    public DonatedlistAdapterList(Activity mContext, List<HashMap<String, String>> charitylist) {
-        this.mContext = mContext;
-        this.charitylist = charitylist;
-        Log.e("charitylist", "" + charitylist);
-    }
+
+//    public DonatedlistAdapterList(Activity mContext, List<HashMap<String, String>> charitylist) {
+//        this.mContext = mContext;
+//        this.charitylist = charitylist;
+//        Log.e("charitylist", "" + charitylist);
+//    }
 
     public DonatedlistAdapterList(FollowingActivity mContext, ArrayList<DonatedCharityList> DonatedCharityList1) {
         this.mContext = mContext;

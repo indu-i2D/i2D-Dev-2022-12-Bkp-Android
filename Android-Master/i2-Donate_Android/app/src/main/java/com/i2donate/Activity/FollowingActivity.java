@@ -49,7 +49,7 @@ public class FollowingActivity extends CommonMenuActivity {
     DonatedlistAdapterList donatedlistAdapterList;
     LinearLayout no_data_linear;
     TextView no_data_tv, charity_name_tv;
-    ArrayList<Charitylist> follow_charitylist1=new ArrayList<>();
+    ArrayList<Charitylist> follow_charitylist1 = new ArrayList<>();
     IDonateSharedPreference iDonateSharedPreference;
     static ArrayList<Charitylist> like_charitylist1 = new ArrayList<>();
     static ArrayList<Charitylist> follow_charitylist12 = new ArrayList<>();
@@ -59,6 +59,7 @@ public class FollowingActivity extends CommonMenuActivity {
     SessionManager session;
     static ApiInterface apiService;
     String type;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,19 +73,22 @@ public class FollowingActivity extends CommonMenuActivity {
     private void init() {
         session = new SessionManager(getApplicationContext());
         iDonateSharedPreference = new IDonateSharedPreference();
-        iDonateSharedPreference.setdailoguepage(getApplicationContext(),"0");
+        iDonateSharedPreference.setdailoguepage(getApplicationContext(), "0");
         Bundle bundle = getIntent().getExtras();
         // List<HashMap<String, String>> like_charity_Arraylist =( ArrayList<HashMap<String, String>>)getIntent().getSerializableExtra("mylist");
 
-        Log.e("follow_charitylist1de", "" + follow_charitylist1);
-         type = bundle.getString("type");
-        Log.e("typetype", "" + type);
-        if (type.equalsIgnoreCase("donate")){
+//        Log.e("follow_charitylist1de", "" + follow_charitylist1);
+        type = bundle.getString("type");
+//        Log.e("typetype", "" + type);
+        if (type.equalsIgnoreCase("donate")) {
             DonatedCharityList1 = (ArrayList) getIntent().getSerializableExtra("mylist");
-        }else {
+        } else {
             follow_charitylist1 = (ArrayList) getIntent().getSerializableExtra("mylist");
         }
-        menu = (ImageView)findViewById(R.id.menu);
+
+        Log.e(TAG, "DonatedCharityList1: "+DonatedCharityList1.size() );
+        Log.e(TAG, "follow_charitylist1: "+follow_charitylist1.size() );
+        menu = (ImageView) findViewById(R.id.menu);
         following_recyclerview = (RecyclerView) findViewById(R.id.following_recyclerview);
         no_data_linear = (LinearLayout) findViewById(R.id.no_data_linear);
         no_data_tv = (TextView) findViewById(R.id.no_data_tv);
@@ -100,59 +104,60 @@ public class FollowingActivity extends CommonMenuActivity {
             charity_name_tv.setText("My likes");
         } else if (type.equalsIgnoreCase("follows")) {
             charity_name_tv.setText("my followings");
-        }else if (type.equalsIgnoreCase("donate")) {
+        } else if (type.equalsIgnoreCase("donate")) {
             charity_name_tv.setText("my donations");
         }
 
-            if (follow_charitylist1.size() != 0) {
+        if (follow_charitylist1.size() != 0) {
 
+            layoutManager = new LinearLayoutManager(this);
+            following_recyclerview.setLayoutManager(layoutManager);
+            following_recyclerview.setItemAnimator(new DefaultItemAnimator());
+            followingAdapterList = new FollowingAdapterList(FollowingActivity.this, follow_charitylist1);
+            following_recyclerview.setAdapter(followingAdapterList);
+
+
+        } else {
+            if (type.equalsIgnoreCase("likes")) {
+                no_data_tv.setText("You haven't like any non-profits");
+                following_recyclerview.setVisibility(View.GONE);
+                no_data_linear.setVisibility(View.VISIBLE);
+
+            } else if (type.equalsIgnoreCase("follows")) {
+                no_data_tv.setText("You haven't follow any non-profits");
+                following_recyclerview.setVisibility(View.GONE);
+                no_data_linear.setVisibility(View.VISIBLE);
+
+            } else if (type.equalsIgnoreCase("donate")) {
+                if (DonatedCharityList1.size() != 0) {
+                    following_recyclerview.setVisibility(View.VISIBLE);
+                    no_data_linear.setVisibility(View.GONE);
                     layoutManager = new LinearLayoutManager(this);
                     following_recyclerview.setLayoutManager(layoutManager);
                     following_recyclerview.setItemAnimator(new DefaultItemAnimator());
-                    followingAdapterList = new FollowingAdapterList(FollowingActivity.this, follow_charitylist1);
-                    following_recyclerview.setAdapter(followingAdapterList);
-
-
-            } else {
-                if (type.equalsIgnoreCase("likes")) {
-                    no_data_tv.setText("You haven't like any non-profits");
+                    donatedlistAdapterList = new DonatedlistAdapterList(FollowingActivity.this, DonatedCharityList1);
+                    following_recyclerview.setAdapter(donatedlistAdapterList);
+                } else {
+                    no_data_tv.setText("You haven't Donate any non-profits");
                     following_recyclerview.setVisibility(View.GONE);
                     no_data_linear.setVisibility(View.VISIBLE);
-
-                } else if (type.equalsIgnoreCase("follows")) {
-                    no_data_tv.setText("You haven't follow any non-profits");
-                    following_recyclerview.setVisibility(View.GONE);
-                    no_data_linear.setVisibility(View.VISIBLE);
-
-                }else if (type.equalsIgnoreCase("donate")) {
-                    if (DonatedCharityList1.size()!=0) {
-                        following_recyclerview.setVisibility(View.VISIBLE);
-                        no_data_linear.setVisibility(View.GONE);
-                        layoutManager = new LinearLayoutManager(this);
-                        following_recyclerview.setLayoutManager(layoutManager);
-                        following_recyclerview.setItemAnimator(new DefaultItemAnimator());
-                        donatedlistAdapterList = new DonatedlistAdapterList(FollowingActivity.this, DonatedCharityList1);
-                        following_recyclerview.setAdapter(donatedlistAdapterList);
-                    }else {
-                        no_data_tv.setText("You haven't Donate any non-profits");
-                        following_recyclerview.setVisibility(View.GONE);
-                        no_data_linear.setVisibility(View.VISIBLE);
-                    }
                 }
+            }
 
         }
 
 
     }
+
     private void FollowLikedonationAPI() {
         userDetails = session.getUserDetails();
         Log.e("userDetails", "" + userDetails);
         Log.e("KEY_UID", "" + userDetails.get(SessionManager.KEY_UID));
         String user_id = "";
-        String token="";
+        String token = "";
         if (session.isLoggedIn()) {
             user_id = userDetails.get(SessionManager.KEY_UID);
-            token=userDetails.get(SessionManager.KEY_token);
+            token = userDetails.get(SessionManager.KEY_token);
 
         }
         JsonObject jsonObject1 = new JsonObject();
@@ -165,27 +170,27 @@ public class FollowingActivity extends CommonMenuActivity {
         call.enqueue(new Callback<JsonObject>() {
             @Override
             public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
-                like_charitylist1.clear();
+//                like_charitylist1.clear();
 //                follow_charitylist1.clear();
-                donate_charitylist1.clear();
-                if (response.isSuccessful()){
+//                donate_charitylist1.clear();
+                if (response.isSuccessful()) {
                     try {
                         JSONObject jsonObject = new JSONObject(response.body().toString());
                         String message = jsonObject.getString("message");
                         if (jsonObject.getString("status").equalsIgnoreCase("1")) {
                             String data = jsonObject.getString("data");
-                            Log.e(TAG,data);
-                            JSONObject jsonObject2=new JSONObject(data);
-                            String like_count=jsonObject2.getString("like_count");
-                            String like_charity_list=jsonObject2.getString("like_charity_list");
-                            Log.e("like_charity_list",like_charity_list);
-                            String following_count=jsonObject2.getString("following_count");
-                            String payment_count=jsonObject2.getString("payment_count");
-                            String following_charity_list=jsonObject2.getString("following_charity_list");
-                            String payment_history_list=jsonObject2.getString("payment_history_list");
-                            Log.e("following_charity_list",following_charity_list);
+                            Log.e(TAG, data);
+                            JSONObject jsonObject2 = new JSONObject(data);
+                            String like_count = jsonObject2.getString("like_count");
+                            String like_charity_list = jsonObject2.getString("like_charity_list");
+                            Log.e("like_charity_list", like_charity_list);
+                            String following_count = jsonObject2.getString("following_count");
+                            String payment_count = jsonObject2.getString("payment_count");
+                            String following_charity_list = jsonObject2.getString("following_charity_list");
+                            String payment_history_list = jsonObject2.getString("payment_history_list");
+                            Log.e("following_charity_list", following_charity_list);
                             JSONArray jsonArray = new JSONArray(like_charity_list);
-                            Log.e("jsonArray",""+jsonArray);
+                            Log.e("jsonArray", "" + jsonArray);
                             for (int i = 0; i < jsonArray.length(); i++) {
                                 HashMap<String, String> map = new HashMap<>();
                                 Charitylist charitylistm = new Charitylist();
@@ -221,14 +226,14 @@ public class FollowingActivity extends CommonMenuActivity {
                                 map.put("like_count", object.getString("like_count"));
                                 // map.put("description", object.getString("description"));
                                 map.put("country", object.getString("country"));
-                               // like_charity_Arraylist.add(map);
+                                // like_charity_Arraylist.add(map);
                                 like_charitylist1.add(charitylistm);
-                               // Log.e("like_charity_Arraylist",""+like_charity_Arraylist);
+                                // Log.e("like_charity_Arraylist",""+like_charity_Arraylist);
 
                             }
 
                             JSONArray jsonArrayfollow = new JSONArray(following_charity_list);
-                            Log.e("jsonArray",""+jsonArrayfollow);
+                            Log.e("jsonArray", "" + jsonArrayfollow);
                             for (int i = 0; i < jsonArrayfollow.length(); i++) {
                                 HashMap<String, String> map = new HashMap<>();
                                 Charitylist charitylistf = new Charitylist();
@@ -266,12 +271,12 @@ public class FollowingActivity extends CommonMenuActivity {
                                 map.put("country", object.getString("country"));
                                 //follow_charity_Arraylist.add(map);
                                 follow_charitylist1.add(charitylistf);
-                               // Log.e("follow_Arraylist",""+follow_charity_Arraylist);
+                                // Log.e("follow_Arraylist",""+follow_charity_Arraylist);
 
                             }
 
                             JSONArray jsonArraypayment = new JSONArray(payment_history_list);
-                            Log.e("jsonArray",""+jsonArraypayment);
+                            Log.e("jsonArray", "" + jsonArraypayment);
                             for (int i = 0; i < jsonArraypayment.length(); i++) {
                                 HashMap<String, String> map = new HashMap<>();
                                 Charitylist charitylistf = new Charitylist();
@@ -309,41 +314,40 @@ public class FollowingActivity extends CommonMenuActivity {
                                 map.put("country", object.getString("country"));
                                 //payment_charity_Arraylist.add(map);
                                 donate_charitylist1.add(charitylistf);
-                              //  Log.e("follow_Arraylist",""+payment_charity_Arraylist);
+                                //  Log.e("follow_Arraylist",""+payment_charity_Arraylist);
 
                             }
                             if (type.equalsIgnoreCase("likes")) {
-                                if (like_charitylist1.size()!=0) {
+                                if (like_charitylist1.size() != 0) {
                                     followingAdapterList = new FollowingAdapterList(FollowingActivity.this, like_charitylist1);
                                     following_recyclerview.setAdapter(followingAdapterList);
-                                }else {
+                                } else {
                                     following_recyclerview.setVisibility(View.GONE);
                                     no_data_linear.setVisibility(View.VISIBLE);
                                 }
                             } else if (type.equalsIgnoreCase("follows")) {
-                                if (follow_charitylist1.size()!=0){
-                                followingAdapterList = new FollowingAdapterList(FollowingActivity.this, follow_charitylist1);
-                                following_recyclerview.setAdapter(followingAdapterList);
-                                }else {
+                                if (follow_charitylist1.size() != 0) {
+                                    followingAdapterList = new FollowingAdapterList(FollowingActivity.this, follow_charitylist1);
+                                    following_recyclerview.setAdapter(followingAdapterList);
+                                } else {
                                     following_recyclerview.setVisibility(View.GONE);
                                     no_data_linear.setVisibility(View.VISIBLE);
                                 }
-                            }else if (type.equalsIgnoreCase("donate")) {
-                                if (donate_charitylist1.size()!=0){
-                                followingAdapterList = new FollowingAdapterList(FollowingActivity.this, donate_charitylist1);
-                                following_recyclerview.setAdapter(followingAdapterList);
-                                }else {
+                            } else if (type.equalsIgnoreCase("donate")) {
+                                if (donate_charitylist1.size() != 0) {
+                                    followingAdapterList = new FollowingAdapterList(FollowingActivity.this, donate_charitylist1);
+                                    following_recyclerview.setAdapter(followingAdapterList);
+                                } else {
                                     following_recyclerview.setVisibility(View.GONE);
                                     no_data_linear.setVisibility(View.VISIBLE);
                                 }
                             }
                         }
                     } catch (JSONException e) {
-                        Log.e("ER","error1");
+                        Log.e("ER", "error1");
                         e.printStackTrace();
                     }
                 }
-
 
 
             }
@@ -351,13 +355,15 @@ public class FollowingActivity extends CommonMenuActivity {
             @Override
             public void onFailure(Call<JsonObject> call, Throwable t) {
                 Log.e(TAG, t.toString());
-                Log.e("ER","error2");
+                Log.e("ER", "error2");
             }
         });
     }
+
     private void listioner() {
 
     }
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -365,6 +371,7 @@ public class FollowingActivity extends CommonMenuActivity {
 
 
     }
+
     @Override
     public void onBackPressed() {
 
