@@ -4,7 +4,7 @@
             "outputFile": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-2\\files-2.1\\7259a8a8c830d4779461825ac197c93a\\material-1.6.1\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-3\\5a415a3cf2391091a5017b083c30be1c\\transformed\\material-1.6.1\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

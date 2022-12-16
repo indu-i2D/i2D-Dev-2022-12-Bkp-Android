@@ -4,7 +4,7 @@
             "outputFile": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-2\\files-2.1\\19c971ef67dba04ba2e2c239bfae8251\\jetified-twitter-core-3.1.1\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-3\\9b9f8303a35d82c1014d334f165a365e\\transformed\\jetified-twitter-core-3.1.1\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

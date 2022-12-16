@@ -72,6 +72,7 @@
             <item name="android:windowCloseOnTouchOutside">true</item>
             <item name="android:windowIsTranslucent">true</item>
             <item name="android:windowContentOverlay">@null</item>
+            <item name="android:windowSoftInputMode">adjustResize</item>
         </style>
         <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
             <item name="android:windowBackground">@drawable/payment_alertdailogue</item>

@@ -9,6 +9,7 @@
     <!--  <string name="facebook_app_id">815575865578946</string>
     <string name="fb_login_protocol_scheme">fb815575865578946</string>-->
     <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="web_client_id" translatable="false">720548689360-3pbpu4h85j4pon0q10de1em1jthkolkf.apps.googleusercontent.com"</string>
 <!--    <string name="facebook_app_id">458781686289561</string>-->
 <!--    <string name="fb_login_protocol_scheme">0ec39795f3b778911f32b9006bb811fc</string>-->
 

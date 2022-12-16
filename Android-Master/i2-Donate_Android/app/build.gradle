@@ -1,11 +1,19 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 32
+    signingConfigs {
+        release {
+            storeFile file('D:\\dhruvi\\i2-DonateApk\\i2_Donate.jks')
+            storePassword '123456'
+            keyAlias 'key0'
+            keyPassword '123456'
+        }
+    }
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.i2donate"
         minSdkVersion 21
-        targetSdkVersion 32
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -39,6 +47,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
     sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }

@@ -331,8 +331,8 @@ public class UnitesStateLocationAdapterList extends RecyclerView.Adapter<UnitesS
         final EditText payment_et = (EditText) d.findViewById(R.id.payment_et);
         TextView cancel_tv = (TextView) d.findViewById(R.id.cancel_tv);
         Button payment_continue_btn = (Button) d.findViewById(R.id.payment_continue_btn);
-        String amount = iDonateSharedPreference.getdailogueamt(mContext);
-        payment_et.append(amount);
+//        String amount = iDonateSharedPreference.getdailogueamt(mContext);
+//        payment_et.append(amount);
         d.getWindow().setBackgroundDrawable(new ColorDrawable(R.color.trans_black));
         payment_dailog_linear.setOnTouchListener(new View.OnTouchListener() {
             @Override

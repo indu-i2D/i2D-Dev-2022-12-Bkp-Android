@@ -497,8 +497,8 @@ public class FollowingAdapterList extends RecyclerView.Adapter<FollowingAdapterL
             }
         }, null);
         textview_percentage.setText(spanned);
-        String amount=iDonateSharedPreference.getdailogueamt(mContext);
-        payment_et.append(amount);
+//        String amount=iDonateSharedPreference.getdailogueamt(mContext);
+//        payment_et.append(amount);
         d.getWindow().setBackgroundDrawable(new ColorDrawable(R.color.trans_black));
         payment_et.addTextChangedListener(new TextWatcher() {
             @Override

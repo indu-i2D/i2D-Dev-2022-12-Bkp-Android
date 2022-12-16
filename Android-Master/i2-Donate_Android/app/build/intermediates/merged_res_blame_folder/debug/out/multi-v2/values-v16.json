@@ -4,24 +4,26 @@
             "outputFile": "D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-2\\files-2.1\\194cc394bb73df96cc429cda71e744ee\\core-1.8.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-3\\1287b632fc139f0e8245467416339d69\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
                     },
                     "to": {
-                        "startLines": "2",
+                        "startLines": "3",
                         "startColumns": "4",
-                        "startOffsets": "100",
-                        "endColumns": "65",
-                        "endOffsets": "161"
+                        "startOffsets": "166",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "334"
                     }
                 },
                 {
-                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-2\\files-2.1\\33b5b5f45608f152d8d798625fc2b192\\jetified-drop-in-3.7.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-3\\e124d08a73d819783ecb19f91c4ab98d\\transformed\\jetified-drop-in-3.7.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2,6,15",
                         "startColumns": "4,4,4",
@@ -40,22 +42,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-2\\files-2.1\\fa63ccb4cedad26134c136ea0318ccaa\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\PC2\\.gradle\\caches\\transforms-3\\b7c904756afa260cc739f539c2e9413e\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "223"
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     },
                     "to": {
-                        "startLines": "3",
+                        "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "166",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "334"
+                        "startOffsets": "100",
+                        "endColumns": "65",
+                        "endOffsets": "161"
                     }
                 }
             ]

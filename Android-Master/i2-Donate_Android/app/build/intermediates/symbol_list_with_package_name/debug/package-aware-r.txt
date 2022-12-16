@@ -5828,7 +5828,6 @@ string facebook_app_id
 string facebook_client_token
 string fb_login_protocol_scheme
 string fcm_fallback_notification_channel_label
-string firebase_database_url
 string following_nonproft
 string forgot_note_pt
 string forgot_password_hint
@@ -6084,6 +6083,7 @@ string update_skip
 string update_update
 string updated_individual
 string view_crash_report
+string web_client_id
 string welcome_all_in_one
 string welcome_better_to_give
 string welcome_bypass

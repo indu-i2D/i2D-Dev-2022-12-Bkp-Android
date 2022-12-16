@@ -278,13 +278,18 @@ public class LoginActivity extends AppCompatActivity implements
         password_layout_input = (TextInputLayout) findViewById(R.id.password_layout_input);
         forgot_btn_tv = (TextView) findViewById(R.id.forgot_btn_tv);
         mProgressDialog = new ProgressDialog(this);
+
+
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(getString(R.string.web_client_id))//you can also use R.string.default_web_client_id
                 .requestEmail()
                 .build();
+
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .enableAutoManage(this, this)
                 .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
                 .build();
+
         FacebookSdk.sdkInitialize(getApplicationContext());
         LoginManager.getInstance().logOut();
 
@@ -909,6 +914,7 @@ public class LoginActivity extends AppCompatActivity implements
 
             } catch (Exception e) {
                 e.printStackTrace();
+                Log.e(TAG, "handleSignInResult: "+e.getMessage() );
             }
 
 

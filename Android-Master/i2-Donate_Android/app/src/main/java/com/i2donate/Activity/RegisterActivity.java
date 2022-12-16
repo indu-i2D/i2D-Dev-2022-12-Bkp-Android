@@ -459,7 +459,11 @@ public class RegisterActivity extends AppCompatActivity implements
                     }
                 } else if (radi_business.equals("yes")) {
                     Log.e(TAG, "afterTextChanged:no ");
-                    name_input_layout.setError("");
+                    if (s.toString().matches(Validation.NAME_PATTERN)) {
+                        name_input_layout.setError("");
+                    } else {
+                        name_input_layout.setError("Name is invalid");
+                    }
                 } else {
                     if (s.toString().matches(Validation.NAMEPATTERN)) {
                         name_input_layout.setError("");

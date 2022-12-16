@@ -12,12 +12,15 @@
         <item quantity="one">[[59354]] 1s</item>
         <item quantity="other">[[59355]] %ds</item>
     </plurals>
+    <string name="tw__composer_hint">[[141545]] What\'s Happening?</string>
     <string name="tw__like_tweet">[[141901]] Like Tweet</string>
     <string name="tw__liked_tweet">[[141902]] Undo Like</string>
     <string name="tw__loading_tweet">[[60974]] Loading Tweet</string>
     <string name="tw__login_btn_txt">[[94020]] Log in with Twitter</string>
+    <string name="tw__max_tweet_chars">[[141547]] 140</string>
     <string name="tw__pause">[[147607]] pause</string>
     <string name="tw__play">[[147606]] play</string>
+    <string name="tw__post_tweet">[[141546]] Tweet</string>
     <string name="tw__relative_date_format_long">[[59353]] MM/dd/yy</string>
     <string name="tw__relative_date_format_short">[[59352]] MMM dd</string>
     <string name="tw__replay">[[147608]] replay</string>
