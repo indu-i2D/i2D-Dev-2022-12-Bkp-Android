@@ -1,14 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        release {
-            storeFile file('D:\\dhruvi\\i2-DonateApk\\i2_Donate.jks')
-            storePassword '123456'
-            keyAlias 'key0'
-            keyPassword '123456'
-        }
-    }
+
     compileSdkVersion 33
     defaultConfig {
         applicationId "com.i2donate"
@@ -20,14 +13,14 @@ android {
         multiDexEnabled true
 
     }
-//    signingConfigs {
-//        release {
-//            storeFile file('D:\\AndroidStudioProjects\\i2\\Phase2-Review-main\\Phase2-Review-main\\Android-Master\\i2-Donate_Android\\i2~donate.jks')
-//            storePassword 'i2~donate'
-//            keyAlias 'i2~donate'
-//            keyPassword 'i2~donate'
-//        }
-//    }
+    signingConfigs {
+        release {
+            storeFile file('D:\\AndroidStudioProjects\\i2\\Phase2-Review-main\\Phase2-Review-main\\Android-Master\\i2-Donate_Android\\i2~donate.jks')
+            storePassword 'i2~donate'
+            keyAlias 'i2~donate'
+            keyPassword 'i2~donate'
+        }
+    }
 
     buildTypes {
 //        release {
